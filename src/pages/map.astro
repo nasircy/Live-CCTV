@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const base = '/NY-Live-CCTV';
+const base = '/Live-CCTV';
 ---
 
 <BaseLayout title="即時地圖">
@@ -159,7 +159,7 @@ const base = '/NY-Live-CCTV';
         toastContainer.appendChild(toast);
         setTimeout(() => { if (toast.parentNode) toast.remove(); }, 8000);
         if ('Notification' in window && Notification.permission === 'granted') {
-          new Notification(title, { body, icon: '/NY-Live-CCTV/favicon.svg' });
+          new Notification(title, { body, icon: '/Live-CCTV/favicon.svg' });
         }
       }
 
@@ -218,7 +218,7 @@ const base = '/NY-Live-CCTV';
 
       async function loadAllCameras() {
         try {
-          const resp = await fetch('/NY-Live-CCTV/data/cameras_thumb.json');
+          const resp = await fetch('/Live-CCTV/data/cameras_thumb.json');
           allCameras = await resp.json();
           updateNearby();
         } catch (e) {
