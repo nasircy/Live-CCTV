@@ -154,28 +154,31 @@ const base = '/Live-CCTV';
   </style>
 
   <script>
-    function hideLoading() {
-      const screen = document.getElementById('loadingScreen');
-      if (screen) {
-        screen.classList.add('hide');
+    (function() {
+      var screen = document.getElementById('loadingScreen');
+
+      function hideLoading() {
+        if (screen) screen.classList.add('hide');
       }
-    }
 
-    function updateLoadingBar(percent, status) {
-      const bar = document.getElementById('loadingBar');
-      const pct = document.getElementById('loadingPercent');
-      const st = document.getElementById('loadingStatus');
-      if (bar) bar.style.width = percent + '%';
-      if (pct) pct.textContent = percent + '%';
-      if (st && status) st.textContent = status;
-    }
+      function updateBar(pct, status) {
+        var bar = document.getElementById('loadingBar');
+        var el = document.getElementById('loadingPercent');
+        var st = document.getElementById('loadingStatus');
+        if (bar) bar.style.width = pct + '%';
+        if (el) el.textContent = pct + '%';
+        if (st && status) st.textContent = status;
+      }
 
-    document.addEventListener('astro:page-load', () => {
-      const isFirstLoad = !sessionStorage.getItem('nycctv_loaded');
-      if (isFirstLoad) {
-        sessionStorage.setItem('nycctv_loaded', '1');
-        let p = 0;
-        const steps = [
+      // Force hide after 7s no matter what
+      setTimeout(hideLoading, 7000);
+
+      function startAnim() {
+        var loaded = sessionStorage.getItem('lc_loaded');
+        if (loaded) { hideLoading(); return; }
+        sessionStorage.setItem('lc_loaded', '1');
+
+        var steps = [
           [10, '初始化系統...'],
           [25, '載入攝影機數據...'],
           [45, '解析地理位置...'],
@@ -184,21 +187,26 @@ const base = '/Live-CCTV';
           [95, '準備就緒...'],
           [100, '完成']
         ];
-        let si = 0;
-        const iv = setInterval(() => {
-          if (si < steps.length) {
-            updateLoadingBar(steps[si][0], steps[si][1]);
-            si++;
+        var i = 0;
+        var iv = setInterval(function() {
+          if (i < steps.length) {
+            updateBar(steps[i][0], steps[i][1]);
+            i++;
           }
-          if (si >= steps.length) {
+          if (i >= steps.length) {
             clearInterval(iv);
             setTimeout(hideLoading, 300);
           }
         }, 400);
-      } else {
-        hideLoading();
       }
-    });
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', startAnim);
+      } else {
+        startAnim();
+      }
+      document.addEventListener('astro:page-load', startAnim);
+    })();
   </script>
 </body>
 </html>
