@@ -4583,8 +4583,7 @@
     "lat": 24.1508,
     "lng": 120.6644,
     "url": "https://tcnvr6.taichung.gov.tw/85b2f222",
-    "map": "https://www.google.com/maps?q=24.1508,120.6644",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=24.1508,120.6644"
   },
   {
     "id": 5346,
@@ -4594,8 +4593,7 @@
     "lat": 24.1508,
     "lng": 120.6572,
     "url": "https://tcnvr3.taichung.gov.tw/f13df0d7",
-    "map": "https://www.google.com/maps?q=24.1508,120.6572",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=24.1508,120.6572"
   },
   {
     "id": 5347,
@@ -4605,404 +4603,7 @@
     "lat": 24.1497,
     "lng": 120.7129,
     "url": "https://tcnvr4.taichung.gov.tw/79616de7",
-    "map": "https://www.google.com/maps?q=24.1497,120.7129",
-    "source": "第三方"
-  },
-  {
-    "id": 5348,
-    "name": "台北市道路 001-市民快承德",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0486,
-    "lng": 121.5169,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000001.jpg",
-    "map": "https://www.google.com/maps?q=25.0486,121.5169",
-    "source": "第三方"
-  },
-  {
-    "id": 5349,
-    "name": "台北市道路 027-市民快環河",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0508,
-    "lng": 121.5069,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000027.jpg",
-    "map": "https://www.google.com/maps?q=25.0508,121.5069",
-    "source": "第三方"
-  },
-  {
-    "id": 5350,
-    "name": "台北市道路 028-市民快中山",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0481,
-    "lng": 121.5209,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000028.jpg",
-    "map": "https://www.google.com/maps?q=25.0481,121.5209",
-    "source": "第三方"
-  },
-  {
-    "id": 5351,
-    "name": "台北市道路 029-市民快敦化",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0449,
-    "lng": 121.549,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000029.jpg",
-    "map": "https://www.google.com/maps?q=25.0449,121.549",
-    "source": "第三方"
-  },
-  {
-    "id": 5352,
-    "name": "台北市道路 030-市民快松江",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0453,
-    "lng": 121.5327,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000030.jpg",
-    "map": "https://www.google.com/maps?q=25.0453,121.5327",
-    "source": "第三方"
-  },
-  {
-    "id": 5353,
-    "name": "台北市道路 031-市民快永吉",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0447,
-    "lng": 121.565,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000031.jpg",
-    "map": "https://www.google.com/maps?q=25.0447,121.565",
-    "source": "第三方"
-  },
-  {
-    "id": 5354,
-    "name": "台北市道路 032-市民快重慶匝道",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0495,
-    "lng": 121.513,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000032.jpg",
-    "map": "https://www.google.com/maps?q=25.0495,121.513",
-    "source": "第三方"
-  },
-  {
-    "id": 5355,
-    "name": "台北市道路 033-市民快新生匝道",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0461,
-    "lng": 121.5302,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000033.jpg",
-    "map": "https://www.google.com/maps?q=25.0461,121.5302",
-    "source": "第三方"
-  },
-  {
-    "id": 5356,
-    "name": "台北市道路 034-市民快建國北匝道",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0447,
-    "lng": 121.5368,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000034.jpg",
-    "map": "https://www.google.com/maps?q=25.0447,121.5368",
-    "source": "第三方"
-  },
-  {
-    "id": 5357,
-    "name": "台北市道路 035-市民快光復匝道",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0449,
-    "lng": 121.5569,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000035.jpg",
-    "map": "https://www.google.com/maps?q=25.0449,121.5569",
-    "source": "第三方"
-  },
-  {
-    "id": 5358,
-    "name": "台北市道路 036-市民快正氣橋上層",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0458,
-    "lng": 121.5673,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000036.jpg",
-    "map": "https://www.google.com/maps?q=25.0458,121.5673",
-    "source": "第三方"
-  },
-  {
-    "id": 5359,
-    "name": "台北市道路 037-市民快麥帥一橋",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0512,
-    "lng": 121.5707,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000037.jpg",
-    "map": "https://www.google.com/maps?q=25.0512,121.5707",
-    "source": "第三方"
-  },
-  {
-    "id": 5360,
-    "name": "台北市道路 162-市民重慶(東側)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0493,
-    "lng": 121.5134,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000162.jpg",
-    "map": "https://www.google.com/maps?q=25.0493,121.5134",
-    "source": "第三方"
-  },
-  {
-    "id": 5361,
-    "name": "台北市道路 163-市民承德(南側)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0488,
-    "lng": 121.5163,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000163.jpg",
-    "map": "https://www.google.com/maps?q=25.0488,121.5163",
-    "source": "第三方"
-  },
-  {
-    "id": 5362,
-    "name": "台北市道路 164-市民承德(西側)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0486,
-    "lng": 121.5164,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000164.jpg",
-    "map": "https://www.google.com/maps?q=25.0486,121.5164",
-    "source": "第三方"
-  },
-  {
-    "id": 5363,
-    "name": "台北市道路 165-市民中山(西南角)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0479,
-    "lng": 121.5206,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000165.jpg",
-    "map": "https://www.google.com/maps?q=25.0479,121.5206",
-    "source": "第三方"
-  },
-  {
-    "id": 5364,
-    "name": "台北市道路 166-市民中山(西北角)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0481,
-    "lng": 121.5206,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000166.jpg",
-    "map": "https://www.google.com/maps?q=25.0481,121.5206",
-    "source": "第三方"
-  },
-  {
-    "id": 5365,
-    "name": "台北市道路 210-辛亥隧道往市區入口0K+7M",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0101,
-    "lng": 121.5573,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000210.jpg",
-    "map": "https://www.google.com/maps?q=25.0101,121.5573",
-    "source": "第三方"
-  },
-  {
-    "id": 5366,
-    "name": "台北市道路 211-辛亥隧道往市區入口0K+160M",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0117,
-    "lng": 121.5558,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000211.jpg",
-    "map": "https://www.google.com/maps?q=25.0117,121.5558",
-    "source": "第三方"
-  },
-  {
-    "id": 5367,
-    "name": "台北市道路 212-辛亥隧道往市區入口0K+355M",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0128,
-    "lng": 121.5546,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000212.jpg",
-    "map": "https://www.google.com/maps?q=25.0128,121.5546",
-    "source": "第三方"
-  },
-  {
-    "id": 5368,
-    "name": "台北市道路 261-市民高架-西寧北路",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0504,
-    "lng": 121.5081,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000261.jpg",
-    "map": "https://www.google.com/maps?q=25.0504,121.5081",
-    "source": "第三方"
-  },
-  {
-    "id": 5369,
-    "name": "台北市道路 267-市民高架道路(往東延吉街上方)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0444,
-    "lng": 121.5525,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000267.jpg",
-    "map": "https://www.google.com/maps?q=25.0444,121.5525",
-    "source": "第三方"
-  },
-  {
-    "id": 5370,
-    "name": "台北市道路 269-市民大道-松信路口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0495,
-    "lng": 121.5722,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000269.jpg",
-    "map": "https://www.google.com/maps?q=25.0495,121.5722",
-    "source": "第三方"
-  },
-  {
-    "id": 5371,
-    "name": "台北市道路 270-市民大道-松山路口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0482,
-    "lng": 121.5777,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000270.jpg",
-    "map": "https://www.google.com/maps?q=25.0482,121.5777",
-    "source": "第三方"
-  },
-  {
-    "id": 5372,
-    "name": "台北市道路 271-市民大道-東新街口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0498,
-    "lng": 121.5838,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000271.jpg",
-    "map": "https://www.google.com/maps?q=25.0498,121.5838",
-    "source": "第三方"
-  },
-  {
-    "id": 5373,
-    "name": "台北市道路 273-市民大道與向陽路口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0513,
-    "lng": 121.5957,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000273.jpg",
-    "map": "https://www.google.com/maps?q=25.0513,121.5957",
-    "source": "第三方"
-  },
-  {
-    "id": 5374,
-    "name": "台北市道路 275-市民大道-中南街口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0543,
-    "lng": 121.6152,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000275.jpg",
-    "map": "https://www.google.com/maps?q=25.0543,121.6152",
-    "source": "第三方"
-  },
-  {
-    "id": 5375,
-    "name": "台北市道路 314-松江路市民大道口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0457,
-    "lng": 121.5331,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000314.jpg",
-    "map": "https://www.google.com/maps?q=25.0457,121.5331",
-    "source": "第三方"
-  },
-  {
-    "id": 5376,
-    "name": "台北市道路 317-復興南路與市民大道口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0444,
-    "lng": 121.5438,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000317.jpg",
-    "map": "https://www.google.com/maps?q=25.0444,121.5438",
-    "source": "第三方"
-  },
-  {
-    "id": 5377,
-    "name": "台北市道路 329-光復南路與市民大道口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0449,
-    "lng": 121.5577,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000329.jpg",
-    "map": "https://www.google.com/maps?q=25.0449,121.5577",
-    "source": "第三方"
-  },
-  {
-    "id": 5378,
-    "name": "台北市道路 364-市民大道8段與南港路2段41巷口",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0526,
-    "lng": 121.6032,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000364.jpg",
-    "map": "https://www.google.com/maps?q=25.0526,121.6032",
-    "source": "第三方"
-  },
-  {
-    "id": 5379,
-    "name": "台北市道路 377-菸廠路 市民大道5段14巷",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0451,
-    "lng": 121.5604,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000377.jpg",
-    "map": "https://www.google.com/maps?q=25.0451,121.5604",
-    "source": "第三方"
-  },
-  {
-    "id": 5380,
-    "name": "台北市道路 378-市民大道八段99號(東北角) (臺北流行音樂中心南館頂樓東北角)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0517,
-    "lng": 121.5978,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000378.jpg",
-    "map": "https://www.google.com/maps?q=25.0517,121.5978",
-    "source": "第三方"
-  },
-  {
-    "id": 5381,
-    "name": "台北市道路 379-市民大道八段99號(西南角) (臺北流行音樂中心南館頂樓西南角)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0514,
-    "lng": 121.5976,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000379.jpg",
-    "map": "https://www.google.com/maps?q=25.0514,121.5976",
-    "source": "第三方"
-  },
-  {
-    "id": 5382,
-    "name": "台北市道路 418-市民大道5段-東興路",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.0483,
-    "lng": 121.5658,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000418.jpg",
-    "map": "https://www.google.com/maps?q=25.0483,121.5658",
-    "source": "第三方"
-  },
-  {
-    "id": 5383,
-    "name": "台北市道路 421-市民大道四段-敦化南路1段(橋下)",
-    "region": "市區道路",
-    "city": "台北市/新北市/基隆市",
-    "lat": 25.045,
-    "lng": 121.5491,
-    "url": "https://c01.第三方.com/cam/snapshot/tpe-000421.jpg",
-    "map": "https://www.google.com/maps?q=25.045,121.5491",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=24.1497,120.7129"
   },
   {
     "id": 5384,
@@ -5012,8 +4613,7 @@
     "lat": 23.0612,
     "lng": 120.2704,
     "url": "https://trafficvideo4.tainan.gov.tw/aaa390b4",
-    "map": "https://www.google.com/maps?q=23.0612,120.2704",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0612,120.2704"
   },
   {
     "id": 5385,
@@ -5023,8 +4623,7 @@
     "lat": 23.0892,
     "lng": 120.2591,
     "url": "https://trafficvideo4.tainan.gov.tw/c4b34816",
-    "map": "https://www.google.com/maps?q=23.0892,120.2591",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0892,120.2591"
   },
   {
     "id": 5386,
@@ -5034,8 +4633,7 @@
     "lat": 23.0598,
     "lng": 120.2721,
     "url": "https://trafficvideo4.tainan.gov.tw/d78d15a5",
-    "map": "https://www.google.com/maps?q=23.0598,120.2721",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0598,120.2721"
   },
   {
     "id": 5387,
@@ -5045,8 +4643,7 @@
     "lat": 23.0614,
     "lng": 120.2729,
     "url": "https://trafficvideo2.tainan.gov.tw/783cbdbb",
-    "map": "https://www.google.com/maps?q=23.0614,120.2729",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0614,120.2729"
   },
   {
     "id": 5388,
@@ -5056,8 +4653,7 @@
     "lat": 23.0612,
     "lng": 120.2725,
     "url": "https://trafficvideo2.tainan.gov.tw/1bf64214",
-    "map": "https://www.google.com/maps?q=23.0612,120.2725",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0612,120.2725"
   },
   {
     "id": 5389,
@@ -5067,8 +4663,7 @@
     "lat": 23.0638,
     "lng": 120.2764,
     "url": "https://trafficvideo4.tainan.gov.tw/bf7ead17",
-    "map": "https://www.google.com/maps?q=23.0638,120.2764",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0638,120.2764"
   },
   {
     "id": 5390,
@@ -5078,8 +4673,7 @@
     "lat": 23.0657,
     "lng": 120.2782,
     "url": "https://trafficvideo4.tainan.gov.tw/3d908f96",
-    "map": "https://www.google.com/maps?q=23.0657,120.2782",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0657,120.2782"
   },
   {
     "id": 5391,
@@ -5089,8 +4683,7 @@
     "lat": 23.1057,
     "lng": 120.2947,
     "url": "https://trafficvideo2.tainan.gov.tw/24ea8240",
-    "map": "https://www.google.com/maps?q=23.1057,120.2947",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.1057,120.2947"
   },
   {
     "id": 5392,
@@ -5100,8 +4693,7 @@
     "lat": 23.106,
     "lng": 120.2941,
     "url": "https://trafficvideo.tainan.gov.tw/60982153",
-    "map": "https://www.google.com/maps?q=23.106,120.2941",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.106,120.2941"
   },
   {
     "id": 5393,
@@ -5111,8 +4703,7 @@
     "lat": 23.0753,
     "lng": 120.2761,
     "url": "https://trafficvideo5.tainan.gov.tw/74593395",
-    "map": "https://www.google.com/maps?q=23.0753,120.2761",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0753,120.2761"
   },
   {
     "id": 5394,
@@ -5122,8 +4713,7 @@
     "lat": 23.0751,
     "lng": 120.276,
     "url": "https://trafficvideo5.tainan.gov.tw/26fe9cd4",
-    "map": "https://www.google.com/maps?q=23.0751,120.276",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0751,120.276"
   },
   {
     "id": 5395,
@@ -5133,8 +4723,7 @@
     "lat": 23.067,
     "lng": 120.2804,
     "url": "https://trafficvideo2.tainan.gov.tw/129e01dc",
-    "map": "https://www.google.com/maps?q=23.067,120.2804",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.067,120.2804"
   },
   {
     "id": 5396,
@@ -5144,8 +4733,7 @@
     "lat": 23.0671,
     "lng": 120.2803,
     "url": "https://trafficvideo5.tainan.gov.tw/61a059e8",
-    "map": "https://www.google.com/maps?q=23.0671,120.2803",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0671,120.2803"
   },
   {
     "id": 5397,
@@ -5155,8 +4743,7 @@
     "lat": 23.0677,
     "lng": 120.2803,
     "url": "https://trafficvideo2.tainan.gov.tw/8d6cb18a",
-    "map": "https://www.google.com/maps?q=23.0677,120.2803",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0677,120.2803"
   },
   {
     "id": 5398,
@@ -5166,8 +4753,7 @@
     "lat": 23.0673,
     "lng": 120.2796,
     "url": "https://trafficvideo3.tainan.gov.tw/2ffb425c",
-    "map": "https://www.google.com/maps?q=23.0673,120.2796",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0673,120.2796"
   },
   {
     "id": 5399,
@@ -5177,8 +4763,7 @@
     "lat": 23.0649,
     "lng": 120.281,
     "url": "https://trafficvideo5.tainan.gov.tw/76c2822c",
-    "map": "https://www.google.com/maps?q=23.0649,120.281",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0649,120.281"
   },
   {
     "id": 5400,
@@ -5188,8 +4773,7 @@
     "lat": 23.064,
     "lng": 120.2812,
     "url": "https://trafficvideo.tainan.gov.tw/c60bcb90",
-    "map": "https://www.google.com/maps?q=23.064,120.2812",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.064,120.2812"
   },
   {
     "id": 5401,
@@ -5199,8 +4783,7 @@
     "lat": 23.0643,
     "lng": 120.2807,
     "url": "https://trafficvideo5.tainan.gov.tw/58164dd8",
-    "map": "https://www.google.com/maps?q=23.0643,120.2807",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0643,120.2807"
   },
   {
     "id": 5402,
@@ -5210,8 +4793,7 @@
     "lat": 23.07,
     "lng": 120.2793,
     "url": "https://trafficvideo3.tainan.gov.tw/b34f29ec",
-    "map": "https://www.google.com/maps?q=23.07,120.2793",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.07,120.2793"
   },
   {
     "id": 5403,
@@ -5221,8 +4803,7 @@
     "lat": 23.0749,
     "lng": 120.2766,
     "url": "https://trafficvideo5.tainan.gov.tw/547c7144",
-    "map": "https://www.google.com/maps?q=23.0749,120.2766",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0749,120.2766"
   },
   {
     "id": 5404,
@@ -5232,8 +4813,7 @@
     "lat": 23.0753,
     "lng": 120.2768,
     "url": "https://trafficvideo5.tainan.gov.tw/2baec86f",
-    "map": "https://www.google.com/maps?q=23.0753,120.2768",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0753,120.2768"
   },
   {
     "id": 5405,
@@ -5243,8 +4823,7 @@
     "lat": 23.0729,
     "lng": 120.2778,
     "url": "https://trafficvideo2.tainan.gov.tw/53404504",
-    "map": "https://www.google.com/maps?q=23.0729,120.2778",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0729,120.2778"
   },
   {
     "id": 5406,
@@ -5254,8 +4833,7 @@
     "lat": 23.0727,
     "lng": 120.2779,
     "url": "https://trafficvideo4.tainan.gov.tw/6b14ba41",
-    "map": "https://www.google.com/maps?q=23.0727,120.2779",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0727,120.2779"
   },
   {
     "id": 5407,
@@ -5265,8 +4843,7 @@
     "lat": 23.0721,
     "lng": 120.2785,
     "url": "https://trafficvideo2.tainan.gov.tw/d8a553fa",
-    "map": "https://www.google.com/maps?q=23.0721,120.2785",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0721,120.2785"
   },
   {
     "id": 5408,
@@ -5276,8 +4853,7 @@
     "lat": 23.0718,
     "lng": 120.2788,
     "url": "https://trafficvideo3.tainan.gov.tw/1093777d",
-    "map": "https://www.google.com/maps?q=23.0718,120.2788",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0718,120.2788"
   },
   {
     "id": 5409,
@@ -5287,8 +4863,7 @@
     "lat": 23.0718,
     "lng": 120.2788,
     "url": "https://trafficvideo3.tainan.gov.tw/0bd3aed5",
-    "map": "https://www.google.com/maps?q=23.0718,120.2788",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0718,120.2788"
   },
   {
     "id": 5410,
@@ -5298,8 +4873,7 @@
     "lat": 23.0723,
     "lng": 120.2785,
     "url": "https://trafficvideo4.tainan.gov.tw/67c0ef63",
-    "map": "https://www.google.com/maps?q=23.0723,120.2785",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0723,120.2785"
   },
   {
     "id": 5411,
@@ -5309,8 +4883,7 @@
     "lat": 23.0726,
     "lng": 120.2785,
     "url": "https://trafficvideo4.tainan.gov.tw/3732b3e5",
-    "map": "https://www.google.com/maps?q=23.0726,120.2785",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0726,120.2785"
   },
   {
     "id": 5412,
@@ -5320,8 +4893,7 @@
     "lat": 23.0664,
     "lng": 120.2807,
     "url": "https://trafficvideo4.tainan.gov.tw/bd3f6309",
-    "map": "https://www.google.com/maps?q=23.0664,120.2807",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0664,120.2807"
   },
   {
     "id": 5413,
@@ -5331,8 +4903,7 @@
     "lat": 23.0663,
     "lng": 120.2806,
     "url": "https://trafficvideo4.tainan.gov.tw/22cb803a",
-    "map": "https://www.google.com/maps?q=23.0663,120.2806",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0663,120.2806"
   },
   {
     "id": 5414,
@@ -5342,8 +4913,7 @@
     "lat": 23.069,
     "lng": 120.2798,
     "url": "https://trafficvideo4.tainan.gov.tw/63702110",
-    "map": "https://www.google.com/maps?q=23.069,120.2798",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.069,120.2798"
   },
   {
     "id": 5415,
@@ -5353,8 +4923,7 @@
     "lat": 23.0688,
     "lng": 120.2796,
     "url": "https://trafficvideo4.tainan.gov.tw/9d467d3d",
-    "map": "https://www.google.com/maps?q=23.0688,120.2796",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0688,120.2796"
   },
   {
     "id": 5416,
@@ -5364,8 +4933,7 @@
     "lat": 23.0777,
     "lng": 120.2747,
     "url": "https://trafficvideo4.tainan.gov.tw/7aa88214",
-    "map": "https://www.google.com/maps?q=23.0777,120.2747",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0777,120.2747"
   },
   {
     "id": 5417,
@@ -5375,8 +4943,7 @@
     "lat": 23.0719,
     "lng": 120.2544,
     "url": "https://trafficvideo2.tainan.gov.tw/a2aba6dc",
-    "map": "https://www.google.com/maps?q=23.0719,120.2544",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.0719,120.2544"
   },
   {
     "id": 5418,
@@ -5386,8 +4953,7 @@
     "lat": 23.1066,
     "lng": 120.2947,
     "url": "https://trafficvideo5.tainan.gov.tw/79c4c1c7",
-    "map": "https://www.google.com/maps?q=23.1066,120.2947",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.1066,120.2947"
   },
   {
     "id": 5419,
@@ -5397,8 +4963,7 @@
     "lat": 23.106,
     "lng": 120.2947,
     "url": "https://trafficvideo5.tainan.gov.tw/3d3f3e59",
-    "map": "https://www.google.com/maps?q=23.106,120.2947",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.106,120.2947"
   },
   {
     "id": 5420,
@@ -5408,8 +4973,7 @@
     "lat": 23.1063,
     "lng": 120.295,
     "url": "https://trafficvideo5.tainan.gov.tw/01ada95c",
-    "map": "https://www.google.com/maps?q=23.1063,120.295",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.1063,120.295"
   },
   {
     "id": 5421,
@@ -5419,8 +4983,7 @@
     "lat": 23.1065,
     "lng": 120.295,
     "url": "https://trafficvideo5.tainan.gov.tw/d23d6cc5",
-    "map": "https://www.google.com/maps?q=23.1065,120.295",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.1065,120.295"
   },
   {
     "id": 5422,
@@ -5430,8 +4993,7 @@
     "lat": 23.1061,
     "lng": 120.2944,
     "url": "https://trafficvideo5.tainan.gov.tw/ca70a7ca",
-    "map": "https://www.google.com/maps?q=23.1061,120.2944",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=23.1061,120.2944"
   },
   {
     "id": 5423,
@@ -5441,129 +5003,7 @@
     "lat": 25.2598,
     "lng": 121.4981,
     "url": "https://cctv-ss01.thb.gov.tw:443/T2-19K+150",
-    "map": "https://www.google.com/maps?q=25.2598,121.4981",
-    "source": "第三方"
-  },
-  {
-    "id": 5424,
-    "name": "新竹市道路 中正路與武陵路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8154,
-    "lng": 120.9619,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000093.jpg",
-    "map": "https://www.google.com/maps?q=24.8154,120.9619",
-    "source": "第三方"
-  },
-  {
-    "id": 5425,
-    "name": "新竹市道路 中華路與林森路及振興路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7967,
-    "lng": 120.9607,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000011.jpg",
-    "map": "https://www.google.com/maps?q=24.7967,120.9607",
-    "source": "第三方"
-  },
-  {
-    "id": 5426,
-    "name": "新竹市道路 中華路與經國路北端(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.816,
-    "lng": 120.9934,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000005.jpg",
-    "map": "https://www.google.com/maps?q=24.816,120.9934",
-    "source": "第三方"
-  },
-  {
-    "id": 5427,
-    "name": "新竹市道路 中華路與經國路南端(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7965,
-    "lng": 120.9524,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000012.jpg",
-    "map": "https://www.google.com/maps?q=24.7965,120.9524",
-    "source": "第三方"
-  },
-  {
-    "id": 5428,
-    "name": "新竹市道路 中華路與頭前溪(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8198,
-    "lng": 120.9957,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000004.jpg",
-    "map": "https://www.google.com/maps?q=24.8198,120.9957",
-    "source": "第三方"
-  },
-  {
-    "id": 5429,
-    "name": "新竹市道路 光復路與介壽路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7818,
-    "lng": 121.0212,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000038.jpg",
-    "map": "https://www.google.com/maps?q=24.7818,121.0212",
-    "source": "第三方"
-  },
-  {
-    "id": 5430,
-    "name": "新竹市道路 光復路與大學路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.791,
-    "lng": 121.0046,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000033.jpg",
-    "map": "https://www.google.com/maps?q=24.791,121.0046",
-    "source": "第三方"
-  },
-  {
-    "id": 5431,
-    "name": "新竹市道路 光復路與學府路及東光路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8011,
-    "lng": 120.9872,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000030.jpg",
-    "map": "https://www.google.com/maps?q=24.8011,120.9872",
-    "source": "第三方"
-  },
-  {
-    "id": 5432,
-    "name": "新竹市道路 光復路與建功路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.796,
-    "lng": 120.9979,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000032.jpg",
-    "map": "https://www.google.com/maps?q=24.796,120.9979",
-    "source": "第三方"
-  },
-  {
-    "id": 5433,
-    "name": "新竹市道路 光復路與慈雲路及園區一路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7875,
-    "lng": 121.0097,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000036.jpg",
-    "map": "https://www.google.com/maps?q=24.7875,121.0097",
-    "source": "第三方"
-  },
-  {
-    "id": 5434,
-    "name": "新竹市道路 光復路與長春街及光復路525巷(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7848,
-    "lng": 121.0138,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000037.jpg",
-    "map": "https://www.google.com/maps?q=24.7848,121.0138",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=25.2598,121.4981"
   },
   {
     "id": 5435,
@@ -5573,129 +5013,7 @@
     "lat": 24.7977,
     "lng": 121.0087,
     "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=19400",
-    "map": "https://www.google.com/maps?q=24.7977,121.0087",
-    "source": "第三方"
-  },
-  {
-    "id": 5436,
-    "name": "新竹市道路 公道五路與交流道西側(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.798,
-    "lng": 121.0081,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000049.jpg",
-    "map": "https://www.google.com/maps?q=24.798,121.0081",
-    "source": "第三方"
-  },
-  {
-    "id": 5437,
-    "name": "新竹市道路 公道五路與建中路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8037,
-    "lng": 120.9964,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000046.jpg",
-    "map": "https://www.google.com/maps?q=24.8037,120.9964",
-    "source": "第三方"
-  },
-  {
-    "id": 5438,
-    "name": "新竹市道路 公道五路與忠孝路及東勢街(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8053,
-    "lng": 120.9927,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000045.jpg",
-    "map": "https://www.google.com/maps?q=24.8053,120.9927",
-    "source": "第三方"
-  },
-  {
-    "id": 5439,
-    "name": "新竹市道路 公道五路與湳雅街(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.824,
-    "lng": 120.9783,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000042.jpg",
-    "map": "https://www.google.com/maps?q=24.824,120.9783",
-    "source": "第三方"
-  },
-  {
-    "id": 5440,
-    "name": "新竹市道路 寶山路與200巷(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7905,
-    "lng": 120.9768,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000055.jpg",
-    "map": "https://www.google.com/maps?q=24.7905,120.9768",
-    "source": "第三方"
-  },
-  {
-    "id": 5441,
-    "name": "新竹市道路 寶山路與380巷(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7869,
-    "lng": 120.9867,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000059.jpg",
-    "map": "https://www.google.com/maps?q=24.7869,120.9867",
-    "source": "第三方"
-  },
-  {
-    "id": 5442,
-    "name": "新竹市道路 寶山路與高峰植物園(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7882,
-    "lng": 120.9823,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000057.jpg",
-    "map": "https://www.google.com/maps?q=24.7882,120.9823",
-    "source": "第三方"
-  },
-  {
-    "id": 5443,
-    "name": "新竹市道路 寶山路與高翠路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7859,
-    "lng": 120.9885,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000061.jpg",
-    "map": "https://www.google.com/maps?q=24.7859,120.9885",
-    "source": "第三方"
-  },
-  {
-    "id": 5444,
-    "name": "新竹市道路 慈雲路與公道五路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7959,
-    "lng": 121.0134,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000020.jpg",
-    "map": "https://www.google.com/maps?q=24.7959,121.0134",
-    "source": "第三方"
-  },
-  {
-    "id": 5445,
-    "name": "新竹市道路 東大路與武陵路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8175,
-    "lng": 120.9639,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000066.jpg",
-    "map": "https://www.google.com/maps?q=24.8175,120.9639",
-    "source": "第三方"
-  },
-  {
-    "id": 5446,
-    "name": "新竹市道路 東大路與經國路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8138,
-    "lng": 120.9674,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000065.jpg",
-    "map": "https://www.google.com/maps?q=24.8138,120.9674",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=24.7977,121.0087"
   },
   {
     "id": 5447,
@@ -5705,62 +5023,6 @@
     "lat": 24.8423,
     "lng": 120.9343,
     "url": "https://cctv-ss01.thb.gov.tw:443/T15-73K+800",
-    "map": "https://www.google.com/maps?q=24.8423,120.9343",
-    "source": "第三方"
-  },
-  {
-    "id": 5448,
-    "name": "新竹市道路 東大路與鐵道路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8199,
-    "lng": 120.9614,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000067.jpg",
-    "map": "https://www.google.com/maps?q=24.8199,120.9614",
-    "source": "第三方"
-  },
-  {
-    "id": 5449,
-    "name": "新竹市道路 牛埔停車場(牛埔東路與牛埔東路192巷往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.7967,
-    "lng": 120.9453,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000110.jpg",
-    "map": "https://www.google.com/maps?q=24.7967,120.9453",
-    "source": "第三方"
-  },
-  {
-    "id": 5450,
-    "name": "新竹市道路 經國路與公道五路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.815,
-    "lng": 120.9852,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000015.jpg",
-    "map": "https://www.google.com/maps?q=24.815,120.9852",
-    "source": "第三方"
-  },
-  {
-    "id": 5451,
-    "name": "新竹市道路 經國路與和平路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8063,
-    "lng": 120.9561,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000017.jpg",
-    "map": "https://www.google.com/maps?q=24.8063,120.9561",
-    "source": "第三方"
-  },
-  {
-    "id": 5452,
-    "name": "新竹市道路 經國路與民生路(往市區)",
-    "region": "市區道路",
-    "city": "桃園市/新竹縣市",
-    "lat": 24.8142,
-    "lng": 120.9743,
-    "url": "https://c01.第三方.com/cam/snapshot/hsz-000016.jpg",
-    "map": "https://www.google.com/maps?q=24.8142,120.9743",
-    "source": "第三方"
+    "map": "https://www.google.com/maps?q=24.8423,120.9343"
   }
 ]

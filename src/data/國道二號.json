@@ -1,1 +1,362 @@
-[{"id": 4519, "name": "國道二號 0K+000 東向 圳頭交流道到大園交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0733, "lng": 121.2008, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=92000", "map": "https://www.google.com/maps?q=25.0733,121.2008", "source": "第三方"}, {"id": 4520, "name": "國道二號 0K+000 東向 機場端到大園交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0658, "lng": 121.2175, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20000", "map": "https://www.google.com/maps?q=25.0658,121.2175", "source": "第三方"}, {"id": 4521, "name": "國道二號 0K+400 東向 大竹交流道到機場系統交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0637, "lng": 121.2148, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20040", "map": "https://www.google.com/maps?q=25.0637,121.2148", "source": "第三方"}, {"id": 4522, "name": "國道二號 0K+900 西向 大園交流道到桃園機場端", "region": "國道二號", "city": "桃園市", "lat": 25.0618, "lng": 121.2133, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20090", "map": "https://www.google.com/maps?q=25.0618,121.2133", "source": "第三方"}, {"id": 4523, "name": "國道二號 10K+656 西向 南桃園交流道到機場系統交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0072, "lng": 121.2817, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21060", "map": "https://www.google.com/maps?q=25.0072,121.2817", "source": "第三方"}, {"id": 4524, "name": "國道二號 11K+590 東向 機場系統交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9989, "lng": 121.2831, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21150", "map": "https://www.google.com/maps?q=24.9989,121.2831", "source": "第三方"}, {"id": 4525, "name": "國道二號 12K+000 西向 大湳交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9954, "lng": 121.2835, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21200", "map": "https://www.google.com/maps?q=24.9954,121.2835", "source": "第三方"}, {"id": 4526, "name": "國道二號 12K+540 東向 南桃園交流道到大湳交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9906, "lng": 121.2816, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21250", "map": "https://www.google.com/maps?q=24.9906,121.2816", "source": "第三方"}, {"id": 4527, "name": "國道二號 13K+010 東向 南桃園交流道到大湳交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9864, "lng": 121.2819, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21300", "map": "https://www.google.com/maps?q=24.9864,121.2819", "source": "第三方"}, {"id": 4528, "name": "國道二號 13K+305 西向 大湳交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9837, "lng": 121.2827, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21330", "map": "https://www.google.com/maps?q=24.9837,121.2827", "source": "第三方"}, {"id": 4529, "name": "國道二號 13K+900 西向 大湳交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9794, "lng": 121.2859, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21390", "map": "https://www.google.com/maps?q=24.9794,121.2859", "source": "第三方"}, {"id": 4530, "name": "國道二號 14K+458 東向 南桃園交流道到大湳交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9764, "lng": 121.2905, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21440", "map": "https://www.google.com/maps?q=24.9764,121.2905", "source": "第三方"}, {"id": 4531, "name": "國道二號 15K+100 東向 南桃園交流道到大湳交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9752, "lng": 121.2965, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21510", "map": "https://www.google.com/maps?q=24.9752,121.2965", "source": "第三方"}, {"id": 4532, "name": "國道二號 16K+039 西向 大湳交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9741, "lng": 121.3052, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21600", "map": "https://www.google.com/maps?q=24.9741,121.3052", "source": "第三方"}, {"id": 4533, "name": "國道二號 16K+388 西向 大湳交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9733, "lng": 121.3089, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21630", "map": "https://www.google.com/maps?q=24.9733,121.3089", "source": "第三方"}, {"id": 4534, "name": "國道二號 16K+830 西向 大湳交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9717, "lng": 121.3131, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21680", "map": "https://www.google.com/maps?q=24.9717,121.3131", "source": "第三方"}, {"id": 4535, "name": "國道二號 17K+600 東向 南桃園交流道到大湳交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9681, "lng": 121.3199, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21760", "map": "https://www.google.com/maps?q=24.9681,121.3199", "source": "第三方"}, {"id": 4536, "name": "國道二號 18K+060 東向 南桃園交流道到大湳交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9633, "lng": 121.3235, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21800", "map": "https://www.google.com/maps?q=24.9633,121.3235", "source": "第三方"}, {"id": 4537, "name": "國道二號 18K+460 西向 大湳交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 24.962, "lng": 121.3245, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21840", "map": "https://www.google.com/maps?q=24.962,121.3245", "source": "第三方"}, {"id": 4538, "name": "國道二號 18K+950 西向 鶯歌系統交流道到大湳交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9582, "lng": 121.3252, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21890", "map": "https://www.google.com/maps?q=24.9582,121.3252", "source": "第三方"}, {"id": 4539, "name": "國道二號 19K+300 東向 大湳交流道到鶯歌系統交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9522, "lng": 121.3246, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21930", "map": "https://www.google.com/maps?q=24.9522,121.3246", "source": "第三方"}, {"id": 4540, "name": "國道二號 19K+580 西向 鶯歌系統交流道到大湳交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9569, "lng": 121.325, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21950", "map": "https://www.google.com/maps?q=24.9569,121.325", "source": "第三方"}, {"id": 4541, "name": "國道二號 1K+000 西向 大園交流道到桃園機場端", "region": "國道二號", "city": "桃園市", "lat": 25.0587, "lng": 121.2137, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20100", "map": "https://www.google.com/maps?q=25.0587,121.2137", "source": "第三方"}, {"id": 4542, "name": "國道二號 1K+018 東向 圳頭交流道到大園交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0671, "lng": 121.2074, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=92010", "map": "https://www.google.com/maps?q=25.0671,121.2074", "source": "第三方"}, {"id": 4543, "name": "國道二號 1K+904 西向 大竹交流道到大園交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0507, "lng": 121.2169, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20190", "map": "https://www.google.com/maps?q=25.0507,121.2169", "source": "第三方"}, {"id": 4544, "name": "國道二號 20K+430 東向 大湳交流道到鶯歌系統交流道", "region": "國道二號", "city": "桃園市", "lat": 24.9421, "lng": 121.3237, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=22040", "map": "https://www.google.com/maps?q=24.9421,121.3237", "source": "第三方"}, {"id": 4545, "name": "國道二號 2K+900 東向 大園交流道到大竹交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0423, "lng": 121.2205, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20290", "map": "https://www.google.com/maps?q=25.0423,121.2205", "source": "第三方"}, {"id": 4546, "name": "國道二號 3K+350 東向 大園交流道到大竹交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0389, "lng": 121.2233, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20330", "map": "https://www.google.com/maps?q=25.0389,121.2233", "source": "第三方"}, {"id": 4547, "name": "國道二號 4K+200 西向 大竹交流道到大園交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0367, "lng": 121.2317, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20420", "map": "https://www.google.com/maps?q=25.0367,121.2317", "source": "第三方"}, {"id": 4548, "name": "國道二號 5K+250 西向 機場系統交流道到大竹交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0338, "lng": 121.2412, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20520", "map": "https://www.google.com/maps?q=25.0338,121.2412", "source": "第三方"}, {"id": 4549, "name": "國道二號 6K+400 西向 機場系統交流道到大竹交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0285, "lng": 121.2512, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20640", "map": "https://www.google.com/maps?q=25.0285,121.2512", "source": "第三方"}, {"id": 4550, "name": "國道二號 7K+450 東向 大竹交流道到機場系統交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0275, "lng": 121.2614, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20740", "map": "https://www.google.com/maps?q=25.0275,121.2614", "source": "第三方"}, {"id": 4551, "name": "國道二號 8K+310 西向 機場系統交流道到大竹交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0249, "lng": 121.2693, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20830", "map": "https://www.google.com/maps?q=25.0249,121.2693", "source": "第三方"}, {"id": 4552, "name": "國道二號 9K+090 東向 機場系統交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0199, "lng": 121.2758, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20900", "map": "https://www.google.com/maps?q=25.0199,121.2758", "source": "第三方"}, {"id": 4553, "name": "國道二號 9K+180 東向 機場系統交流道到南桃園交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0209, "lng": 121.2735, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20910", "map": "https://www.google.com/maps?q=25.0209,121.2735", "source": "第三方"}, {"id": 4554, "name": "國道二號 9K+605 西向 南桃園交流道到機場系統交流道", "region": "國道二號", "city": "桃園市", "lat": 25.0153, "lng": 121.2763, "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20960", "map": "https://www.google.com/maps?q=25.0153,121.2763", "source": "第三方"}]
+[
+  {
+    "id": 4519,
+    "name": "國道二號 0K+000 東向 圳頭交流道到大園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0733,
+    "lng": 121.2008,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=92000",
+    "map": "https://www.google.com/maps?q=25.0733,121.2008"
+  },
+  {
+    "id": 4520,
+    "name": "國道二號 0K+000 東向 機場端到大園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0658,
+    "lng": 121.2175,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20000",
+    "map": "https://www.google.com/maps?q=25.0658,121.2175"
+  },
+  {
+    "id": 4521,
+    "name": "國道二號 0K+400 東向 大竹交流道到機場系統交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0637,
+    "lng": 121.2148,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20040",
+    "map": "https://www.google.com/maps?q=25.0637,121.2148"
+  },
+  {
+    "id": 4522,
+    "name": "國道二號 0K+900 西向 大園交流道到桃園機場端",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0618,
+    "lng": 121.2133,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20090",
+    "map": "https://www.google.com/maps?q=25.0618,121.2133"
+  },
+  {
+    "id": 4523,
+    "name": "國道二號 10K+656 西向 南桃園交流道到機場系統交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0072,
+    "lng": 121.2817,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21060",
+    "map": "https://www.google.com/maps?q=25.0072,121.2817"
+  },
+  {
+    "id": 4524,
+    "name": "國道二號 11K+590 東向 機場系統交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9989,
+    "lng": 121.2831,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21150",
+    "map": "https://www.google.com/maps?q=24.9989,121.2831"
+  },
+  {
+    "id": 4525,
+    "name": "國道二號 12K+000 西向 大湳交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9954,
+    "lng": 121.2835,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21200",
+    "map": "https://www.google.com/maps?q=24.9954,121.2835"
+  },
+  {
+    "id": 4526,
+    "name": "國道二號 12K+540 東向 南桃園交流道到大湳交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9906,
+    "lng": 121.2816,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21250",
+    "map": "https://www.google.com/maps?q=24.9906,121.2816"
+  },
+  {
+    "id": 4527,
+    "name": "國道二號 13K+010 東向 南桃園交流道到大湳交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9864,
+    "lng": 121.2819,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21300",
+    "map": "https://www.google.com/maps?q=24.9864,121.2819"
+  },
+  {
+    "id": 4528,
+    "name": "國道二號 13K+305 西向 大湳交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9837,
+    "lng": 121.2827,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21330",
+    "map": "https://www.google.com/maps?q=24.9837,121.2827"
+  },
+  {
+    "id": 4529,
+    "name": "國道二號 13K+900 西向 大湳交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9794,
+    "lng": 121.2859,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21390",
+    "map": "https://www.google.com/maps?q=24.9794,121.2859"
+  },
+  {
+    "id": 4530,
+    "name": "國道二號 14K+458 東向 南桃園交流道到大湳交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9764,
+    "lng": 121.2905,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21440",
+    "map": "https://www.google.com/maps?q=24.9764,121.2905"
+  },
+  {
+    "id": 4531,
+    "name": "國道二號 15K+100 東向 南桃園交流道到大湳交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9752,
+    "lng": 121.2965,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21510",
+    "map": "https://www.google.com/maps?q=24.9752,121.2965"
+  },
+  {
+    "id": 4532,
+    "name": "國道二號 16K+039 西向 大湳交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9741,
+    "lng": 121.3052,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21600",
+    "map": "https://www.google.com/maps?q=24.9741,121.3052"
+  },
+  {
+    "id": 4533,
+    "name": "國道二號 16K+388 西向 大湳交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9733,
+    "lng": 121.3089,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21630",
+    "map": "https://www.google.com/maps?q=24.9733,121.3089"
+  },
+  {
+    "id": 4534,
+    "name": "國道二號 16K+830 西向 大湳交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9717,
+    "lng": 121.3131,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21680",
+    "map": "https://www.google.com/maps?q=24.9717,121.3131"
+  },
+  {
+    "id": 4535,
+    "name": "國道二號 17K+600 東向 南桃園交流道到大湳交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9681,
+    "lng": 121.3199,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21760",
+    "map": "https://www.google.com/maps?q=24.9681,121.3199"
+  },
+  {
+    "id": 4536,
+    "name": "國道二號 18K+060 東向 南桃園交流道到大湳交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9633,
+    "lng": 121.3235,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21800",
+    "map": "https://www.google.com/maps?q=24.9633,121.3235"
+  },
+  {
+    "id": 4537,
+    "name": "國道二號 18K+460 西向 大湳交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.962,
+    "lng": 121.3245,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21840",
+    "map": "https://www.google.com/maps?q=24.962,121.3245"
+  },
+  {
+    "id": 4538,
+    "name": "國道二號 18K+950 西向 鶯歌系統交流道到大湳交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9582,
+    "lng": 121.3252,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21890",
+    "map": "https://www.google.com/maps?q=24.9582,121.3252"
+  },
+  {
+    "id": 4539,
+    "name": "國道二號 19K+300 東向 大湳交流道到鶯歌系統交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9522,
+    "lng": 121.3246,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21930",
+    "map": "https://www.google.com/maps?q=24.9522,121.3246"
+  },
+  {
+    "id": 4540,
+    "name": "國道二號 19K+580 西向 鶯歌系統交流道到大湳交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9569,
+    "lng": 121.325,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=21950",
+    "map": "https://www.google.com/maps?q=24.9569,121.325"
+  },
+  {
+    "id": 4541,
+    "name": "國道二號 1K+000 西向 大園交流道到桃園機場端",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0587,
+    "lng": 121.2137,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20100",
+    "map": "https://www.google.com/maps?q=25.0587,121.2137"
+  },
+  {
+    "id": 4542,
+    "name": "國道二號 1K+018 東向 圳頭交流道到大園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0671,
+    "lng": 121.2074,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=92010",
+    "map": "https://www.google.com/maps?q=25.0671,121.2074"
+  },
+  {
+    "id": 4543,
+    "name": "國道二號 1K+904 西向 大竹交流道到大園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0507,
+    "lng": 121.2169,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20190",
+    "map": "https://www.google.com/maps?q=25.0507,121.2169"
+  },
+  {
+    "id": 4544,
+    "name": "國道二號 20K+430 東向 大湳交流道到鶯歌系統交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 24.9421,
+    "lng": 121.3237,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=22040",
+    "map": "https://www.google.com/maps?q=24.9421,121.3237"
+  },
+  {
+    "id": 4545,
+    "name": "國道二號 2K+900 東向 大園交流道到大竹交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0423,
+    "lng": 121.2205,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20290",
+    "map": "https://www.google.com/maps?q=25.0423,121.2205"
+  },
+  {
+    "id": 4546,
+    "name": "國道二號 3K+350 東向 大園交流道到大竹交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0389,
+    "lng": 121.2233,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20330",
+    "map": "https://www.google.com/maps?q=25.0389,121.2233"
+  },
+  {
+    "id": 4547,
+    "name": "國道二號 4K+200 西向 大竹交流道到大園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0367,
+    "lng": 121.2317,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20420",
+    "map": "https://www.google.com/maps?q=25.0367,121.2317"
+  },
+  {
+    "id": 4548,
+    "name": "國道二號 5K+250 西向 機場系統交流道到大竹交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0338,
+    "lng": 121.2412,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20520",
+    "map": "https://www.google.com/maps?q=25.0338,121.2412"
+  },
+  {
+    "id": 4549,
+    "name": "國道二號 6K+400 西向 機場系統交流道到大竹交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0285,
+    "lng": 121.2512,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20640",
+    "map": "https://www.google.com/maps?q=25.0285,121.2512"
+  },
+  {
+    "id": 4550,
+    "name": "國道二號 7K+450 東向 大竹交流道到機場系統交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0275,
+    "lng": 121.2614,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20740",
+    "map": "https://www.google.com/maps?q=25.0275,121.2614"
+  },
+  {
+    "id": 4551,
+    "name": "國道二號 8K+310 西向 機場系統交流道到大竹交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0249,
+    "lng": 121.2693,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20830",
+    "map": "https://www.google.com/maps?q=25.0249,121.2693"
+  },
+  {
+    "id": 4552,
+    "name": "國道二號 9K+090 東向 機場系統交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0199,
+    "lng": 121.2758,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20900",
+    "map": "https://www.google.com/maps?q=25.0199,121.2758"
+  },
+  {
+    "id": 4553,
+    "name": "國道二號 9K+180 東向 機場系統交流道到南桃園交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0209,
+    "lng": 121.2735,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20910",
+    "map": "https://www.google.com/maps?q=25.0209,121.2735"
+  },
+  {
+    "id": 4554,
+    "name": "國道二號 9K+605 西向 南桃園交流道到機場系統交流道",
+    "region": "國道二號",
+    "city": "桃園市",
+    "lat": 25.0153,
+    "lng": 121.2763,
+    "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=20960",
+    "map": "https://www.google.com/maps?q=25.0153,121.2763"
+  }
+]
