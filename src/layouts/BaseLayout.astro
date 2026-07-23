@@ -13,6 +13,14 @@ const base = '/Live-CCTV';
   <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
 </head>
 <body>
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-inner">
+      <div class="loader-line"></div>
+      <div class="loader-text">NY-LIVE</div>
+      <div class="loader-sub">台湾即時映像</div>
+    </div>
+  </div>
+
   <header>
     <nav>
       <a href={`${base}/`} class="logo">NY<span class="logo-dot">-</span>LIVE<span class="logo-dot">.</span></a>
@@ -23,6 +31,7 @@ const base = '/Live-CCTV';
       <ul class="nav-links" id="navLinks">
         <li><a href={`${base}/`}>首頁</a></li>
         <li><a href={`${base}/regions`}>區域</a></li>
+        <li><a href={`${base}/search`}>搜尋</a></li>
         <li><a href={`${base}/map`}>定位</a></li>
       </ul>
     </nav>
@@ -84,6 +93,37 @@ const base = '/Live-CCTV';
       }
       nav ul.open { display: flex; }
     }
+
+    .page-loader {
+      position: fixed; inset: 0; z-index: 9999;
+      background: var(--bg);
+      display: flex; align-items: center; justify-content: center;
+      transition: opacity 0.6s ease, visibility 0.6s ease;
+    }
+    .page-loader.hide {
+      opacity: 0; visibility: hidden; pointer-events: none;
+    }
+    .loader-inner { text-align: center; }
+    .loader-line {
+      width: 40px; height: 1px; background: var(--accent);
+      margin: 0 auto 1.5rem;
+      animation: loaderPulse 1.2s ease-in-out infinite;
+    }
+    .loader-text {
+      font-family: var(--font-serif);
+      font-size: 1.2rem; letter-spacing: 0.25em;
+      color: var(--text); margin-bottom: 0.5rem;
+      font-weight: 400;
+    }
+    .loader-sub {
+      font-size: 0.65rem; color: var(--text-dim);
+      letter-spacing: 0.3em;
+    }
+
+    @keyframes loaderPulse {
+      0%, 100% { opacity: 0.2; transform: scaleX(0.5); }
+      50% { opacity: 1; transform: scaleX(1); }
+    }
   </style>
 
   <script>
@@ -94,6 +134,14 @@ const base = '/Live-CCTV';
         btn.addEventListener('click', function() {
           btn.classList.toggle('open');
           links.classList.toggle('open');
+        });
+      }
+
+      var loader = document.getElementById('pageLoader');
+      if (loader) {
+        window.addEventListener('load', function() {
+          setTimeout(function() { loader.classList.add('hide'); }, 300);
+          setTimeout(function() { loader.remove(); }, 1000);
         });
       }
     })();

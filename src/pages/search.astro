@@ -1,0 +1,191 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = '/Live-CCTV';
+---
+
+<BaseLayout title="搜尋">
+  <section class="page-header">
+    <p class="page-label">CAMERA SEARCH</p>
+    <h1>撮影機検索</h1>
+    <p class="page-desc">輸入地名、路段名稱或攝影機編號搜尋</p>
+  </section>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="例：國道一號、台北市、三重交流道..." autocomplete="off" />
+    <span class="search-icon">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+    </span>
+  </div>
+
+  <div class="search-stats" id="searchStats"></div>
+  <div class="search-results" id="searchResults"></div>
+
+  <style>
+    .page-header { margin-bottom: 2rem; }
+    .page-label {
+      font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--text-dim); margin-bottom: 0.75rem;
+    }
+    h1 { font-size: 1.6rem; font-weight: 400; margin-bottom: 0.5rem; }
+    .page-desc { color: var(--text-muted); font-size: 0.82rem; }
+
+    .search-box {
+      position: relative; margin-bottom: 1.5rem;
+    }
+    .search-box input {
+      width: 100%; padding: 0.8rem 1rem 0.8rem 2.5rem;
+      font-size: 0.9rem; font-family: var(--font);
+      border: 1px solid var(--border); background: var(--surface);
+      color: var(--text); outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-box input:focus { border-color: var(--accent); }
+    .search-box input::placeholder { color: var(--text-dim); }
+    .search-icon {
+      position: absolute; left: 0.8rem; top: 50%; transform: translateY(-50%);
+      color: var(--text-dim); display: flex; align-items: center;
+    }
+
+    .search-stats {
+      font-size: 0.75rem; color: var(--text-dim);
+      margin-bottom: 1rem; min-height: 1.2em;
+    }
+
+    .search-results {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1px; background: var(--border); border: 1px solid var(--border);
+    }
+
+    .cam-card {
+      background: var(--surface); padding: 1rem 1.2rem;
+      text-decoration: none; color: inherit;
+      transition: background 0.15s; display: flex;
+      flex-direction: column; gap: 0.4rem;
+    }
+    .cam-card:hover { background: var(--accent-light); text-decoration: none; }
+    .cam-name {
+      font-size: 0.85rem; font-weight: 500;
+      color: var(--text); line-height: 1.5;
+    }
+    .cam-meta {
+      font-size: 0.7rem; color: var(--text-dim);
+      font-family: var(--font-mono);
+      display: flex; gap: 0.75rem; flex-wrap: wrap;
+    }
+    .cam-tag {
+      display: inline-block; padding: 0.1rem 0.4rem;
+      background: var(--accent-light); color: var(--accent);
+      font-size: 0.65rem; letter-spacing: 0.05em;
+    }
+
+    .no-result {
+      grid-column: 1 / -1; text-align: center;
+      padding: 4rem 2rem; color: var(--text-dim);
+      font-size: 0.85rem; background: var(--surface);
+    }
+
+    @media (max-width: 640px) {
+      .search-results { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var input = document.getElementById('searchInput');
+      var results = document.getElementById('searchResults');
+      var stats = document.getElementById('searchStats');
+      var cameras = [];
+      var loaded = false;
+
+      function loadCameras() {
+        if (loaded) return;
+        loaded = true;
+        var script = document.createElement('script');
+        script.src = '/Live-CCTV/cameras_thumb.json';
+        script.onload = function() {
+          try {
+            cameras = JSON.parse(script.textContent || '[]');
+          } catch(e) {}
+        };
+        script.onerror = function() {};
+        document.head.appendChild(script);
+
+        fetch('/Live-CCTV/cameras_thumb.json')
+          .then(function(r) { return r.json(); })
+          .then(function(data) { cameras = data; })
+          .catch(function() {});
+      }
+
+      function haversine(lat1, lon1, lat2, lon2) {
+        var R = 6371000;
+        var dLat = (lat2 - lat1) * Math.PI / 180;
+        var dLon = (lon2 - lon1) * Math.PI / 180;
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+          Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+          Math.sin(dLon/2) * Math.sin(dLon/2);
+        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+      }
+
+      function formatDist(m) {
+        if (m < 1000) return Math.round(m) + 'm';
+        return (m / 1000).toFixed(1) + 'km';
+      }
+
+      function doSearch() {
+        var q = input.value.trim().toLowerCase();
+        if (!q) {
+          results.innerHTML = '';
+          stats.textContent = '';
+          return;
+        }
+
+        loadCameras();
+
+        var filtered = cameras.filter(function(c) {
+          var hay = ((c.name || '') + ' ' + (c.region || '') + ' ' + (c.city || '')).toLowerCase();
+          var terms = q.split(/\s+/);
+          return terms.every(function(t) { return hay.indexOf(t) !== -1; });
+        });
+
+        stats.textContent = filtered.length + ' 筆結果';
+
+        if (filtered.length === 0) {
+          results.innerHTML = '<div class="no-result">找不到符合的攝影機</div>';
+          return;
+        }
+
+        var html = '';
+        var shown = filtered.slice(0, 200);
+        shown.forEach(function(c) {
+          var regionTag = c.city ? c.city : (c.region || '');
+          html += '<a class="cam-card" href="' + (c.url || '#') + '" target="_blank" rel="noopener">';
+          html += '<div class="cam-name">' + escHtml(c.name || '未命名') + '</div>';
+          html += '<div class="cam-meta">';
+          if (regionTag) html += '<span class="cam-tag">' + escHtml(regionTag) + '</span>';
+          if (c.region) html += '<span>' + escHtml(c.region) + '</span>';
+          html += '</div></a>';
+        });
+
+        if (filtered.length > 200) {
+          html += '<div class="no-result">顯示前 200 筆，共 ' + filtered.length + ' 筆</div>';
+        }
+
+        results.innerHTML = html;
+      }
+
+      function escHtml(s) {
+        return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+      }
+
+      var timer;
+      input.addEventListener('input', function() {
+        clearTimeout(timer);
+        timer = setTimeout(doSearch, 200);
+      });
+
+      input.focus();
+    });
+  </script>
+</BaseLayout>
