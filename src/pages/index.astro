@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const base = '/NY-Live-CCTV';
+const base = '/Live-CCTV';
 ---
 
 <BaseLayout title="首頁">
@@ -111,8 +111,8 @@ const base = '/NY-Live-CCTV';
           (pos) => {
             const lat = pos.coords.latitude;
             const lng = pos.coords.longitude;
-            fetch('/NY-Live-CCTV/data/cameras_thumb.json')
-              .catch(() => fetch('/NY-Live-CCTV/data/regions.json'))
+            fetch('/Live-CCTV/data/cameras_thumb.json')
+              .catch(() => fetch('/Live-CCTV/data/regions.json'))
               .then(() => {
                 const el = document.getElementById('statNearby');
                 if (el) el.textContent = '已定位 ✓';
