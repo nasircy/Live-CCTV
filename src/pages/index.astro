@@ -5,130 +5,117 @@ const base = '/Live-CCTV';
 
 <BaseLayout title="首頁">
   <section class="hero">
-    <div class="hero-icon">
-      <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="14" y="28" width="52" height="32" rx="4" stroke="var(--accent)" stroke-width="1.5"/>
-        <path d="M40 28V18" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-        <path d="M32 18H48" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-        <circle cx="40" cy="44" r="12" stroke="var(--accent)" stroke-width="1.5"/>
-        <circle cx="40" cy="44" r="6" stroke="var(--accent)" stroke-width="1.2" opacity="0.7"/>
-        <circle cx="40" cy="44" r="2.5" fill="var(--accent)"/>
-        <circle cx="58" cy="34" r="2" fill="var(--red)"/>
-      </svg>
-    </div>
+    <p class="hero-label">台灣即時影像</p>
     <h1>Live-CCTV</h1>
-    <p class="hero-sub">台灣即時影像監視器整合平台</p>
-    <p class="hero-desc">彙整全台 11,914 路即時影像，涵蓋國道、省道、市區道路、水利署防災、旅遊景點等 CCTV 公開資料</p>
+    <p class="hero-desc">彙整全台 11,914 路即時影像，涵蓋國道、省道、市區道路、水利署防災、旅遊景點等公開 CCTV 資料</p>
     <div class="hero-actions">
-      <a href={`${base}/regions`} class="btn btn-primary">瀏覽區域</a>
-      <a href={`${base}/map`} class="btn btn-secondary">即時地圖</a>
+      <a href={`${base}/regions`} class="btn">瀏覽區域</a>
+      <a href={`${base}/map`} class="btn btn-outline">即時定位</a>
     </div>
   </section>
 
-  <section class="stats-row" id="statsRow">
-    <div class="stat-card"><span class="stat-n" id="statTotal">11,914</span><span class="stat-l">攝影機總數</span></div>
-    <div class="stat-card"><span class="stat-n">29</span><span class="stat-l">分類區域</span></div>
-    <div class="stat-card"><span class="stat-n" id="statNearby">-</span><span class="stat-l">附近攝影機</span></div>
+  <section class="stats">
+    <div class="stat"><span class="stat-n">11,914</span><span class="stat-l">台攝影機</span></div>
+    <div class="stat"><span class="stat-n">18</span><span class="stat-l">個縣市</span></div>
+    <div class="stat"><span class="stat-n">即時</span><span class="stat-l">影像串流</span></div>
   </section>
 
   <section class="features">
-    <h2>功能特色</h2>
     <div class="feature-grid">
       <a href={`${base}/regions`} class="feature-card">
-        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/>
-        </svg>
+        <span class="feature-num">01</span>
         <h3>區域瀏覽</h3>
-        <p>依國道、省道、縣市等分類瀏覽所有即時影像</p>
+        <p>依縣市分類，瀏覽各地即時影像</p>
       </a>
       <a href={`${base}/map`} class="feature-card">
-        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 0-8 8c0 6 8 12 8 12s8-6 8-12a8 8 0 0 0-8-8z"/>
-        </svg>
+        <span class="feature-num">02</span>
         <h3>即時定位</h3>
-        <p>開啟定位自動顯示附近的攝影機，隨行移動更新</p>
+        <p>自動偵測附近攝影機，隨行移動更新</p>
       </a>
-      <div class="feature-card">
-        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 8l-8 4-8-4"/>
-        </svg>
+      <a href={`${base}/regions`} class="feature-card">
+        <span class="feature-num">03</span>
         <h3>即時串流</h3>
-        <p>直接連接政府 CCTV 來源，觀看即時路況畫面</p>
-      </div>
-      <div class="feature-card">
-        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/>
-        </svg>
+        <p>直接連接政府 CCTV 來源，觀看即時路況</p>
+      </a>
+      <a href={`${base}/map`} class="feature-card">
+        <span class="feature-num">04</span>
         <h3>路口預警</h3>
-        <p>接近攝影機路口時自動彈出提醒，掌握前方路況</p>
-      </div>
+        <p>接近攝影機路口時自動彈出提醒</p>
+      </a>
     </div>
   </section>
 
   <style>
     .hero {
-      text-align: center; padding: 3rem 0 2rem;
+      text-align: center; padding: 4rem 0 3rem;
     }
-    .hero-icon svg { width: 56px; height: 56px; margin-bottom: 1rem; }
-    .hero h1 { font-size: 2.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text); letter-spacing: 1px; }
-    .hero-sub { color: var(--text-muted); font-size: 1rem; margin-bottom: 0.5rem; }
-    .hero-desc { color: var(--text-dim); font-size: 0.85rem; max-width: 560px; margin: 0 auto 2rem; line-height: 1.7; }
-    .hero-actions { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+    .hero-label {
+      font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--text-dim); margin-bottom: 1rem;
+    }
+    .hero h1 {
+      font-size: 2.8rem; font-weight: 400; margin-bottom: 1.5rem;
+      letter-spacing: 0.12em; color: var(--text);
+    }
+    .hero-desc {
+      color: var(--text-muted); font-size: 0.88rem; max-width: 480px;
+      margin: 0 auto 2.5rem; line-height: 2;
+    }
+    .hero-actions { display: flex; gap: 0.75rem; justify-content: center; }
+
     .btn {
-      display: inline-block; padding: 0.65rem 1.75rem; border-radius: var(--radius-sm);
-      font-weight: 500; font-size: 0.9rem; transition: all 0.2s;
-      text-decoration: none;
+      display: inline-block; padding: 0.6rem 2rem;
+      font-size: 0.82rem; letter-spacing: 0.08em;
+      border: 1px solid var(--text); background: var(--text); color: var(--bg);
+      transition: all 0.2s; text-decoration: none;
     }
-    .btn:hover { text-decoration: none; }
-    .btn-primary { background: var(--accent); color: var(--bg); }
-    .btn-primary:hover { background: #33ddb5; }
-    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border-bright); }
-    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+    .btn:hover { background: var(--accent); border-color: var(--accent); color: #fff; text-decoration: none; }
+    .btn-outline { background: transparent; color: var(--text); }
+    .btn-outline:hover { background: var(--text); color: var(--bg); }
 
-    .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0; }
-    .stat-card {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 1.5rem; text-align: center;
+    .stats {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+      margin: 0 0 3rem;
     }
-    .stat-n { display: block; font-size: 1.6rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--accent); }
-    .stat-l { display: block; font-size: 0.75rem; color: var(--text-dim); margin-top: 4px; }
+    .stat {
+      text-align: center; padding: 2rem 1rem;
+      border-right: 1px solid var(--border-light);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-n {
+      display: block; font-size: 1.5rem; font-family: var(--font-serif);
+      font-weight: 400; letter-spacing: 0.05em; margin-bottom: 0.25rem;
+    }
+    .stat-l {
+      display: block; font-size: 0.7rem; color: var(--text-dim);
+      letter-spacing: 0.15em;
+    }
 
-    .features h2 { text-align: center; margin: 3rem 0 1.5rem; font-size: 1.25rem; font-weight: 600; }
-    .feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+    .features { margin-bottom: 2rem; }
+    .feature-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
     .feature-card {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 1.5rem; transition: border-color 0.2s;
+      background: var(--surface); padding: 2rem;
       text-decoration: none; color: inherit;
+      transition: background 0.2s;
+      display: block;
     }
-    a.feature-card:hover { border-color: var(--accent); text-decoration: none; }
-    .feature-icon { width: 24px; height: 24px; color: var(--accent); margin-bottom: 0.75rem; display: block; }
-    .feature-card h3 { font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 500; }
-    .feature-card p { font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; }
+    .feature-card:hover { background: var(--accent-light); text-decoration: none; }
+    .feature-num {
+      font-size: 0.65rem; color: var(--text-dim); font-family: var(--font-mono);
+      letter-spacing: 0.1em; display: block; margin-bottom: 0.75rem;
+    }
+    .feature-card h3 {
+      font-size: 1rem; margin-bottom: 0.5rem; font-weight: 400;
+    }
+    .feature-card p { font-size: 0.78rem; color: var(--text-muted); line-height: 1.7; }
 
     @media (max-width: 640px) {
-      .hero h1 { font-size: 1.6rem; }
-      .stats-row { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 2rem; }
+      .stats { grid-template-columns: 1fr; }
+      .stat { border-right: none; border-bottom: 1px solid var(--border-light); }
+      .stat:last-child { border-bottom: none; }
       .feature-grid { grid-template-columns: 1fr; }
     }
   </style>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      if ('geolocation' in navigator) {
-        navigator.geolocation.getCurrentPosition(
-          () => {
-            var el = document.getElementById('statNearby');
-            if (el) el.textContent = '已定位';
-          },
-          () => {
-            var el = document.getElementById('statNearby');
-            if (el) el.textContent = '未啟用';
-          }
-        );
-      } else {
-        var el = document.getElementById('statNearby');
-        if (el) el.textContent = '不支援';
-      }
-    });
-  </script>
 </BaseLayout>

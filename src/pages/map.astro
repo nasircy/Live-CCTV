@@ -3,132 +3,140 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const base = '/Live-CCTV';
 ---
 
-<BaseLayout title="即時地圖">
-  <div class="map-page">
+<BaseLayout title="即時定位">
+  <section class="page-header">
+    <p class="page-label">NEARBY</p>
     <h1>即時定位</h1>
-    <p class="page-desc">開啟定位後，系統將自動偵測您附近的即時攝影機</p>
+    <p class="page-desc">開啟定位後，自動偵測附近的即時攝影機</p>
+  </section>
 
-    <div class="gps-status" id="gpsStatus">
+  <div class="gps-bar">
+    <div class="gps-status">
       <span class="gps-dot" id="gpsDot"></span>
       <span id="gpsText">正在定位...</span>
     </div>
-
-    <div class="gps-controls">
-      <label>
-        <span>偵測半徑：<strong id="radiusLabel">300</strong>m</span>
-        <input type="range" id="radiusSlider" min="100" max="2000" value="300" step="50" />
-      </label>
-      <button class="btn btn-primary" id="refreshBtn">重新整理</button>
+    <div class="gps-radius">
+      <span>半徑 <strong id="radiusLabel">300</strong>m</span>
+      <input type="range" id="radiusSlider" min="100" max="2000" value="300" step="50" />
     </div>
+    <div class="gps-nearby">附近 <strong id="nearbyCount">0</strong></div>
+    <button class="gps-refresh" id="refreshBtn">重新整理</button>
+  </div>
 
-    <div class="gps-coords" id="gpsCoords">
-      <span class="gps-coord-label">位置</span>
-      <span class="gps-coord-val" id="coordLat">-</span>
-      <span class="gps-coord-sep">/</span>
-      <span class="gps-coord-val" id="coordLng">-</span>
-      <span class="gps-coord-label">附近：<strong id="nearbyCount">0</strong></span>
-    </div>
-
-    <div class="nearby-list" id="nearbyList">
-      <div class="loading-cams">載入中...</div>
-    </div>
+  <div class="nearby-list" id="nearbyList">
+    <div class="empty-state">等待定位中...</div>
   </div>
 
   <div class="toast-container" id="toastContainer"></div>
 
   <style>
-    .map-page { max-width: var(--max-w); margin: 0 auto; }
-    h1 { margin-bottom: 0.25rem; font-weight: 600; font-size: 1.4rem; }
-    .page-desc { color: var(--text-dim); margin-bottom: 1.5rem; font-size: 0.85rem; }
+    .page-header { margin-bottom: 2rem; }
+    .page-label {
+      font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--text-dim); margin-bottom: 0.5rem;
+    }
+    h1 { font-size: 1.6rem; font-weight: 400; margin-bottom: 0.25rem; }
+    .page-desc { color: var(--text-muted); font-size: 0.82rem; }
 
+    .gps-bar {
+      display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+      padding: 1rem 0; border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border); margin-bottom: 2rem;
+    }
     .gps-status {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: var(--surface); border: 1px solid var(--border);
-      padding: 6px 14px; border-radius: 20px; font-size: 0.8rem; margin-bottom: 1rem;
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 0.78rem; color: var(--text-muted);
     }
     .gps-dot {
-      width: 7px; height: 7px; border-radius: 50%;
+      width: 6px; height: 6px; border-radius: 50%;
       background: var(--text-dim); transition: background 0.3s;
-      flex-shrink: 0;
     }
-    .gps-dot.active { background: var(--green); box-shadow: 0 0 6px rgba(63,201,138,0.5); }
-    .gps-dot.error { background: var(--red); box-shadow: 0 0 6px rgba(224,81,81,0.4); }
-    .gps-dot.searching { animation: pulse 1s ease infinite; background: var(--amber); }
+    .gps-dot.active { background: var(--green); }
+    .gps-dot.error { background: var(--red); }
+    .gps-dot.searching { animation: pulse 1s ease infinite; background: #d4a843; }
 
-    .gps-controls {
-      display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1rem;
+    .gps-radius {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-size: 0.78rem; color: var(--text-muted);
     }
-    .gps-controls label {
-      display: flex; align-items: center; gap: 0.75rem; font-size: 0.8rem; color: var(--text-dim);
-    }
-    .gps-controls input[type="range"] { width: 140px; accent-color: var(--accent); }
+    .gps-radius strong { color: var(--text); font-weight: 500; }
+    .gps-radius input[type="range"] { width: 100px; accent-color: var(--accent); }
 
-    .gps-coords {
-      display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius-sm); padding: 0.6rem 1rem; margin-bottom: 1.5rem;
-      font-size: 0.8rem; font-family: var(--font-mono);
+    .gps-nearby {
+      font-size: 0.78rem; color: var(--text-muted);
     }
-    .gps-coord-label { color: var(--text-dim); font-family: var(--font); }
-    .gps-coord-sep { color: var(--border-bright); }
-    .gps-coord-val { color: var(--accent); }
+    .gps-nearby strong { color: var(--text); font-weight: 500; }
 
-    .nearby-list { display: flex; flex-direction: column; gap: 0.75rem; }
-    .loading-cams { text-align: center; padding: 2rem; color: var(--text-dim); font-size: 0.85rem; }
+    .gps-refresh {
+      background: none; border: 1px solid var(--border);
+      padding: 0.3rem 0.8rem; font-size: 0.72rem;
+      color: var(--text-muted); cursor: pointer;
+      transition: all 0.2s; font-family: inherit;
+      letter-spacing: 0.05em;
+    }
+    .gps-refresh:hover { border-color: var(--accent); color: var(--accent); }
+
+    .nearby-list { display: flex; flex-direction: column; }
+    .empty-state {
+      text-align: center; padding: 3rem; color: var(--text-dim);
+      font-size: 0.82rem;
+    }
 
     .nearby-card {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius-sm); padding: 0.65rem 1rem;
-      display: flex; align-items: center; gap: 1rem;
-      transition: border-color 0.15s;
+      border-bottom: 1px solid var(--border-light);
+      padding: 1rem 0; display: flex; align-items: center; gap: 1.25rem;
+      transition: background 0.15s;
     }
-    .nearby-card:hover { border-color: var(--border-bright); }
-    .nearby-card .dist-badge {
-      flex-shrink: 0; width: 48px; text-align: center;
-      font-size: 0.7rem; font-family: var(--font-mono);
+    .nearby-card:hover { background: var(--accent-light); margin: 0 -1rem; padding: 1rem; }
+    .nearby-card .dist {
+      flex-shrink: 0; width: 52px; text-align: center;
     }
-    .nearby-card .dist-badge .dist-val { display: block; font-size: 0.85rem; font-weight: 500; color: var(--accent); }
-    .nearby-card .dist-badge .dist-unit { display: block; font-size: 0.6rem; color: var(--text-dim); }
+    .nearby-card .dist-val {
+      display: block; font-size: 0.92rem; font-family: var(--font-serif);
+      color: var(--text);
+    }
+    .nearby-card .dist-unit {
+      display: block; font-size: 0.6rem; color: var(--text-dim);
+      letter-spacing: 0.1em;
+    }
     .nearby-card .cam-info { flex: 1; min-width: 0; }
-    .nearby-card .cam-info .cam-name { font-size: 0.8rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .nearby-card .cam-info .cam-meta { font-size: 0.7rem; color: var(--text-dim); margin-top: 2px; }
-    .nearby-card .cam-actions { flex-shrink: 0; display: flex; gap: 6px; }
-    .nearby-card .cam-btn {
-      padding: 3px 9px; border-radius: 4px; font-size: 0.7rem;
-      border: 1px solid var(--border-bright); background: transparent;
-      color: var(--text-muted); cursor: pointer; transition: all 0.15s;
-      text-decoration: none; font-family: inherit;
+    .nearby-card .cam-name {
+      font-size: 0.82rem; font-weight: 500;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
-    .nearby-card .cam-btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+    .nearby-card .cam-meta {
+      font-size: 0.7rem; color: var(--text-dim); margin-top: 2px;
+    }
+    .nearby-card .cam-actions { flex-shrink: 0; }
+    .cam-link {
+      font-size: 0.7rem; color: var(--accent);
+      border-bottom: 1px solid transparent; transition: border-color 0.2s;
+      padding-bottom: 1px;
+    }
+    .cam-link:hover { border-bottom-color: var(--accent); text-decoration: none; }
 
     .toast-container {
-      position: fixed; bottom: 16px; right: 16px; max-width: 320px;
-      display: flex; flex-direction: column; gap: 8px; z-index: 9999;
+      position: fixed; bottom: 16px; right: 16px; max-width: 280px;
+      display: flex; flex-direction: column; gap: 6px; z-index: 9999;
     }
     .toast {
-      background: var(--surface); border: 1px solid var(--accent);
-      border-radius: var(--radius-sm); padding: 0.65rem 0.9rem;
-      font-size: 0.8rem; animation: slideIn 0.25s ease;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      background: var(--surface); border: 1px solid var(--border);
+      padding: 0.6rem 0.9rem; font-size: 0.78rem;
+      animation: slideIn 0.2s ease;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
     }
-    .toast .toast-title { font-weight: 500; color: var(--accent); margin-bottom: 2px; font-size: 0.85rem; }
-    .toast .toast-body { color: var(--text-dim); font-size: 0.75rem; }
+    .toast-title { font-weight: 500; color: var(--text); margin-bottom: 2px; font-size: 0.8rem; }
+    .toast-body { color: var(--text-dim); font-size: 0.7rem; }
     @keyframes slideIn {
-      from { transform: translateX(100%); opacity: 0; }
-      to { transform: translateX(0); opacity: 1; }
+      from { transform: translateY(8px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
-
-    .btn { display: inline-block; padding: 0.45rem 1.1rem; border-radius: var(--radius-sm); font-weight: 500; font-size: 0.8rem; transition: all 0.15s; text-decoration: none; border: none; cursor: pointer; font-family: inherit; }
-    .btn-primary { background: var(--accent); color: var(--bg); }
-    .btn-primary:hover { background: #33ddb5; }
   </style>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var gpsDot = document.getElementById('gpsDot');
       var gpsText = document.getElementById('gpsText');
-      var coordLat = document.getElementById('coordLat');
-      var coordLng = document.getElementById('coordLng');
       var nearbyCount = document.getElementById('nearbyCount');
       var nearbyList = document.getElementById('nearbyList');
       var radiusSlider = document.getElementById('radiusSlider');
@@ -160,14 +168,11 @@ const base = '/Live-CCTV';
         toast.innerHTML = '<div class="toast-title">' + title + '</div><div class="toast-body">' + body + '</div>';
         toastContainer.appendChild(toast);
         setTimeout(function() { if (toast.parentNode) toast.remove(); }, 8000);
-        if ('Notification' in window && Notification.permission === 'granted') {
-          new Notification(title, { body: body, icon: '/Live-CCTV/favicon.svg' });
-        }
       }
 
       function updateNearby() {
         if (!currentPos || allCameras.length === 0) {
-          nearbyList.innerHTML = '<div class="loading-cams">等待定位中...</div>';
+          nearbyList.innerHTML = '<div class="empty-state">等待定位中...</div>';
           return;
         }
 
@@ -184,7 +189,7 @@ const base = '/Live-CCTV';
         nearbyCount.textContent = nearby.length;
 
         if (nearby.length === 0) {
-          nearbyList.innerHTML = '<div class="loading-cams">半徑內無攝影機</div>';
+          nearbyList.innerHTML = '<div class="empty-state">半徑內無攝影機</div>';
           return;
         }
 
@@ -193,27 +198,24 @@ const base = '/Live-CCTV';
           if (!lastNotified[key]) {
             lastNotified[key] = true;
             var d = cam.dist < 1000 ? Math.round(cam.dist) + 'm' : (cam.dist/1000).toFixed(1) + 'km';
-            showToast('前方有攝影機', cam.name + ' (' + d + ')');
+            showToast(cam.name, d + ' · ' + (cam.city || ''));
           }
         });
 
         nearbyList.innerHTML = nearby.map(function(cam) {
-          var distStr = cam.dist < 1000 ? Math.round(cam.dist) + 'm' : (cam.dist/1000).toFixed(1) + 'km';
           var mapUrl = 'https://www.google.com/maps?q=' + cam.lat + ',' + cam.lng;
-          var streamUrl = cam.url;
           return '' +
             '<div class="nearby-card">' +
-              '<div class="dist-badge">' +
+              '<div class="dist">' +
                 '<span class="dist-val">' + (cam.dist < 1000 ? Math.round(cam.dist) : (cam.dist/1000).toFixed(1)) + '</span>' +
                 '<span class="dist-unit">' + (cam.dist < 1000 ? 'm' : 'km') + '</span>' +
               '</div>' +
               '<div class="cam-info">' +
                 '<div class="cam-name">' + cam.name + '</div>' +
-                '<div class="cam-meta">' + cam.region + ' · ' + (cam.city || '') + '</div>' +
+                '<div class="cam-meta">' + cam.city + '</div>' +
               '</div>' +
               '<div class="cam-actions">' +
-                '<a href="' + streamUrl + '" target="_blank" rel="noopener" class="cam-btn">觀看</a>' +
-                '<a href="' + mapUrl + '" target="_blank" rel="noopener" class="cam-btn">地圖</a>' +
+                '<a href="' + cam.url + '" target="_blank" rel="noopener" class="cam-link">觀看</a>' +
               '</div>' +
             '</div>';
         }).join('');
@@ -225,35 +227,30 @@ const base = '/Live-CCTV';
           allCameras = await resp.json();
           updateNearby();
         } catch (e) {
-          nearbyList.innerHTML = '<div class="loading-cams">載入攝影機資料失敗: ' + e.message + '</div>';
+          nearbyList.innerHTML = '<div class="empty-state">載入失敗</div>';
         }
       }
 
       function startWatching() {
         if (!('geolocation' in navigator)) {
           gpsDot.className = 'gps-dot error';
-          gpsText.textContent = '此瀏覽器不支援定位';
+          gpsText.textContent = '不支援定位';
           return;
         }
 
         gpsDot.className = 'gps-dot searching';
-        gpsText.textContent = '正在定位...';
+        gpsText.textContent = '定位中...';
 
         watchId = navigator.geolocation.watchPosition(
           function(pos) {
             currentPos = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-            coordLat.textContent = currentPos.lat.toFixed(6);
-            coordLng.textContent = currentPos.lng.toFixed(6);
             gpsDot.className = 'gps-dot active';
-            gpsText.textContent = '定位中';
+            gpsText.textContent = '已定位';
             updateNearby();
           },
           function(err) {
             gpsDot.className = 'gps-dot error';
-            gpsText.textContent = '定位失敗: ' + err.message;
-            if (err.code === 1) {
-              gpsText.textContent = '請允許位置權限';
-            }
+            gpsText.textContent = err.code === 1 ? '請允許定位權限' : '定位失敗';
           },
           { enableHighAccuracy: true, maximumAge: 5000, timeout: 15000 }
         );
@@ -266,16 +263,10 @@ const base = '/Live-CCTV';
       });
 
       refreshBtn.addEventListener('click', function() {
-        if (watchId !== null) {
-          navigator.geolocation.clearWatch(watchId);
-        }
+        if (watchId !== null) navigator.geolocation.clearWatch(watchId);
         lastNotified = {};
         startWatching();
       });
-
-      if ('Notification' in window && Notification.permission === 'default') {
-        Notification.requestPermission();
-      }
 
       loadAllCameras();
       startWatching();

@@ -21,32 +21,30 @@ const cameras = JSON.parse(fs.readFileSync(path.join(dataDir, dataFile), 'utf-8'
 ---
 
 <BaseLayout title={regionName}>
-  <div class="region-header">
-    <a href={`${base}/regions`} class="back-link">&#8592; 返回區域列表</a>
+  <section class="page-header">
+    <a href={`${base}/regions`} class="back">&larr; 返回</a>
+    <p class="page-label">CAMERA</p>
     <h1>{regionName}</h1>
-    <p class="cam-count">{camCount.toLocaleString()} 台攝影機</p>
-  </div>
+    <p class="page-desc">{camCount.toLocaleString()} 台攝影機</p>
+  </section>
 
   <div class="cam-grid">
     {cameras.map(cam => (
       <div class="cam-card">
         <div class="cam-preview">
-          <span class="cam-tag"><span class="dot"></span>LIVE</span>
+          <span class="cam-live">LIVE</span>
           <img
             src={cam.url}
             alt={cam.name}
             loading="lazy"
-            onerror="this.outerHTML='<div class=&apos;cam-placeholder&apos;>NO SIGNAL</div>'"
+            onerror="this.outerHTML='<div class=&apos;cam-nosig&apos;>NO SIGNAL</div>'"
           />
         </div>
-        <div class="cam-body">
-          <div class="cam-name-wrap">
-            <div class="cam-name" title={cam.name}>{cam.name}</div>
-            <div class="cam-meta">{cam.city || ''} &middot; {cam.lat.toFixed(4)}, {cam.lng.toFixed(4)}</div>
-          </div>
+        <div class="cam-info">
+          <div class="cam-name" title={cam.name}>{cam.name}</div>
+          <div class="cam-city">{cam.city || ''}</div>
           <div class="cam-actions">
-            <a href={cam.url} target="_blank" rel="noopener" class="cam-btn cam-btn-primary">觀看</a>
-            <a href={`https://www.google.com/maps?q=${cam.lat},${cam.lng}`} target="_blank" rel="noopener" class="cam-btn">地圖</a>
+            <a href={cam.url} target="_blank" rel="noopener" class="cam-link">觀看</a>
           </div>
         </div>
       </div>
@@ -54,59 +52,61 @@ const cameras = JSON.parse(fs.readFileSync(path.join(dataDir, dataFile), 'utf-8'
   </div>
 
   <style>
-    .region-header { margin-bottom: 1.5rem; }
-    .back-link { color: var(--text-dim); font-size: 0.8rem; display: inline-block; margin-bottom: 0.5rem; }
-    .back-link:hover { color: var(--accent); }
-    h1 { margin-bottom: 0.25rem; font-weight: 600; font-size: 1.4rem; }
-    .cam-count { color: var(--text-dim); font-size: 0.85rem; font-family: var(--font-mono); }
-    .cam-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1rem; }
+    .page-header { margin-bottom: 2.5rem; }
+    .back {
+      font-size: 0.72rem; color: var(--text-dim); display: inline-block;
+      margin-bottom: 1rem; letter-spacing: 0.05em;
+    }
+    .back:hover { color: var(--accent); }
+    .page-label {
+      font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--text-dim); margin-bottom: 0.5rem;
+    }
+    h1 { font-size: 1.6rem; font-weight: 400; margin-bottom: 0.25rem; }
+    .page-desc { color: var(--text-muted); font-size: 0.82rem; }
+
+    .cam-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
 
     .cam-card {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius); overflow: hidden; transition: border-color 0.2s, box-shadow 0.2s;
+      background: var(--surface); overflow: hidden;
+      transition: background 0.2s;
     }
-    .cam-card:hover { border-color: var(--border-bright); box-shadow: 0 0 20px rgba(0,0,0,0.3); }
+    .cam-card:hover { background: #faf9f7; }
     .cam-preview {
       width: 100%; aspect-ratio: 16/9;
-      background: #05080c; position: relative; overflow: hidden;
-    }
-    .cam-preview::after {
-      content: ''; position: absolute; inset: 0;
-      background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,212,170,0.025) 2px, rgba(0,212,170,0.025) 4px);
-      pointer-events: none; z-index: 1;
+      background: #eae7e1; position: relative; overflow: hidden;
     }
     .cam-preview img {
       width: 100%; height: 100%; object-fit: cover;
-      transition: opacity 0.3s;
     }
-    .cam-placeholder {
+    .cam-nosig {
       display: flex; align-items: center; justify-content: center;
-      height: 100%; color: var(--text-dim); font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 2px;
+      height: 100%; color: var(--text-dim); font-size: 0.7rem;
+      letter-spacing: 0.15em; font-family: var(--font-mono);
     }
-    .cam-tag {
-      position: absolute; top: 8px; left: 8px; z-index: 2;
-      display: flex; align-items: center; gap: 5px;
-      background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);
-      padding: 2px 8px; border-radius: 4px; font-size: 0.65rem; font-family: var(--font-mono); color: var(--accent);
+    .cam-live {
+      position: absolute; top: 10px; left: 10px; z-index: 2;
+      background: rgba(255,255,255,0.88); backdrop-filter: blur(4px);
+      padding: 2px 8px; font-size: 0.58rem; letter-spacing: 0.15em;
+      color: var(--red); font-family: var(--font-mono); font-weight: 500;
     }
-    .cam-tag .dot {
-      width: 5px; height: 5px; border-radius: 50%; background: var(--green);
-      box-shadow: 0 0 6px rgba(63, 201, 138, 0.6);
+    .cam-info { padding: 1rem 1.25rem; }
+    .cam-name {
+      font-size: 0.82rem; font-weight: 500;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      margin-bottom: 0.2rem;
     }
-    .cam-body { padding: 0.75rem 1rem; display: flex; align-items: center; gap: 0.75rem; }
-    .cam-name-wrap { flex: 1; min-width: 0; }
-    .cam-name { font-size: 0.8rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .cam-meta { font-size: 0.7rem; color: var(--text-dim); margin-top: 2px; }
-    .cam-actions { display: flex; gap: 6px; flex-shrink: 0; }
-    .cam-btn {
-      padding: 4px 10px; border-radius: 4px; font-size: 0.7rem;
-      border: 1px solid var(--border-bright); background: transparent;
-      color: var(--text-muted); cursor: pointer; transition: all 0.15s;
-      text-decoration: none; display: inline-block; font-family: inherit;
+    .cam-city {
+      font-size: 0.7rem; color: var(--text-dim);
+      margin-bottom: 0.75rem;
     }
-    .cam-btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
-    .cam-btn-primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
-    .cam-btn-primary:hover { background: #33ddb5; color: var(--bg); }
+    .cam-actions { display: flex; gap: 0.5rem; }
+    .cam-link {
+      font-size: 0.7rem; color: var(--accent);
+      letter-spacing: 0.05em; padding: 3px 0;
+      border-bottom: 1px solid transparent; transition: border-color 0.2s;
+    }
+    .cam-link:hover { border-bottom-color: var(--accent); text-decoration: none; }
 
     @media (max-width: 640px) {
       .cam-grid { grid-template-columns: 1fr; }

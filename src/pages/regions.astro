@@ -4,55 +4,67 @@ import regions from '../data/regions.json';
 const base = '/Live-CCTV';
 
 const regionOrder = [
-  "國道", "國道一號", "國道二號", "國道三號", "國道四號", "國道五號",
-  "國道六號", "國道八號", "國道十號",
-  "快速公路-台61線", "快速公路-台62線", "快速公路-台64線",
-  "快速公路-台65線", "快速公路-台66線", "快速公路-台68線",
-  "快速公路-台72線", "快速公路-台74線", "快速公路-台76線",
-  "快速公路-台78線", "快速公路-台82線", "快速公路-台84線",
-  "快速公路-台86線", "快速公路-台88線",
-  "省道", "市區道路",
-  "水利署防災", "科學園區", "旅遊景點",
-  "其他"
+  '台北市','新北市','基隆市','桃園市','新竹縣','新竹市',
+  '苗栗縣','台中市','彰化縣','南投縣','雲林縣',
+  '嘉義縣','嘉義市','台南市','高雄市','屏東縣','台東縣','宜蘭縣'
 ];
 
 const sorted = Object.entries(regions)
   .map(([name, info]) => ({ name, info, idx: regionOrder.indexOf(name) }))
   .sort((a, b) => (a.idx === -1 ? 999 : a.idx) - (b.idx === -1 ? 999 : b.idx));
+
+const totalCams = sorted.reduce((s, r) => s + r.info.count, 0);
 ---
 
 <BaseLayout title="區域瀏覽">
-  <h1>區域瀏覽</h1>
-  <p class="page-desc">選擇分類檢視各區域的即時攝影機</p>
+  <section class="page-header">
+    <p class="page-label">AREA</p>
+    <h1>區域瀏覽</h1>
+    <p class="page-desc">{totalCams.toLocaleString()} 台攝影機 分佈於 {sorted.length} 個縣市</p>
+  </section>
 
   <div class="region-grid">
     {sorted.map(({ name, info, idx }) => (
       <a href={`${base}/region/${idx}`} class="region-card">
-        <div class="region-count">{info.count.toLocaleString()}</div>
+        <span class="region-idx">{String(idx + 1).padStart(2, '0')}</span>
         <div class="region-name">{name}</div>
-        <div class="region-bar">
-          <div class="region-bar-fill" style={`width: ${Math.min(100, (info.count / 4000) * 100)}%`}></div>
-        </div>
+        <div class="region-count">{info.count.toLocaleString()}</div>
       </a>
     ))}
   </div>
 
   <style>
-    h1 { margin-bottom: 0.25rem; }
-    .page-desc { color: var(--color-muted); margin-bottom: 2rem; font-size: 0.9rem; }
-    .region-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+    .page-header { margin-bottom: 3rem; }
+    .page-label {
+      font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--text-dim); margin-bottom: 0.75rem;
+    }
+    h1 { font-size: 1.6rem; font-weight: 400; margin-bottom: 0.5rem; }
+    .page-desc { color: var(--text-muted); font-size: 0.82rem; }
+
+    .region-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
     .region-card {
-      background: var(--color-surface); border: 1px solid var(--color-border);
-      border-radius: 12px; padding: 1.25rem;
-      text-decoration: none; color: inherit; transition: border-color 0.2s, transform 0.2s;
+      background: var(--surface); padding: 1.5rem;
+      text-decoration: none; color: inherit;
+      transition: background 0.2s; display: block;
+      position: relative;
     }
-    .region-card:hover { border-color: var(--color-accent); transform: translateY(-2px); text-decoration: none; }
+    .region-card:hover { background: var(--accent-light); text-decoration: none; }
+    .region-idx {
+      font-size: 0.6rem; color: var(--text-dim); font-family: var(--font-mono);
+      letter-spacing: 0.1em; display: block; margin-bottom: 0.5rem;
+    }
+    .region-name {
+      font-size: 0.92rem; font-family: var(--font-serif);
+      margin-bottom: 0.5rem; letter-spacing: 0.05em;
+    }
     .region-count {
-      font-size: 1.6rem; font-weight: 700; font-variant-numeric: tabular-nums;
-      color: var(--color-accent); margin-bottom: 4px;
+      font-size: 0.72rem; color: var(--text-dim);
+      font-family: var(--font-mono);
     }
-    .region-name { font-size: 0.9rem; margin-bottom: 0.75rem; }
-    .region-bar { height: 3px; background: var(--color-border); border-radius: 2px; overflow: hidden; }
-    .region-bar-fill { height: 100%; background: var(--color-accent); border-radius: 2px; transition: width 0.5s; }
+
+    @media (max-width: 640px) {
+      .region-grid { grid-template-columns: repeat(2, 1fr); }
+    }
   </style>
 </BaseLayout>
