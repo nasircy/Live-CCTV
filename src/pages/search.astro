@@ -96,95 +96,70 @@ const base = '/Live-CCTV';
       var input = document.getElementById('searchInput');
       var results = document.getElementById('searchResults');
       var stats = document.getElementById('searchStats');
-      var cameras = [];
-      var loaded = false;
+      var cameras = null;
 
       function loadCameras() {
-        if (loaded) return;
-        loaded = true;
-        var script = document.createElement('script');
-        script.src = '/Live-CCTV/cameras_thumb.json';
-        script.onload = function() {
-          try {
-            cameras = JSON.parse(script.textContent || '[]');
-          } catch(e) {}
-        };
-        script.onerror = function() {};
-        document.head.appendChild(script);
-
-        fetch('/Live-CCTV/cameras_thumb.json')
+        if (cameras) return Promise.resolve(cameras);
+        return fetch('/Live-CCTV/cameras_thumb.json')
           .then(function(r) { return r.json(); })
-          .then(function(data) { cameras = data; })
-          .catch(function() {});
-      }
-
-      function haversine(lat1, lon1, lat2, lon2) {
-        var R = 6371000;
-        var dLat = (lat2 - lat1) * Math.PI / 180;
-        var dLon = (lon2 - lon1) * Math.PI / 180;
-        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-          Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-          Math.sin(dLon/2) * Math.sin(dLon/2);
-        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-      }
-
-      function formatDist(m) {
-        if (m < 1000) return Math.round(m) + 'm';
-        return (m / 1000).toFixed(1) + 'km';
+          .then(function(data) { cameras = data; return data; });
       }
 
       function doSearch() {
-        var q = input.value.trim().toLowerCase();
+        var q = input.value.trim();
         if (!q) {
           results.innerHTML = '';
           stats.textContent = '';
           return;
         }
 
-        loadCameras();
+        loadCameras().then(function(data) {
+          var ql = q.toLowerCase();
+          var terms = ql.split(/\s+/);
 
-        var filtered = cameras.filter(function(c) {
-          var hay = ((c.name || '') + ' ' + (c.region || '') + ' ' + (c.city || '')).toLowerCase();
-          var terms = q.split(/\s+/);
-          return terms.every(function(t) { return hay.indexOf(t) !== -1; });
+          var filtered = data.filter(function(c) {
+            var hay = ((c.name || '') + ' ' + (c.region || '') + ' ' + (c.city || '')).toLowerCase();
+            return terms.every(function(t) { return hay.indexOf(t) !== -1; });
+          });
+
+          stats.textContent = filtered.length + ' 筆結果';
+
+          if (filtered.length === 0) {
+            results.innerHTML = '<div class="no-result">找不到符合的攝影機</div>';
+            return;
+          }
+
+          var html = '';
+          var shown = filtered.slice(0, 200);
+          for (var i = 0; i < shown.length; i++) {
+            var c = shown[i];
+            var regionTag = c.city || c.region || '';
+            html += '<a class="cam-card" href="' + (c.url || '#') + '" target="_blank" rel="noopener">';
+            html += '<div class="cam-name">' + escHtml(c.name || '未命名') + '</div>';
+            html += '<div class="cam-meta">';
+            if (regionTag) html += '<span class="cam-tag">' + escHtml(regionTag) + '</span>';
+            html += '</div></a>';
+          }
+
+          if (filtered.length > 200) {
+            html += '<div class="no-result">顯示前 200 筆，共 ' + filtered.length + ' 筆</div>';
+          }
+
+          results.innerHTML = html;
         });
-
-        stats.textContent = filtered.length + ' 筆結果';
-
-        if (filtered.length === 0) {
-          results.innerHTML = '<div class="no-result">找不到符合的攝影機</div>';
-          return;
-        }
-
-        var html = '';
-        var shown = filtered.slice(0, 200);
-        shown.forEach(function(c) {
-          var regionTag = c.city ? c.city : (c.region || '');
-          html += '<a class="cam-card" href="' + (c.url || '#') + '" target="_blank" rel="noopener">';
-          html += '<div class="cam-name">' + escHtml(c.name || '未命名') + '</div>';
-          html += '<div class="cam-meta">';
-          if (regionTag) html += '<span class="cam-tag">' + escHtml(regionTag) + '</span>';
-          if (c.region) html += '<span>' + escHtml(c.region) + '</span>';
-          html += '</div></a>';
-        });
-
-        if (filtered.length > 200) {
-          html += '<div class="no-result">顯示前 200 筆，共 ' + filtered.length + ' 筆</div>';
-        }
-
-        results.innerHTML = html;
       }
 
       function escHtml(s) {
-        return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
       }
 
       var timer;
       input.addEventListener('input', function() {
         clearTimeout(timer);
-        timer = setTimeout(doSearch, 200);
+        timer = setTimeout(doSearch, 150);
       });
 
+      loadCameras();
       input.focus();
     });
   </script>

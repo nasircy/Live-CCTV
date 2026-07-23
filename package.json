@@ -3,6 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
+    "prebuild": "node -e \"const fs=require('fs');try{fs.copyFileSync('src/data/cameras_thumb.json','public/cameras_thumb.json')}catch(e){}\"",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
