@@ -110374,5 +110374,1112 @@
     "lng": 120.2614,
     "url": "https://stspcctv.stsp.gov.tw:5004/live?mode=0&channel=1040",
     "map": "https://www.google.com/maps?q=22.8289,120.2614"
+  },
+  {
+    "id": 1784830909364.0432,
+    "name": "湖海路 外木山風景區",
+    "region": "市區道路",
+    "lat": 25.164326,
+    "lng": 121.724455,
+    "url": "https://cctv.klcg.gov.tw/46c063f1",
+    "city": "基隆市"
+  },
+  {
+    "id": 1784830909376.2507,
+    "name": "仁一路 愛三路",
+    "region": "市區道路",
+    "lat": 25.1305,
+    "lng": 121.744,
+    "url": "https://cctv.klcg.gov.tw/48603956",
+    "city": "基隆市"
+  },
+  {
+    "id": 1784830909513.7737,
+    "name": "澄清路、光復路二段",
+    "region": "市區道路",
+    "lat": 22.630271,
+    "lng": 120.344539,
+    "url": "https://cctv1.kctmc.nat.gov.tw/bce8568c/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909518.5105,
+    "name": "建國路三段、青年路二段東南角",
+    "region": "市區道路",
+    "lat": 22.636856,
+    "lng": 120.353939,
+    "url": "https://cctv1.kctmc.nat.gov.tw/c000184/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909524.0938,
+    "name": "沿海二路、茂大街",
+    "region": "市區道路",
+    "lat": 22.55366,
+    "lng": 120.36297,
+    "url": "https://cctv1.kctmc.nat.gov.tw/c5e8bdda/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909528.0574,
+    "name": "岡山路河華路，河華路上控制器旁號誌桿",
+    "region": "市區道路",
+    "lat": 22.80157,
+    "lng": 120.29215,
+    "url": "https://cctv1.kctmc.nat.gov.tw/f75bb280/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909532.0674,
+    "name": "旅運中心前",
+    "region": "市區道路",
+    "lat": 22.62177,
+    "lng": 120.312347,
+    "url": "https://cctv10.kctmc.nat.gov.tw/634e5318/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909536.0605,
+    "name": "大義街、大港橋",
+    "region": "市區道路",
+    "lat": 22.620716,
+    "lng": 120.285794,
+    "url": "https://cctv10.kctmc.nat.gov.tw/851d91f3/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909544.8384,
+    "name": "中正一路、體育場路",
+    "region": "市區道路",
+    "lat": 22.625762,
+    "lng": 120.339431,
+    "url": "https://cctv10.kctmc.nat.gov.tw/c48657d6/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909546.665,
+    "name": "旗津三路、北汕巷",
+    "region": "市區道路",
+    "lat": 22.58653,
+    "lng": 120.28749,
+    "url": "https://cctv10.kctmc.nat.gov.tw/f473f4cc/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909547.3577,
+    "name": "成功二路、正勤路",
+    "region": "市區道路",
+    "lat": 22.605068,
+    "lng": 120.301199,
+    "url": "https://cctv2.kctmc.nat.gov.tw/1bd86445/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909549.116,
+    "name": "鳳頂路、保生路東北角",
+    "region": "市區道路",
+    "lat": 22.595342,
+    "lng": 120.35946,
+    "url": "https://cctv3.kctmc.nat.gov.tw/01250912/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909551.763,
+    "name": "中山一路、民生一路",
+    "region": "市區道路",
+    "lat": 22.625165,
+    "lng": 120.301092,
+    "url": "https://cctv3.kctmc.nat.gov.tw/0900aa31/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909552.0496,
+    "name": "鳳林路一段與東林東路交岔路口",
+    "region": "市區道路",
+    "lat": 22.50377,
+    "lng": 120.39762,
+    "url": "https://cctv3.kctmc.nat.gov.tw/25313680/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909554.912,
+    "name": "成功二路、復興三路",
+    "region": "市區道路",
+    "lat": 22.60529,
+    "lng": 120.3012,
+    "url": "https://cctv3.kctmc.nat.gov.tw/7c99d95c/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909555.7476,
+    "name": "大業北路、中鋼路",
+    "region": "市區道路",
+    "lat": 22.55786,
+    "lng": 120.35267,
+    "url": "https://cctv3.kctmc.nat.gov.tw/cefa42a0/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909558.1487,
+    "name": "旗屏一路、旗屏路",
+    "region": "市區道路",
+    "lat": 22.86939,
+    "lng": 120.49487,
+    "url": "https://cctv4.kctmc.nat.gov.tw/570ff02c/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909560.3806,
+    "name": "鳳林二路與新厝路交岔路口",
+    "region": "市區道路",
+    "lat": 22.5612,
+    "lng": 120.41177,
+    "url": "https://cctv4.kctmc.nat.gov.tw/5dc22f5c/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909562.9487,
+    "name": "漁港��三路、新生路（北側）",
+    "region": "市區道路",
+    "lat": 22.574847,
+    "lng": 120.313189,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam001",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909564.2537,
+    "name": "漁港北三路、新生路（南側）",
+    "region": "市區道路",
+    "lat": 22.574847,
+    "lng": 120.313189,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam002",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909566.4863,
+    "name": "漁港北一路、新生路（北側）",
+    "region": "市區道路",
+    "lat": 22.572532,
+    "lng": 120.313189,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam003",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909568.0095,
+    "name": "漁港北一路、新生路（南側）",
+    "region": "市區道路",
+    "lat": 22.572532,
+    "lng": 120.313189,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam004",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909570.988,
+    "name": "漁港東一路、新生路（北側）",
+    "region": "市區道路",
+    "lat": 22.573456,
+    "lng": 120.316708,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam005",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909573.2266,
+    "name": "漁港東一路、新生路（南側）",
+    "region": "市區道路",
+    "lat": 22.573456,
+    "lng": 120.316708,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam006",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909575.7244,
+    "name": "漁港東二路、新生路（南側）",
+    "region": "市區道路",
+    "lat": 22.572244,
+    "lng": 120.31771,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam008",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909578.0952,
+    "name": "漁港東三路、���生路（北側）",
+    "region": "市區道路",
+    "lat": 22.570893,
+    "lng": 120.31882,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam009",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909579.7595,
+    "name": "漁港東三路、新生路（南側）",
+    "region": "市區道路",
+    "lat": 22.570893,
+    "lng": 120.31882,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam010",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909581.9717,
+    "name": "漁港南一路、新生路（北側）",
+    "region": "市區道路",
+    "lat": 22.56866,
+    "lng": 120.317794,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam011",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909582.2122,
+    "name": "漁港南一路、新生路（南側）",
+    "region": "市區道路",
+    "lat": 22.56866,
+    "lng": 120.317794,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam012",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909584.926,
+    "name": "草衙二路、佛德街（西側）",
+    "region": "市區道路",
+    "lat": 22.573586,
+    "lng": 120.326996,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam014",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909588.1143,
+    "name": "明誠一路、鼎山街",
+    "region": "市區道路",
+    "lat": 22.660328,
+    "lng": 120.32284,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam017",
+    "city": "��雄市"
+  },
+  {
+    "id": 1784830909591.5881,
+    "name": "明誠二路、河堤路",
+    "region": "市區道路",
+    "lat": 22.660122,
+    "lng": 120.312515,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam027",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909592.8962,
+    "name": "建國一路、凱旋一路",
+    "region": "市區道路",
+    "lat": 22.635995,
+    "lng": 120.315444,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam028",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909597.7664,
+    "name": "龍德路、83巷路口",
+    "region": "市區道路",
+    "lat": 22.6541,
+    "lng": 120.298468,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam032",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909598.2256,
+    "name": "大順、南屏(向西)",
+    "region": "市區道路",
+    "lat": 22.636797,
+    "lng": 120.281154,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam033",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909599.1157,
+    "name": "大順、南屏(向北)",
+    "region": "市區道路",
+    "lat": 22.636797,
+    "lng": 120.281154,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam034",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909601.2856,
+    "name": "漁港路、草衙二路",
+    "region": "市區道路",
+    "lat": 22.58181,
+    "lng": 120.3229,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam035",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909604.257,
+    "name": "中門路與南星路交岔路口",
+    "region": "市區道路",
+    "lat": 22.507132,
+    "lng": 120.394902,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam040",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909606.271,
+    "name": "高楠公路1003巷",
+    "region": "市區道路",
+    "lat": 22.714876,
+    "lng": 120.325945,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam041",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909609.3696,
+    "name": "南屏路、裕誠路",
+    "region": "市區道路",
+    "lat": 22.662883,
+    "lng": 120.300121,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam051",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909611.9827,
+    "name": "新莊一路、新榮街(2)",
+    "region": "市區道路",
+    "lat": 22.674898,
+    "lng": 120.295078,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam053",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909615.4465,
+    "name": "樹人路、樹人橫路",
+    "region": "市區道路",
+    "lat": 22.888214,
+    "lng": 120.503018,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam058",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909617.1313,
+    "name": "中正路二段、美中路",
+    "region": "市區道路",
+    "lat": 22.875437,
+    "lng": 120.536036,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam060",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909621.37,
+    "name": "五甲二路、鳳南路",
+    "region": "市區道路",
+    "lat": 22.602741,
+    "lng": 120.342529,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam079",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909623.9048,
+    "name": "舊凱旋四路、班超路",
+    "region": "市區道路",
+    "lat": 22.586425,
+    "lng": 120.318583,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam081",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909625.0066,
+    "name": "翠華路、果峰街",
+    "region": "市區道路",
+    "lat": 22.667935,
+    "lng": 120.28818,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam082",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909627.605,
+    "name": "正忠路、覺民路",
+    "region": "市區道路",
+    "lat": 22.644513,
+    "lng": 120.319674,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam086",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909628.201,
+    "name": "正忠路、建興路",
+    "region": "市區道路",
+    "lat": 22.646585,
+    "lng": 120.322661,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam087",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909630.5024,
+    "name": "縣188、內坑路",
+    "region": "市區道路",
+    "lat": 22.58957,
+    "lng": 120.38466,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam093",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909631.3008,
+    "name": "澄清路與圓山路交岔路口",
+    "region": "市區道路",
+    "lat": 22.659919,
+    "lng": 120.364578,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam098",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909632.542,
+    "name": "旗屏路、廣和路",
+    "region": "市區道路",
+    "lat": 22.869015,
+    "lng": 120.495244,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam101",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909634.5562,
+    "name": "延平二路、樹人橫路",
+    "region": "市區道路",
+    "lat": 22.884519,
+    "lng": 120.500975,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam102",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909636.8887,
+    "name": "四維二路、民權一路",
+    "region": "市區道路",
+    "lat": 22.620885,
+    "lng": 120.314871,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam103",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909641.949,
+    "name": "沿海一路、漢民路",
+    "region": "市區道路",
+    "lat": 22.562372,
+    "lng": 120.356067,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam110",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909644.9436,
+    "name": "國泰路一段、鳳頂路東南角",
+    "region": "市區道路",
+    "lat": 22.615423,
+    "lng": 120.354362,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam114",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909646.9263,
+    "name": "凱旋四路、班超路",
+    "region": "市區道路",
+    "lat": 22.594433,
+    "lng": 120.313635,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam118",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909652.242,
+    "name": "同盟三路、願景橋",
+    "region": "市區道路",
+    "lat": 22.639446,
+    "lng": 120.284808,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam152",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909653.7139,
+    "name": "五福四路、大勇路",
+    "region": "市區道路",
+    "lat": 22.621555,
+    "lng": 120.287645,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam216",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909655.7112,
+    "name": "大順三路、建國一路",
+    "region": "市區道路",
+    "lat": 22.633886,
+    "lng": 120.326083,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam221",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909656.8943,
+    "name": "大順三路、憲政路(2)",
+    "region": "市區道路",
+    "lat": 22.633652,
+    "lng": 120.326065,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam222",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909658.326,
+    "name": "大順三路、鐵道一街(東南角)",
+    "region": "市區道路",
+    "lat": 22.633886,
+    "lng": 120.326083,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam223",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909660.5579,
+    "name": "大順二路、大豐二路",
+    "region": "市區道路",
+    "lat": 22.650402,
+    "lng": 120.323205,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam227",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909662.7244,
+    "name": "大順二路、消防分隊前",
+    "region": "市區道路",
+    "lat": 22.650402,
+    "lng": 120.323205,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam228",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909668.5317,
+    "name": "馬卡道路、明誠四路",
+    "region": "市區道路",
+    "lat": 22.650697,
+    "lng": 120.281817,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam237",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909672.4207,
+    "name": "月世界遊客中心",
+    "region": "市區道路",
+    "lat": 22.869965,
+    "lng": 120.359445,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam256",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909674.7659,
+    "name": "建國二路、林森一路(東北角)",
+    "region": "市區道路",
+    "lat": 22.637486,
+    "lng": 120.311198,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam261",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909679.5488,
+    "name": "九如二路、大連街(東北角)",
+    "region": "市區道路",
+    "lat": 22.640595,
+    "lng": 120.311141,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam263",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909681.5103,
+    "name": "九如二路、天津街(西南角)",
+    "region": "市區道路",
+    "lat": 22.640595,
+    "lng": 120.311141,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam264",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909682.1226,
+    "name": "介壽東路、聖森路",
+    "region": "市區道路",
+    "lat": 22.785718,
+    "lng": 120.30833,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam266",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909684.8179,
+    "name": "二聖路、凱旋三路(西北角)",
+    "region": "市區道路",
+    "lat": 22.62177,
+    "lng": 120.312347,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam269",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909688.22,
+    "name": "鳳林路一段與沿海路二段交岔路口",
+    "region": "市區道路",
+    "lat": 22.50068,
+    "lng": 120.398,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam271",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909690.1555,
+    "name": "中山南路、岡山南路",
+    "region": "市區道路",
+    "lat": 22.78311,
+    "lng": 120.29888,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam272",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909692.6865,
+    "name": "左楠路、世運大道(西南角)",
+    "region": "市區道路",
+    "lat": 22.709636,
+    "lng": 120.302255,
+    "url": "https://cctv7.kctmc.nat.gov.tw/cgi-bin/live.cgi?cam=21&#38;stream=1",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909694.3225,
+    "name": "軍校路、軍校路608巷",
+    "region": "市區道路",
+    "lat": 22.713454,
+    "lng": 120.290734,
+    "url": "https://cctv7.kctmc.nat.gov.tw/cgi-bin/live.cgi?cam=24&#38;stream=1",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909695.0442,
+    "name": "站前路、站前北路",
+    "region": "市區道路",
+    "lat": 22.687706,
+    "lng": 120.305354,
+    "url": "https://cctv7.kctmc.nat.gov.tw/cgi-bin/live.cgi?cam=27&#38;stream=1",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909697.4968,
+    "name": "翠華路、海功東路",
+    "region": "市區道路",
+    "lat": 22.667935,
+    "lng": 120.28818,
+    "url": "https://cctv7.kctmc.nat.gov.tw/cgi-bin/live.cgi?cam=28&#38;stream=1",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909698.2114,
+    "name": "翠明路、海功東路",
+    "region": "市區道路",
+    "lat": 22.691249,
+    "lng": 120.300903,
+    "url": "https://cctv7.kctmc.nat.gov.tw/cgi-bin/live.cgi?cam=30&#38;stream=1",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909699.1284,
+    "name": "後昌路、新昌街",
+    "region": "市區道路",
+    "lat": 22.690501,
+    "lng": 120.294794,
+    "url": "https://cctv7.kctmc.nat.gov.tw/cgi-bin/live.cgi?cam=32&#38;stream=1",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909701.75,
+    "name": "一心一路、和平二路(東北角)",
+    "region": "市區道路",
+    "lat": 22.609323,
+    "lng": 120.315042,
+    "url": "https://cctv7.kctmc.nat.gov.tw/play/jpg.php?devid={9a543eaa-6c16-aa74-658a-625d0df38900}&#38;l=dfe8885c1acbe4c5e5fb91e6d9bd3724",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909703.0405,
+    "name": "軍校路、世運大道(西南角)",
+    "region": "市區道路",
+    "lat": 22.699014,
+    "lng": 120.292486,
+    "url": "https://cctv9.kctmc.nat.gov.tw/1446e346/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909704.3699,
+    "name": "大中一路、鼎中路(西南角)",
+    "region": "市區道路",
+    "lat": 22.675593,
+    "lng": 120.324746,
+    "url": "https://cctv9.kctmc.nat.gov.tw/263b6acb/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909705.0571,
+    "name": "軍校路、緯六路",
+    "region": "市區道路",
+    "lat": 22.699014,
+    "lng": 120.292486,
+    "url": "https://cctv9.kctmc.nat.gov.tw/4435a824/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909707.989,
+    "name": "八德南路、松藝路",
+    "region": "市區道路",
+    "lat": 22.678222,
+    "lng": 120.340674,
+    "url": "https://cctv9.kctmc.nat.gov.tw/5a991298/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909710.0796,
+    "name": "中山路、和平一路",
+    "region": "市區道路",
+    "lat": 22.730014,
+    "lng": 120.365097,
+    "url": "https://cctv9.kctmc.nat.gov.tw/77686b8a/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909711.9365,
+    "name": "中華五路、興發路",
+    "region": "市區道路",
+    "lat": 22.603466,
+    "lng": 120.305674,
+    "url": "https://cctv9.kctmc.nat.gov.tw/8790b538/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909712.352,
+    "name": "澄清路、中山西路",
+    "region": "市區道路",
+    "lat": 22.630271,
+    "lng": 120.344539,
+    "url": "https://cctv9.kctmc.nat.gov.tw/cf7a19c5/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909717.7188,
+    "name": "新生路、金福路",
+    "region": "市區道路",
+    "lat": 22.587278,
+    "lng": 120.306562,
+    "url": "https://cctv9.kctmc.nat.gov.tw/f8119a0b/",
+    "city": "高雄市"
+  },
+  {
+    "id": 1784830909739.1416,
+    "name": "萬壽路長壽路口(全彩CMS對面號誌桿)",
+    "region": "市區道路",
+    "lat": 25.00164,
+    "lng": 121.34941,
+    "url": "https://cctvtraffic.tycg.gov.tw/camera095",
+    "city": "桃園市"
+  },
+  {
+    "id": 1784830909748.2537,
+    "name": "楊新路大成路口",
+    "region": "市區道路",
+    "lat": 24.91345,
+    "lng": 121.14576,
+    "url": "https://cctvtraffic.tycg.gov.tw/camera136",
+    "city": "桃園市"
+  },
+  {
+    "id": 1784830909759.044,
+    "name": "南青路與南崁路二段",
+    "region": "市區道路",
+    "lat": 25.05831,
+    "lng": 121.2763,
+    "url": "https://cctvtraffic.tycg.gov.tw/camera164",
+    "city": "桃園市"
+  },
+  {
+    "id": 1784830909794.6914,
+    "name": "埤頭鄉彰水、斗苑西路口",
+    "region": "市區道路",
+    "lat": 23.891758,
+    "lng": 120.459321,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/1/Interface/Cameras/GetJPEGStream?Camera=cctv14&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909795.9116,
+    "name": "溪湖交流道東側員鹿路",
+    "region": "市區道路",
+    "lat": 23.9535,
+    "lng": 120.5077,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/1/Interface/Cameras/GetJPEGStream?Camera=cctv17&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909803.277,
+    "name": "和美鎮彰新路六段與台61乙路口",
+    "region": "市區道路",
+    "lat": 24.14922,
+    "lng": 120.509409,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV104&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909806.992,
+    "name": "和美鎮彰新路五段與嘉卿一段路口",
+    "region": "市區道路",
+    "lat": 24.136125,
+    "lng": 120.510036,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV105&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909808.0764,
+    "name": "和美鎮線東路五段與縣139(彰新路四段)路口",
+    "region": "市區道路",
+    "lat": 24.118794,
+    "lng": 120.525942,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV106&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909809.2866,
+    "name": "和美鎮線東路二段與縣139(彰和路二段)路口",
+    "region": "市區道路",
+    "lat": 24.091966,
+    "lng": 120.519794,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV107&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909812.678,
+    "name": "彰化市線東路一段與139甲(彰草路)路口",
+    "region": "市區道路",
+    "lat": 24.0789,
+    "lng": 120.518609,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV108&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909814.4658,
+    "name": "彰化市線東路一段與台19(彰水路)路口",
+    "region": "市區道路",
+    "lat": 24.062237,
+    "lng": 120.519416,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV109&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909816.438,
+    "name": "秀水鄉彰鹿路與瓦磘街路口",
+    "region": "市區道路",
+    "lat": 24.050721,
+    "lng": 120.504892,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV110&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909821.6816,
+    "name": "彰化139線23.7K處",
+    "region": "市區道路",
+    "lat": 24.007806110671506,
+    "lng": 120.60638666152956,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV69&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909824.1135,
+    "name": "芬園鄉芬草路、碧興路口",
+    "region": "市區道路",
+    "lat": 24.013735388328737,
+    "lng": 120.6317174434662,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV78&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909825.373,
+    "name": "彰化市中山路、中央路口(消防局樓上)IVS",
+    "region": "市區道路",
+    "lat": 24.06777,
+    "lng": 120.52267,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV80&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909827.396,
+    "name": "鹿港鎮龍舟路與青雲路口 (第一期位置)",
+    "region": "市區道路",
+    "lat": 24.047989,
+    "lng": 120.443883,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV83&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909830.8096,
+    "name": "鹿港鎮沿海路五段與縣144線 (第一期位置)",
+    "region": "市區道路",
+    "lat": 24.047989,
+    "lng": 120.443883,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV84&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909832.1492,
+    "name": "彰化市中山路與孔門路口 (100年位置)",
+    "region": "市區道路",
+    "lat": 24.080767,
+    "lng": 120.5423,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV85&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909834.4595,
+    "name": "彰化市中山路與中興路口 (第二期位置)",
+    "region": "市區道路",
+    "lat": 24.080767,
+    "lng": 120.5423,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV86&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909837.509,
+    "name": "彰化市中山路與中央路口 (第二期位置)",
+    "region": "市區道路",
+    "lat": 24.080767,
+    "lng": 120.5423,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV87&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909839.7686,
+    "name": "縣道144與外中街(南側)",
+    "region": "市區道路",
+    "lat": 24.00972703055402,
+    "lng": 120.48574090003969,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/2/Interface/Cameras/GetJPEGStream?Camera=CCTV99&#38;AuthUser=web",
+    "city": "彰化縣"
+  },
+  {
+    "id": 1784830909858.1514,
+    "name": "進德路/樂業二路(右側車流往復興東路)",
+    "region": "市區道路",
+    "lat": 24.144748,
+    "lng": 120.692482,
+    "url": "https://tcnvr1.taichung.gov.tw:7001/media/00-21-50-00-19-3B.mpjpeg?resolution=240p&#38;auth=cHVibGljdmlld2VyOjYzYTJkOGI1NDFhMjA6YjkyM2U0ODdhZjE5N2YwMmIzMjZhYWEyOWJjNDg3NmE",
+    "city": "台中市"
+  },
+  {
+    "id": 1784830909865.587,
+    "name": "國豐路/豐科路(右側車流往豐原大道)",
+    "region": "市區道路",
+    "lat": 24.245687,
+    "lng": 120.703048,
+    "url": "https://tcnvr6.taichung.gov.tw/5a8e6b5f",
+    "city": "台中市"
+  },
+  {
+    "id": 1784830909870.346,
+    "name": "安明路一段與生態街口北桿(向北)-廣角",
+    "region": "市區道路",
+    "lat": 23.01536,
+    "lng": 120.18119,
+    "url": "https://trafficvideo5.tainan.gov.tw/1b6ff0fa",
+    "city": "台南市"
+  },
+  {
+    "id": 1784830909871.1772,
+    "name": "西門路一段與永華路一段口南桿(向南)廣角",
+    "region": "市區道路",
+    "lat": 22.98713,
+    "lng": 120.19755,
+    "url": "https://trafficvideo5.tainan.gov.tw/5262534b",
+    "city": "台南市"
+  },
+  {
+    "id": 1784830909876.0667,
+    "name": "北港鎮新德路",
+    "region": "市區道路",
+    "lat": 23.589733,
+    "lng": 120.30901,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=1",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909878.467,
+    "name": "北港鎮台19線公園路口",
+    "region": "市區道路",
+    "lat": 23.575525,
+    "lng": 120.302393,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=11",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909882.4746,
+    "name": "北港鎮台19線華勝路口",
+    "region": "市區道路",
+    "lat": 23.575525,
+    "lng": 120.302393,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=15",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909883.8955,
+    "name": "北港鎮台19線(2)",
+    "region": "市區道路",
+    "lat": 23.575525,
+    "lng": 120.302393,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=16",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909885.135,
+    "name": "斗六市中山路",
+    "region": "市區道路",
+    "lat": 23.691634,
+    "lng": 120.538307,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=2",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909888.5142,
+    "name": "古坑鄉仁義路",
+    "region": "市區道路",
+    "lat": 23.669663,
+    "lng": 120.536909,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=4",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909889.7996,
+    "name": "虎尾鎮學府路",
+    "region": "市區道路",
+    "lat": 23.736044,
+    "lng": 120.428171,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=6",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909890.9573,
+    "name": "虎尾鎮145乙(1)",
+    "region": "市區道路",
+    "lat": 23.708182,
+    "lng": 120.445339,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=7",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909892.6467,
+    "name": "虎尾鎮145乙(2)",
+    "region": "市區道路",
+    "lat": 23.708182,
+    "lng": 120.445339,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=8",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909893.2866,
+    "name": "虎尾鎮145乙(3)",
+    "region": "市區道路",
+    "lat": 23.708182,
+    "lng": 120.445339,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=9",
+    "city": "雲林縣"
+  },
+  {
+    "id": 1784830909899.1458,
+    "name": "北外環道路下長和路匝道門架上(向東)",
+    "region": "市區道路",
+    "lat": 23.057579,
+    "lng": 120.242913,
+    "url": "https://trafficvideo5.tainan.gov.tw/130d78ca",
+    "city": "台南市"
   }
 ]
