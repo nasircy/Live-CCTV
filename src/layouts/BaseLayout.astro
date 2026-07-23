@@ -1,0 +1,204 @@
+---
+import '../styles/global.css';
+const { title } = Astro.props;
+const base = '/NY-Live-CCTV';
+---
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | NY-Live-CCTV</title>
+  <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-cam">
+      <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect class="cam-body" x="14" y="28" width="52" height="32" rx="4" stroke="var(--color-accent)" stroke-width="1.5"/>
+        <path class="cam-arm" d="M40 28V18" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round"/>
+        <path class="cam-mount" d="M32 18H48" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round"/>
+        <circle class="cam-lens-outer" cx="40" cy="44" r="12" stroke="var(--color-accent)" stroke-width="1.5"/>
+        <circle class="cam-lens-inner" cx="40" cy="44" r="6" stroke="var(--color-accent)" stroke-width="1.2" opacity="0.7"/>
+        <circle class="cam-lens-core" cx="40" cy="44" r="2.5" fill="var(--color-accent)"/>
+        <circle class="cam-led" cx="58" cy="34" r="2" fill="var(--color-red)"/>
+        <path class="cam-sunshade" d="M22 36H18V48" stroke="var(--color-accent)" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      </svg>
+    </div>
+    <div class="loading-osd">系統初始化</div>
+    <div class="loading-title">NY-Live-CCTV</div>
+    <div class="loading-bar-track">
+      <div class="loading-bar-fill" id="loadingBar"></div>
+    </div>
+    <div class="loading-percent" id="loadingPercent">0%</div>
+    <div class="loading-status" id="loadingStatus">載入攝影機數據...</div>
+  </div>
+
+  <header>
+    <nav>
+      <a href={`${base}/`} class="logo">
+        <svg width="20" height="20" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="14" y="28" width="52" height="32" rx="4" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M40 28V18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M32 18H48" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="40" cy="44" r="12" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="40" cy="44" r="6" stroke="currentColor" stroke-width="1.2" opacity="0.7"/>
+          <circle cx="40" cy="44" r="2.5" fill="currentColor"/>
+          <circle cx="58" cy="34" r="2" fill="var(--color-red)"/>
+        </svg>
+        NY-Live-CCTV
+      </a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="選單">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href={`${base}/`}>首頁</a></li>
+        <li><a href={`${base}/regions`}>區域瀏覽</a></li>
+        <li><a href={`${base}/map`}>即時地圖</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nasir &middot; 資料來源：第三方 &middot; data.taipei &middot; 交通部</p>
+  </footer>
+
+  <style>
+    .loading-screen {
+      position: fixed; inset: 0; z-index: 9999;
+      background: var(--color-bg);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 16px;
+      transition: opacity 0.5s, visibility 0.5s;
+    }
+    .loading-screen.hide { opacity: 0; visibility: hidden; pointer-events: none; }
+
+    .loading-cam svg { width: 60px; height: 60px; display: block; }
+    .loading-cam .cam-led { animation: blink 1.2s step-end infinite; }
+    .loading-osd {
+      font-size: 10px; letter-spacing: 4px;
+      color: var(--color-muted); font-family: var(--font-mono);
+    }
+    .loading-title {
+      font-size: 20px; font-weight: 700;
+      color: var(--color-text); letter-spacing: 2px;
+    }
+    .loading-bar-track {
+      width: 200px; height: 2px;
+      background: var(--color-border); overflow: hidden; border-radius: 1px;
+    }
+    .loading-bar-fill {
+      height: 100%; width: 0%;
+      background: var(--color-accent);
+      transition: width 0.3s ease;
+    }
+    .loading-percent {
+      font-size: 12px; color: var(--color-muted);
+      font-family: var(--font-mono); font-variant-numeric: tabular-nums;
+    }
+    .loading-status {
+      font-size: 11px; color: var(--color-muted);
+      animation: pulse 1.5s ease infinite;
+    }
+
+    header {
+      border-bottom: 1px solid var(--color-border);
+      position: sticky; top: 0;
+      background: var(--color-surface); z-index: 100;
+    }
+    nav {
+      max-width: var(--max-width); margin: 0 auto;
+      padding: 0.75rem 1.5rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 1.1rem; font-weight: 700;
+      color: var(--color-text); text-decoration: none;
+    }
+    .logo svg { flex-shrink: 0; }
+    .logo:hover { text-decoration: none; color: var(--color-accent); }
+    .hamburger { display: none; flex-direction: column; gap: 4px; background: none; border: none; cursor: pointer; padding: 4px; }
+    .hamburger .bar { width: 20px; height: 2px; background: var(--color-text); border-radius: 2px; transition: 0.3s; }
+    .hamburger.open .bar:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .hamburger.open .bar:nth-child(2) { opacity: 0; }
+    .hamburger.open .bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    nav ul { list-style: none; display: flex; gap: 1.5rem; align-items: center; }
+    nav a { color: var(--color-muted); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+    nav a:hover { color: var(--color-accent); }
+
+    main { max-width: var(--max-width); margin: 0 auto; padding: 2rem 1.5rem; flex: 1; width: 100%; }
+
+    footer {
+      border-top: 1px solid var(--color-border);
+      text-align: center; padding: 1.5rem;
+      color: var(--color-muted); font-size: 0.8rem;
+    }
+
+    @media (max-width: 640px) {
+      .hamburger { display: flex; }
+      .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0;
+        background: var(--color-surface); border-bottom: 1px solid var(--color-border);
+        flex-direction: column; padding: 1rem 1.5rem; gap: 0.75rem;
+      }
+      .nav-links.open { display: flex; }
+    }
+  </style>
+
+  <script>
+    function hideLoading() {
+      const screen = document.getElementById('loadingScreen');
+      if (screen) {
+        screen.classList.add('hide');
+      }
+    }
+
+    function updateLoadingBar(percent, status) {
+      const bar = document.getElementById('loadingBar');
+      const pct = document.getElementById('loadingPercent');
+      const st = document.getElementById('loadingStatus');
+      if (bar) bar.style.width = percent + '%';
+      if (pct) pct.textContent = percent + '%';
+      if (st && status) st.textContent = status;
+    }
+
+    document.addEventListener('astro:page-load', () => {
+      const isFirstLoad = !sessionStorage.getItem('nycctv_loaded');
+      if (isFirstLoad) {
+        sessionStorage.setItem('nycctv_loaded', '1');
+        let p = 0;
+        const steps = [
+          [10, '初始化系統...'],
+          [25, '載入攝影機數據...'],
+          [45, '解析地理位置...'],
+          [65, '建立索引...'],
+          [80, '渲染界面...'],
+          [95, '準備就緒...'],
+          [100, '完成']
+        ];
+        let si = 0;
+        const iv = setInterval(() => {
+          if (si < steps.length) {
+            updateLoadingBar(steps[si][0], steps[si][1]);
+            si++;
+          }
+          if (si >= steps.length) {
+            clearInterval(iv);
+            setTimeout(hideLoading, 300);
+          }
+        }, 400);
+      } else {
+        hideLoading();
+      }
+    });
+  </script>
+</body>
+</html>
