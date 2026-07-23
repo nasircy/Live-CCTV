@@ -9,25 +9,25 @@ const base = '/Live-CCTV';
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} | NY-Live-CCTV</title>
+  <title>{title} | Live-CCTV</title>
   <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
 </head>
 <body>
   <div class="loading-screen" id="loadingScreen">
     <div class="loading-cam">
       <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect class="cam-body" x="14" y="28" width="52" height="32" rx="4" stroke="var(--color-accent)" stroke-width="1.5"/>
-        <path class="cam-arm" d="M40 28V18" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round"/>
-        <path class="cam-mount" d="M32 18H48" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round"/>
-        <circle class="cam-lens-outer" cx="40" cy="44" r="12" stroke="var(--color-accent)" stroke-width="1.5"/>
-        <circle class="cam-lens-inner" cx="40" cy="44" r="6" stroke="var(--color-accent)" stroke-width="1.2" opacity="0.7"/>
-        <circle class="cam-lens-core" cx="40" cy="44" r="2.5" fill="var(--color-accent)"/>
-        <circle class="cam-led" cx="58" cy="34" r="2" fill="var(--color-red)"/>
-        <path class="cam-sunshade" d="M22 36H18V48" stroke="var(--color-accent)" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+        <rect class="cam-body" x="14" y="28" width="52" height="32" rx="4" stroke="var(--accent)" stroke-width="1.5"/>
+        <path class="cam-arm" d="M40 28V18" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
+        <path class="cam-mount" d="M32 18H48" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
+        <circle class="cam-lens-outer" cx="40" cy="44" r="12" stroke="var(--accent)" stroke-width="1.5"/>
+        <circle class="cam-lens-inner" cx="40" cy="44" r="6" stroke="var(--accent)" stroke-width="1.2" opacity="0.7"/>
+        <circle class="cam-lens-core" cx="40" cy="44" r="2.5" fill="var(--accent)"/>
+        <circle class="cam-led" cx="58" cy="34" r="2" fill="var(--red)"/>
+        <path class="cam-sunshade" d="M22 36H18V48" stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
       </svg>
     </div>
     <div class="loading-osd">系統初始化</div>
-    <div class="loading-title">NY-Live-CCTV</div>
+    <div class="loading-title">Live-CCTV</div>
     <div class="loading-bar-track">
       <div class="loading-bar-fill" id="loadingBar"></div>
     </div>
@@ -38,16 +38,16 @@ const base = '/Live-CCTV';
   <header>
     <nav>
       <a href={`${base}/`} class="logo">
-        <svg width="20" height="20" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="18" height="18" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="14" y="28" width="52" height="32" rx="4" stroke="currentColor" stroke-width="1.5"/>
           <path d="M40 28V18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
           <path d="M32 18H48" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
           <circle cx="40" cy="44" r="12" stroke="currentColor" stroke-width="1.5"/>
           <circle cx="40" cy="44" r="6" stroke="currentColor" stroke-width="1.2" opacity="0.7"/>
           <circle cx="40" cy="44" r="2.5" fill="currentColor"/>
-          <circle cx="58" cy="34" r="2" fill="var(--color-red)"/>
+          <circle cx="58" cy="34" r="2" fill="var(--red)"/>
         </svg>
-        NY-Live-CCTV
+        Live-CCTV
       </a>
       <button class="hamburger" id="hamburgerBtn" aria-label="選單">
         <span class="bar"></span>
@@ -73,7 +73,7 @@ const base = '/Live-CCTV';
   <style>
     .loading-screen {
       position: fixed; inset: 0; z-index: 9999;
-      background: var(--color-bg);
+      background: var(--bg);
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
       gap: 16px;
@@ -81,73 +81,76 @@ const base = '/Live-CCTV';
     }
     .loading-screen.hide { opacity: 0; visibility: hidden; pointer-events: none; }
 
-    .loading-cam svg { width: 60px; height: 60px; display: block; }
+    .loading-cam svg { width: 56px; height: 56px; display: block; }
     .loading-cam .cam-led { animation: blink 1.2s step-end infinite; }
     .loading-osd {
-      font-size: 10px; letter-spacing: 4px;
-      color: var(--color-muted); font-family: var(--font-mono);
+      font-size: 9px; letter-spacing: 4px;
+      color: var(--text-dim); font-family: var(--font-mono);
     }
     .loading-title {
-      font-size: 20px; font-weight: 700;
-      color: var(--color-text); letter-spacing: 2px;
+      font-size: 18px; font-weight: 600;
+      color: var(--text); letter-spacing: 2px;
     }
     .loading-bar-track {
-      width: 200px; height: 2px;
-      background: var(--color-border); overflow: hidden; border-radius: 1px;
+      width: 180px; height: 2px;
+      background: var(--border); overflow: hidden; border-radius: 1px;
     }
     .loading-bar-fill {
       height: 100%; width: 0%;
-      background: var(--color-accent);
+      background: var(--accent);
       transition: width 0.3s ease;
+      box-shadow: 0 0 8px var(--accent-glow);
     }
     .loading-percent {
-      font-size: 12px; color: var(--color-muted);
+      font-size: 11px; color: var(--text-dim);
       font-family: var(--font-mono); font-variant-numeric: tabular-nums;
     }
     .loading-status {
-      font-size: 11px; color: var(--color-muted);
+      font-size: 10px; color: var(--text-muted);
       animation: pulse 1.5s ease infinite;
     }
 
     header {
-      border-bottom: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--border);
       position: sticky; top: 0;
-      background: var(--color-surface); z-index: 100;
+      background: var(--surface); z-index: 100;
     }
     nav {
-      max-width: var(--max-width); margin: 0 auto;
-      padding: 0.75rem 1.5rem;
+      max-width: var(--max-w); margin: 0 auto;
+      padding: 0 1.5rem;
+      height: 52px;
       display: flex; align-items: center; justify-content: space-between;
     }
     .logo {
       display: flex; align-items: center; gap: 8px;
-      font-size: 1.1rem; font-weight: 700;
-      color: var(--color-text); text-decoration: none;
+      font-size: 1rem; font-weight: 600;
+      color: var(--text); text-decoration: none; letter-spacing: 0.5px;
     }
     .logo svg { flex-shrink: 0; }
-    .logo:hover { text-decoration: none; color: var(--color-accent); }
+    .logo:hover { text-decoration: none; color: var(--accent); }
     .hamburger { display: none; flex-direction: column; gap: 4px; background: none; border: none; cursor: pointer; padding: 4px; }
-    .hamburger .bar { width: 20px; height: 2px; background: var(--color-text); border-radius: 2px; transition: 0.3s; }
+    .hamburger .bar { width: 18px; height: 2px; background: var(--text); border-radius: 2px; transition: 0.3s; }
     .hamburger.open .bar:nth-child(1) { transform: translateY(6px) rotate(45deg); }
     .hamburger.open .bar:nth-child(2) { opacity: 0; }
     .hamburger.open .bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
     nav ul { list-style: none; display: flex; gap: 1.5rem; align-items: center; }
-    nav a { color: var(--color-muted); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
-    nav a:hover { color: var(--color-accent); }
+    nav a { color: var(--text-muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    nav a:hover { color: var(--accent); }
 
-    main { max-width: var(--max-width); margin: 0 auto; padding: 2rem 1.5rem; flex: 1; width: 100%; }
+    main { max-width: var(--max-w); margin: 0 auto; padding: 2rem 1.5rem; flex: 1; width: 100%; }
 
     footer {
-      border-top: 1px solid var(--color-border);
-      text-align: center; padding: 1.5rem;
-      color: var(--color-muted); font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      text-align: center; padding: 1.25rem;
+      color: var(--text-dim); font-size: 0.75rem;
     }
+    footer p { max-width: 65ch; margin: 0 auto; }
 
     @media (max-width: 640px) {
       .hamburger { display: flex; }
       .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0;
-        background: var(--color-surface); border-bottom: 1px solid var(--color-border);
-        flex-direction: column; padding: 1rem 1.5rem; gap: 0.75rem;
+        background: var(--surface); border-bottom: 1px solid var(--border);
+        flex-direction: column; padding: 0.75rem 1.5rem; gap: 0.75rem;
       }
       .nav-links.open { display: flex; }
     }
@@ -170,7 +173,6 @@ const base = '/Live-CCTV';
         if (st && status) st.textContent = status;
       }
 
-      // Force hide after 7s no matter what
       setTimeout(hideLoading, 7000);
 
       function startAnim() {
