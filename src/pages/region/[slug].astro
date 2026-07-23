@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import regions from '../../data/regions.json';
-const base = '/NY-Live-CCTV';
+const base = '/Live-CCTV';
 
 export function getStaticPaths() {
   return Object.keys(regions).map(name => ({
@@ -87,7 +87,7 @@ const camCount = regionInfo.count;
       if (!grid) return;
 
       try {
-        const resp = await fetch(`/NY-Live-CCTV/data/${dataFile}`);
+        const resp = await fetch(`/Live-CCTV/data/${dataFile}`);
         const cams = await resp.json();
 
         if (cams.length === 0) {
