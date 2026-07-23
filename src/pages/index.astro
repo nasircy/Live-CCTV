@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = '/NY-Live-CCTV';
+---
+
+<BaseLayout title="首頁">
+  <section class="hero">
+    <div class="hero-icon">
+      <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="14" y="28" width="52" height="32" rx="4" stroke="var(--color-accent)" stroke-width="1.5"/>
+        <path d="M40 28V18" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M32 18H48" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="40" cy="44" r="12" stroke="var(--color-accent)" stroke-width="1.5"/>
+        <circle cx="40" cy="44" r="6" stroke="var(--color-accent)" stroke-width="1.2" opacity="0.7"/>
+        <circle cx="40" cy="44" r="2.5" fill="var(--color-accent)"/>
+        <circle cx="58" cy="34" r="2" fill="var(--color-red)"/>
+      </svg>
+    </div>
+    <h1>NY-Live-CCTV</h1>
+    <p class="hero-sub">台灣即時影像監視器整合平台</p>
+    <p class="hero-desc">彙整全台 11,914 路即時影像，涵蓋國道、省道、市區道路、水利署防災、旅遊景點等 CCTV 公開資料</p>
+    <div class="hero-actions">
+      <a href={`${base}/regions`} class="btn btn-primary">瀏覽區域</a>
+      <a href={`${base}/map`} class="btn btn-secondary">開啟即時地圖</a>
+    </div>
+  </section>
+
+  <section class="stats-row" id="statsRow">
+    <div class="stat-card"><span class="stat-n" id="statTotal">11,914</span><span class="stat-l">攝影機總數</span></div>
+    <div class="stat-card"><span class="stat-n">29</span><span class="stat-l">分類區域</span></div>
+    <div class="stat-card"><span class="stat-n" id="statNearby">-</span><span class="stat-l">附近攝影機</span></div>
+  </section>
+
+  <section class="features">
+    <h2>功能特色</h2>
+    <div class="feature-grid">
+      <a href={`${base}/regions`} class="feature-card">
+        <div class="feature-icon">🗺️</div>
+        <h3>區域瀏覽</h3>
+        <p>依國道、省道、縣市等分類瀏覽所有即時影像</p>
+      </a>
+      <a href={`${base}/map`} class="feature-card">
+        <div class="feature-icon">📍</div>
+        <h3>即時定位</h3>
+        <p>開啟定位自動顯示附近的攝影機，隨行移動更新</p>
+      </a>
+      <div class="feature-card">
+        <div class="feature-icon">📡</div>
+        <h3>即時串流</h3>
+        <p>直接連接政府 CCTV 來源，觀看即時路況畫面</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>路口預警</h3>
+        <p>接近攝影機路口時自動彈出提醒，掌握前方路況</p>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .hero {
+      text-align: center; padding: 3rem 0 2rem;
+    }
+    .hero-icon svg { width: 64px; height: 64px; margin-bottom: 1rem; }
+    .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; background: linear-gradient(135deg, var(--color-accent), #a371f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero-sub { color: var(--color-muted); font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .hero-desc { color: var(--color-muted); font-size: 0.9rem; max-width: 600px; margin: 0 auto 2rem; line-height: 1.7; }
+    .hero-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-block; padding: 0.75rem 2rem; border-radius: 8px;
+      font-weight: 600; font-size: 0.95rem; transition: all 0.2s;
+      text-decoration: none;
+    }
+    .btn:hover { text-decoration: none; transform: translateY(-1px); }
+    .btn-primary { background: var(--color-accent); color: #fff; }
+    .btn-primary:hover { background: #4a9eff; }
+    .btn-secondary { background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-border); }
+    .btn-secondary:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+    .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0; }
+    .stat-card {
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 12px; padding: 1.5rem; text-align: center;
+    }
+    .stat-n { display: block; font-size: 1.8rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .stat-l { display: block; font-size: 0.8rem; color: var(--color-muted); margin-top: 4px; }
+
+    .features h2 { text-align: center; margin: 3rem 0 1.5rem; font-size: 1.5rem; }
+    .feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+    .feature-card {
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 12px; padding: 1.5rem; transition: border-color 0.2s;
+      text-decoration: none; color: inherit;
+    }
+    a.feature-card:hover { border-color: var(--color-accent); text-decoration: none; }
+    .feature-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+    .feature-card h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+    .feature-card p { font-size: 0.85rem; color: var(--color-muted); line-height: 1.6; }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 1.8rem; }
+      .stats-row { grid-template-columns: 1fr; }
+      .feature-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <script>
+    document.addEventListener('astro:page-load', () => {
+      if ('geolocation' in navigator) {
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            const lat = pos.coords.latitude;
+            const lng = pos.coords.longitude;
+            fetch('/NY-Live-CCTV/data/cameras_thumb.json')
+              .catch(() => fetch('/NY-Live-CCTV/data/regions.json'))
+              .then(() => {
+                const el = document.getElementById('statNearby');
+                if (el) el.textContent = '已定位 ✓';
+              });
+          },
+          () => {
+            const el = document.getElementById('statNearby');
+            if (el) el.textContent = '未啟用';
+          }
+        );
+      } else {
+        const el = document.getElementById('statNearby');
+        if (el) el.textContent = '不支援';
+      }
+    });
+  </script>
+</BaseLayout>
