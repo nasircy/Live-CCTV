@@ -5,26 +5,26 @@ const base = '/Live-CCTV';
 
 <BaseLayout title="即時定位">
   <section class="page-header">
-    <p class="page-label">NEARBY</p>
-    <h1>即時定位</h1>
-    <p class="page-desc">開啟定位後，自動偵測附近的即時攝影機</p>
+    <p class="page-label">NEARBY CAMERAS</p>
+    <h1>附近のカメラ</h1>
+    <p class="page-desc">GPSを起動して、近くの即時映像を検出します</p>
   </section>
 
   <div class="gps-bar">
     <div class="gps-status">
       <span class="gps-dot" id="gpsDot"></span>
-      <span id="gpsText">正在定位...</span>
+      <span id="gpsText">位置取得中...</span>
     </div>
     <div class="gps-radius">
-      <span>半徑 <strong id="radiusLabel">300</strong>m</span>
+      <span>検出範囲：<strong id="radiusLabel">300</strong>m</span>
       <input type="range" id="radiusSlider" min="100" max="2000" value="300" step="50" />
     </div>
-    <div class="gps-nearby">附近 <strong id="nearbyCount">0</strong></div>
-    <button class="gps-refresh" id="refreshBtn">重新整理</button>
+    <div class="gps-nearby">周辺：<strong id="nearbyCount">0</strong>台</div>
+    <button class="gps-refresh" id="refreshBtn">再読込</button>
   </div>
 
-  <div class="nearby-list" id="nearbyList">
-    <div class="empty-state">等待定位中...</div>
+  <div class="cam-grid" id="nearbyList">
+    <div class="empty-state">位置情報を取得中...</div>
   </div>
 
   <div class="toast-container" id="toastContainer"></div>
@@ -76,42 +76,60 @@ const base = '/Live-CCTV';
     }
     .gps-refresh:hover { border-color: var(--accent); color: var(--accent); }
 
-    .nearby-list { display: flex; flex-direction: column; }
+    .cam-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1px; background: var(--border); border: 1px solid var(--border);
+    }
     .empty-state {
+      grid-column: 1 / -1;
       text-align: center; padding: 3rem; color: var(--text-dim);
-      font-size: 0.82rem;
+      font-size: 0.82rem; background: var(--surface);
     }
 
-    .nearby-card {
-      border-bottom: 1px solid var(--border-light);
-      padding: 1rem 0; display: flex; align-items: center; gap: 1.25rem;
-      transition: background 0.15s;
+    .cam-card {
+      background: var(--surface); overflow: hidden;
+      transition: background 0.2s;
     }
-    .nearby-card:hover { background: var(--accent-light); margin: 0 -1rem; padding: 1rem; }
-    .nearby-card .dist {
-      flex-shrink: 0; width: 52px; text-align: center;
+    .cam-card:hover { background: #faf9f7; }
+    .cam-preview {
+      width: 100%; aspect-ratio: 16/9;
+      background: #eae7e1; position: relative; overflow: hidden;
     }
-    .nearby-card .dist-val {
-      display: block; font-size: 0.92rem; font-family: var(--font-serif);
-      color: var(--text);
+    .cam-preview img {
+      width: 100%; height: 100%; object-fit: cover;
     }
-    .nearby-card .dist-unit {
-      display: block; font-size: 0.6rem; color: var(--text-dim);
-      letter-spacing: 0.1em;
+    .cam-nosig {
+      display: flex; align-items: center; justify-content: center;
+      height: 100%; color: var(--text-dim); font-size: 0.7rem;
+      letter-spacing: 0.15em; font-family: var(--font-mono);
     }
-    .nearby-card .cam-info { flex: 1; min-width: 0; }
-    .nearby-card .cam-name {
+    .cam-live {
+      position: absolute; top: 10px; left: 10px; z-index: 2;
+      background: rgba(255,255,255,0.88); backdrop-filter: blur(4px);
+      padding: 2px 8px; font-size: 0.58rem; letter-spacing: 0.15em;
+      color: var(--red); font-family: var(--font-mono); font-weight: 500;
+    }
+    .cam-dist {
+      position: absolute; top: 10px; right: 10px; z-index: 2;
+      background: rgba(255,255,255,0.88); backdrop-filter: blur(4px);
+      padding: 2px 8px; font-size: 0.58rem; letter-spacing: 0.1em;
+      color: var(--accent); font-family: var(--font-mono); font-weight: 500;
+    }
+    .cam-info { padding: 1rem 1.25rem; }
+    .cam-name {
       font-size: 0.82rem; font-weight: 500;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      margin-bottom: 0.2rem;
     }
-    .nearby-card .cam-meta {
-      font-size: 0.7rem; color: var(--text-dim); margin-top: 2px;
+    .cam-city {
+      font-size: 0.7rem; color: var(--text-dim);
+      margin-bottom: 0.75rem;
     }
-    .nearby-card .cam-actions { flex-shrink: 0; }
+    .cam-actions { display: flex; gap: 0.5rem; }
     .cam-link {
       font-size: 0.7rem; color: var(--accent);
+      letter-spacing: 0.05em; padding: 3px 0;
       border-bottom: 1px solid transparent; transition: border-color 0.2s;
-      padding-bottom: 1px;
     }
     .cam-link:hover { border-bottom-color: var(--accent); text-decoration: none; }
 
@@ -170,9 +188,34 @@ const base = '/Live-CCTV';
         setTimeout(function() { if (toast.parentNode) toast.remove(); }, 8000);
       }
 
+      function renderCards(nearby) {
+        if (nearby.length === 0) {
+          nearbyList.innerHTML = '<div class="empty-state">検出範囲内にカメラがありません</div>';
+          return;
+        }
+        nearbyList.innerHTML = nearby.map(function(cam) {
+          var distStr = cam.dist < 1000 ? Math.round(cam.dist) + 'm' : (cam.dist/1000).toFixed(1) + 'km';
+          return '' +
+            '<div class="cam-card">' +
+              '<div class="cam-preview">' +
+                '<span class="cam-live">LIVE</span>' +
+                '<span class="cam-dist">' + distStr + '</span>' +
+                '<img src="' + cam.url + '" alt="' + cam.name + '" loading="lazy" onerror="this.outerHTML=\'<div class=&apos;cam-nosig&apos;>NO SIGNAL</div>\'" />' +
+              '</div>' +
+              '<div class="cam-info">' +
+                '<div class="cam-name">' + cam.name + '</div>' +
+                '<div class="cam-city">' + cam.city + '</div>' +
+                '<div class="cam-actions">' +
+                  '<a href="' + cam.url + '" target="_blank" rel="noopener" class="cam-link">映像を見る</a>' +
+                '</div>' +
+              '</div>' +
+            '</div>';
+        }).join('');
+      }
+
       function updateNearby() {
         if (!currentPos || allCameras.length === 0) {
-          nearbyList.innerHTML = '<div class="empty-state">等待定位中...</div>';
+          nearbyList.innerHTML = '<div class="empty-state">位置情報を取得中...</div>';
           return;
         }
 
@@ -188,11 +231,6 @@ const base = '/Live-CCTV';
 
         nearbyCount.textContent = nearby.length;
 
-        if (nearby.length === 0) {
-          nearbyList.innerHTML = '<div class="empty-state">半徑內無攝影機</div>';
-          return;
-        }
-
         nearby.forEach(function(cam) {
           var key = String(cam.id);
           if (!lastNotified[key]) {
@@ -202,23 +240,7 @@ const base = '/Live-CCTV';
           }
         });
 
-        nearbyList.innerHTML = nearby.map(function(cam) {
-          var mapUrl = 'https://www.google.com/maps?q=' + cam.lat + ',' + cam.lng;
-          return '' +
-            '<div class="nearby-card">' +
-              '<div class="dist">' +
-                '<span class="dist-val">' + (cam.dist < 1000 ? Math.round(cam.dist) : (cam.dist/1000).toFixed(1)) + '</span>' +
-                '<span class="dist-unit">' + (cam.dist < 1000 ? 'm' : 'km') + '</span>' +
-              '</div>' +
-              '<div class="cam-info">' +
-                '<div class="cam-name">' + cam.name + '</div>' +
-                '<div class="cam-meta">' + cam.city + '</div>' +
-              '</div>' +
-              '<div class="cam-actions">' +
-                '<a href="' + cam.url + '" target="_blank" rel="noopener" class="cam-link">觀看</a>' +
-              '</div>' +
-            '</div>';
-        }).join('');
+        renderCards(nearby);
       }
 
       async function loadAllCameras() {
@@ -227,30 +249,30 @@ const base = '/Live-CCTV';
           allCameras = await resp.json();
           updateNearby();
         } catch (e) {
-          nearbyList.innerHTML = '<div class="empty-state">載入失敗</div>';
+          nearbyList.innerHTML = '<div class="empty-state">データ読込失敗</div>';
         }
       }
 
       function startWatching() {
         if (!('geolocation' in navigator)) {
           gpsDot.className = 'gps-dot error';
-          gpsText.textContent = '不支援定位';
+          gpsText.textContent = '位置情報非対応';
           return;
         }
 
         gpsDot.className = 'gps-dot searching';
-        gpsText.textContent = '定位中...';
+        gpsText.textContent = '取得中...';
 
         watchId = navigator.geolocation.watchPosition(
           function(pos) {
             currentPos = { lat: pos.coords.latitude, lng: pos.coords.longitude };
             gpsDot.className = 'gps-dot active';
-            gpsText.textContent = '已定位';
+            gpsText.textContent = '位置確定';
             updateNearby();
           },
           function(err) {
             gpsDot.className = 'gps-dot error';
-            gpsText.textContent = err.code === 1 ? '請允許定位權限' : '定位失敗';
+            gpsText.textContent = err.code === 1 ? '位置権限を許可してください' : '取得失敗';
           },
           { enableHighAccuracy: true, maximumAge: 5000, timeout: 15000 }
         );
