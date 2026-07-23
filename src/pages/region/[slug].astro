@@ -22,10 +22,10 @@ const cameras = JSON.parse(fs.readFileSync(path.join(dataDir, dataFile), 'utf-8'
 
 <BaseLayout title={regionName}>
   <section class="page-header">
-    <a href={`${base}/regions`} class="back">&larr; 返回</a>
+            <a href={`${base}/regions`} class="back">&larr; 戻る</a>
     <p class="page-label">CAMERA</p>
     <h1>{regionName}</h1>
-    <p class="page-desc">{camCount.toLocaleString()} 台攝影機</p>
+    <p class="page-desc">{camCount.toLocaleString()} 台のカメラ</p>
   </section>
 
   <div class="cam-grid">
@@ -44,7 +44,7 @@ const cameras = JSON.parse(fs.readFileSync(path.join(dataDir, dataFile), 'utf-8'
           <div class="cam-name" title={cam.name}>{cam.name}</div>
           <div class="cam-city">{cam.city || ''}</div>
           <div class="cam-actions">
-            <a href={cam.url} target="_blank" rel="noopener" class="cam-link">觀看</a>
+            <a href={cam.url} target="_blank" rel="noopener" class="cam-link">映像を見る</a>
           </div>
         </div>
       </div>
