@@ -16,11 +16,9 @@ const regionOrder = [
   "其他"
 ];
 
-const sorted = Object.entries(regions).sort((a, b) => {
-  const ia = regionOrder.indexOf(a[0]);
-  const ib = regionOrder.indexOf(b[0]);
-  return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
-});
+const sorted = Object.entries(regions)
+  .map(([name, info]) => ({ name, info, idx: regionOrder.indexOf(name) }))
+  .sort((a, b) => (a.idx === -1 ? 999 : a.idx) - (b.idx === -1 ? 999 : b.idx));
 ---
 
 <BaseLayout title="區域瀏覽">
@@ -28,8 +26,8 @@ const sorted = Object.entries(regions).sort((a, b) => {
   <p class="page-desc">選擇分類檢視各區域的即時攝影機</p>
 
   <div class="region-grid">
-    {sorted.map(([name, info]) => (
-      <a href={`${base}/region/${encodeURIComponent(name)}`} class="region-card">
+    {sorted.map(({ name, info, idx }) => (
+      <a href={`${base}/region/${idx}`} class="region-card">
         <div class="region-count">{info.count.toLocaleString()}</div>
         <div class="region-name">{name}</div>
         <div class="region-bar">

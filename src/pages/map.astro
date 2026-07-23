@@ -124,7 +124,7 @@ const base = '/Live-CCTV';
   </style>
 
   <script>
-    document.addEventListener('astro:page-load', function() {
+    document.addEventListener('DOMContentLoaded', function() {
       var gpsDot = document.getElementById('gpsDot');
       var gpsText = document.getElementById('gpsText');
       var coordLat = document.getElementById('coordLat');
@@ -279,12 +279,6 @@ const base = '/Live-CCTV';
 
       loadAllCameras();
       startWatching();
-
-      return function() {
-        if (watchId !== null) {
-          navigator.geolocation.clearWatch(watchId);
-        }
-      };
     });
   </script>
 </BaseLayout>

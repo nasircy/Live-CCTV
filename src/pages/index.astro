@@ -113,7 +113,7 @@ const base = '/Live-CCTV';
   </style>
 
   <script>
-    document.addEventListener('astro:page-load', () => {
+    document.addEventListener('DOMContentLoaded', () => {
       if ('geolocation' in navigator) {
         navigator.geolocation.getCurrentPosition(
           () => {

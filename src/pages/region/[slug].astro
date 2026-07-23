@@ -6,19 +6,14 @@ import regions from '../../data/regions.json';
 const base = '/Live-CCTV';
 
 export function getStaticPaths() {
-  return Object.keys(regions).map(name => ({
-    params: { slug: encodeURIComponent(name) }
+  const entries = Object.entries(regions);
+  return entries.map(([name], i) => ({
+    params: { slug: String(i) },
+    props: { regionName: name, regionInfo: regions[name] }
   }));
 }
 
-const slug = Astro.params.slug;
-const regionName = decodeURIComponent(slug);
-const regionInfo = regions[regionName];
-
-if (!regionInfo) {
-  return Astro.redirect('/404');
-}
-
+const { regionName, regionInfo } = Astro.props;
 const dataFile = regionInfo.file;
 const camCount = regionInfo.count;
 const dataDir = path.join(process.cwd(), 'src', 'data');
