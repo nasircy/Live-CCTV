@@ -2,6 +2,6 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://nasircy.github.io',
-  base: '/NY-Live-CCTV',
+  base: '/Live-CCTV',
   output: 'static'
 });
