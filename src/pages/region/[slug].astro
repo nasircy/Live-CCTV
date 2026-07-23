@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import regions from '../../data/regions.json';
+const base = '/NY-Live-CCTV';
+
+export function getStaticPaths() {
+  return Object.keys(regions).map(name => ({
+    params: { slug: encodeURIComponent(name) }
+  }));
+}
+
+const slug = Astro.params.slug;
+const regionName = decodeURIComponent(slug);
+const regionInfo = regions[regionName];
+
+if (!regionInfo) {
+  return Astro.redirect('/404');
+}
+
+const dataFile = regionInfo.file;
+const camCount = regionInfo.count;
+---
+
+<BaseLayout title={regionName}>
+  <div class="region-header">
+    <a href={`${base}/regions`} class="back-link">← 返回區域列表</a>
+    <h1>{regionName}</h1>
+    <p class="cam-count">{camCount.toLocaleString()} 台攝影機</p>
+  </div>
+
+  <div class="cam-grid" id="camGrid">
+    <div class="loading-cams">載入中...</div>
+  </div>
+
+  <style>
+    .region-header { margin-bottom: 2rem; }
+    .back-link { color: var(--color-muted); font-size: 0.85rem; display: inline-block; margin-bottom: 0.75rem; }
+    .back-link:hover { color: var(--color-accent); }
+    h1 { margin-bottom: 0.25rem; }
+    .cam-count { color: var(--color-muted); font-size: 0.9rem; }
+    .cam-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
+    .loading-cams { grid-column: 1 / -1; text-align: center; padding: 3rem; color: var(--color-muted); }
+
+    .cam-card {
+      background: var(--color-surface); border: 1px solid var(--color-border);
+      border-radius: 12px; overflow: hidden; transition: border-color 0.2s;
+    }
+    .cam-card:hover { border-color: var(--color-accent); }
+    .cam-preview {
+      width: 100%; aspect-ratio: 16/9;
+      background: #000; position: relative; overflow: hidden;
+    }
+    .cam-preview img {
+      width: 100%; height: 100%; object-fit: cover;
+      opacity: 0.85; transition: opacity 0.3s;
+    }
+    .cam-preview img:hover { opacity: 1; }
+    .cam-preview .cam-placeholder {
+      display: flex; align-items: center; justify-content: center;
+      height: 100%; color: #333; font-size: 0.8rem;
+    }
+    .cam-body { padding: 0.75rem 1rem; }
+    .cam-name {
+      font-size: 0.85rem; font-weight: 600;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .cam-meta { font-size: 0.75rem; color: var(--color-muted); margin-top: 4px; }
+    .cam-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+    .cam-btn {
+      padding: 4px 12px; border-radius: 4px; font-size: 0.75rem;
+      border: 1px solid var(--color-border); background: transparent;
+      color: var(--color-muted); cursor: pointer; transition: all 0.2s;
+      text-decoration: none; display: inline-block;
+    }
+    .cam-btn:hover { border-color: var(--color-accent); color: var(--color-accent); text-decoration: none; }
+    .cam-btn-primary { background: var(--color-accent); color: #fff; border-color: var(--color-accent); }
+    .cam-btn-primary:hover { background: #4a9eff; color: #fff; }
+
+    @media (max-width: 640px) {
+      .cam-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <script>
+    document.addEventListener('astro:page-load', async () => {
+      const grid = document.getElementById('camGrid');
+      if (!grid) return;
+
+      try {
+        const resp = await fetch(`/NY-Live-CCTV/data/${dataFile}`);
+        const cams = await resp.json();
+
+        if (cams.length === 0) {
+          grid.innerHTML = '<div class="loading-cams">無攝影機資料</div>';
+          return;
+        }
+
+        grid.innerHTML = cams.map(cam => {
+          const mapUrl = `https://www.google.com/maps?q=${cam.lat},${cam.lng}`;
+          const streamUrl = cam.url;
+          const isImage = /\.(jpe?g|png|gif|webp)(\?|$)/i.test(streamUrl);
+          const imgSrc = isImage ? streamUrl : null;
+          return `
+            <div class="cam-card">
+              <div class="cam-preview">
+                ${imgSrc
+                  ? `<img src="${imgSrc}" alt="${cam.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'cam-placeholder\\'>無訊號</div>'">`
+                  : `<div class="cam-placeholder">即時串流</div>`
+                }
+              </div>
+              <div class="cam-body">
+                <div class="cam-name" title="${cam.name}">${cam.name}</div>
+                <div class="cam-meta">${cam.city || ''} &middot; ${cam.lat.toFixed(4)}, ${cam.lng.toFixed(4)}</div>
+                <div class="cam-actions">
+                  <a href="${streamUrl}" target="_blank" rel="noopener" class="cam-btn cam-btn-primary">觀看</a>
+                  <a href="${mapUrl}" target="_blank" rel="noopener" class="cam-btn">地圖</a>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } catch (e) {
+        grid.innerHTML = `<div class="loading-cams">載入失敗: ${e.message}</div>`;
+      }
+    });
+  </script>
+</BaseLayout>
