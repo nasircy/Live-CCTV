@@ -111481,5 +111481,2195 @@
     "lng": 120.242913,
     "url": "https://trafficvideo5.tainan.gov.tw/130d78ca",
     "city": "台南市"
+  },
+  {
+    "id": 1784831149664.679,
+    "name": "漁港路、德昌街（東側）",
+    "region": "市區道路",
+    "city": "高雄市",
+    "lat": 22.582664,
+    "lng": 120.324348,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam015",
+    "map": "https://www.google.com/maps?q=22.582664,120.324348"
+  },
+  {
+    "id": 1784831149761.7766,
+    "name": "漁港路、德昌街（西側）",
+    "region": "市區道路",
+    "city": "高雄市",
+    "lat": 22.582664,
+    "lng": 120.324348,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam016",
+    "map": "https://www.google.com/maps?q=22.582664,120.324348"
+  },
+  {
+    "id": 1784831149770.1802,
+    "name": "博愛一路、大順一路",
+    "region": "市區道路",
+    "city": "高雄市",
+    "lat": 22.653965,
+    "lng": 120.303566,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam025",
+    "map": "https://www.google.com/maps?q=22.653965,120.303566"
+  },
+  {
+    "id": 1784831149820.5806,
+    "name": "站東路、長明街(東北角)",
+    "region": "市區道路",
+    "city": "高雄市",
+    "lat": 22.637699,
+    "lng": 120.302555,
+    "url": "https://cctv5.kctmc.nat.gov.tw/stream/?n=cam262",
+    "map": "https://www.google.com/maps?q=22.637699,120.302555"
+  },
+  {
+    "id": 1784831149880.7236,
+    "name": "國道六號(舊正交流道到東草屯交流道)",
+    "region": "國道",
+    "city": "台中市",
+    "lat": 24.007424,
+    "lng": 120.70806,
+    "url": "https://cctvc.freeway.gov.tw/abs2mjpg/bmjpg?camera=374",
+    "map": "https://www.google.com/maps?q=24.007424,120.70806"
+  },
+  {
+    "id": 1784831149901.795,
+    "name": "國道五號(雪山隧道)",
+    "region": "國道",
+    "city": "新北市",
+    "lat": 24.8999,
+    "lng": 121.753,
+    "url": "https://cctvn5.freeway.gov.tw/abs2mjpg/bmjpg?camera=419f9fd6-2bcf-43d0-b61f-38e081eb3eb3",
+    "map": "https://www.google.com/maps?q=24.8999,121.753"
+  },
+  {
+    "id": 1784831149905.4028,
+    "name": "國道五號(石碇交流道到坪林交控交流道)",
+    "region": "國道",
+    "city": "新北市",
+    "lat": 24.9552,
+    "lng": 121.6887,
+    "url": "https://cctvn5.freeway.gov.tw/abs2mjpg/bmjpg?camera=69eefa10-41fe-4000-9e10-bd9e58639f95",
+    "map": "https://www.google.com/maps?q=24.9552,121.6887"
+  },
+  {
+    "id": 1784831149908.6028,
+    "name": "國道五號(石碇交流道到坪林交控交流道)",
+    "region": "國道",
+    "city": "新北市",
+    "lat": 24.964,
+    "lng": 121.6852,
+    "url": "https://cctvn5.freeway.gov.tw/abs2mjpg/bmjpg?camera=ba65c52a-2a1c-4cba-97fb-a91f4f31a596",
+    "map": "https://www.google.com/maps?q=24.964,121.6852"
+  },
+  {
+    "id": 1784831149953.346,
+    "name": "仁愛鄉小風口合歡山管理站 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.1623,
+    "lng": 121.287,
+    "url": "https://cctv-ss01.thb.gov.tw/T14A-036K+560",
+    "map": "https://www.google.com/maps?q=24.1623,121.287"
+  },
+  {
+    "id": 1784831149955.5808,
+    "name": "大禹嶺路側停車場電信箱旁 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.1821,
+    "lng": 121.3083,
+    "url": "https://cctv-ss01.thb.gov.tw/T14A-041K+700",
+    "map": "https://www.google.com/maps?q=24.1821,121.3083"
+  },
+  {
+    "id": 1784831149959.6448,
+    "name": "北宜公路財茂彎(台9線32K+700)",
+    "region": "省道",
+    "city": "新北市",
+    "lat": 24.94174,
+    "lng": 121.6738,
+    "url": "https://cctv-ss03.thb.gov.tw/T9-32K+700",
+    "map": "https://www.google.com/maps?q=24.94174,121.6738"
+  },
+  {
+    "id": 1784831149961.901,
+    "name": "新城分局合歡派出所 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.187,
+    "lng": 121.302,
+    "url": "https://cctv-ss02.thb.gov.tw/T8-114K+600",
+    "map": "https://www.google.com/maps?q=24.187,121.302"
+  },
+  {
+    "id": 1784831149964.782,
+    "name": "中油關原加油站 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.1875,
+    "lng": 121.3035,
+    "url": "https://cctv-ss02.thb.gov.tw/T8-114K+940",
+    "map": "https://www.google.com/maps?q=24.1875,121.3035"
+  },
+  {
+    "id": 1784831149966.888,
+    "name": "南澳鄉南澳~和平間(南向)",
+    "region": "省道",
+    "city": "宜蘭縣",
+    "lat": 24.360169,
+    "lng": 121.779477,
+    "url": "https://cctv-ss02.thb.gov.tw:443/T9D-045K+630",
+    "map": "https://www.google.com/maps?q=24.360169,121.779477"
+  },
+  {
+    "id": 1784831149968.2957,
+    "name": "台9線 117k+510",
+    "region": "省道",
+    "city": "宜蘭縣",
+    "lat": 24.491405,
+    "lng": 121.831242,
+    "url": "https://cctv-ss03.thb.gov.tw:443/T9-117k+510",
+    "map": "https://www.google.com/maps?q=24.491405,121.831242"
+  },
+  {
+    "id": 1784831149970.7063,
+    "name": "台9線 117k+510-1",
+    "region": "省道",
+    "city": "宜蘭縣",
+    "lat": 24.491405,
+    "lng": 121.831242,
+    "url": "https://cctv-ss03.thb.gov.tw:443/T9-117k+510-1",
+    "map": "https://www.google.com/maps?q=24.491405,121.831242"
+  },
+  {
+    "id": 1784831149977.016,
+    "name": "清境農場 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.0593,
+    "lng": 121.163,
+    "url": "https://cctv-ss04.thb.gov.tw/T14A-006K+950",
+    "map": "https://www.google.com/maps?q=24.0593,121.163"
+  },
+  {
+    "id": 1784831149981.3403,
+    "name": "合歡山遊客服務中心 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.1413,
+    "lng": 121.2857,
+    "url": "https://cctv-ss04.thb.gov.tw/T14A-32K+781",
+    "map": "https://www.google.com/maps?q=24.1413,121.2857"
+  },
+  {
+    "id": 1784831149984.06,
+    "name": "合歡山莊雪厚標尺 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.1413,
+    "lng": 121.2857,
+    "url": "https://cctv-ss04.thb.gov.tw/T14A-32K+781-2",
+    "map": "https://www.google.com/maps?q=24.1413,121.2857"
+  },
+  {
+    "id": 1784831149986.1692,
+    "name": "清境停車場旁 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.0603,
+    "lng": 121.164,
+    "url": "https://cctv-ss04.thb.gov.tw/T14A-7K+520",
+    "map": "https://www.google.com/maps?q=24.0603,121.164"
+  },
+  {
+    "id": 1784831149991.3755,
+    "name": "青青草原入口處 -合歡山",
+    "region": "省道",
+    "city": "",
+    "lat": 24.059,
+    "lng": 121.1595,
+    "url": "https://cctv-ss04.thb.gov.tw/T14A-9K+950",
+    "map": "https://www.google.com/maps?q=24.059,121.1595"
+  },
+  {
+    "id": 1784831149997.2537,
+    "name": "台20線100K+000",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 23.22554,
+    "lng": 120.805541,
+    "url": "https://cctv-ss04.thb.gov.tw:443/T20-100K+000",
+    "map": "https://www.google.com/maps?q=23.22554,120.805541"
+  },
+  {
+    "id": 1784831150002.87,
+    "name": "台1線-湖內區中山路一段17號前分隔島-北向（北向）",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.908188,
+    "lng": 120.21153,
+    "url": "https://cctv-ss05.thb.gov.tw/t1-350k+400?resolution=cif_352x288&#38;randhash=246.63077364834086",
+    "map": "https://www.google.com/maps?q=22.908188,120.21153"
+  },
+  {
+    "id": 1784831150005.578,
+    "name": "台1線-高雄市仁武區高楠公路（近八德二路）-南向（南向）(371K+450)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.70114,
+    "lng": 120.347674,
+    "url": "https://cctv-ss05.thb.gov.tw/t1-371k+450?resolution=cif_352x288&#38;randhash=699.6801397190031",
+    "map": "https://www.google.com/maps?q=22.70114,120.347674"
+  },
+  {
+    "id": 1784831150008.2793,
+    "name": "台17線(華正路/大公路到台17/台28)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.908188,
+    "lng": 120.21153,
+    "url": "https://cctv-ss05.thb.gov.tw/t17-194k+750?resolution=cif_352x288&#38;randhash=456.11874865063197",
+    "map": "https://www.google.com/maps?q=22.908188,120.21153"
+  },
+  {
+    "id": 1784831150016.6963,
+    "name": "台20線203K+000",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 23.106232,
+    "lng": 121.173927,
+    "url": "https://cctv-ss05.thb.gov.tw/T20-203K+000",
+    "map": "https://www.google.com/maps?q=23.106232,121.173927"
+  },
+  {
+    "id": 1784831150047.2144,
+    "name": "台20線58K+700",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 23.068781,
+    "lng": 120.555505,
+    "url": "https://cctv-ss05.thb.gov.tw/T20-58K+700",
+    "map": "https://www.google.com/maps?q=23.068781,120.555505"
+  },
+  {
+    "id": 1784831150051.766,
+    "name": "台20線-六龜區新發公路(73K+100)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.997914,
+    "lng": 120.633418,
+    "url": "https://cctv-ss05.thb.gov.tw/t20-73k+100?resolution=cif_352x288&#38;randhash=759.2932893416446",
+    "map": "https://www.google.com/maps?q=22.997914,120.633418"
+  },
+  {
+    "id": 1784831150091.3342,
+    "name": "台20線-六龜區寶來中正路21號(78K+750)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.997914,
+    "lng": 120.633418,
+    "url": "https://cctv-ss05.thb.gov.tw/t20-78k+750-1?resolution=cif_352x288&#38;randhash=116.69044917956927",
+    "map": "https://www.google.com/maps?q=22.997914,120.633418"
+  },
+  {
+    "id": 1784831150125.4143,
+    "name": "台22線-台22線15K+800",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.888491,
+    "lng": 120.48355,
+    "url": "https://cctv-ss05.thb.gov.tw/t22-16k+000?resolution=cif_352x288&#38;randhash=22.87602996592275",
+    "map": "https://www.google.com/maps?q=22.888491,120.48355"
+  },
+  {
+    "id": 1784831150130.984,
+    "name": "台25線(鳳林四路/中山東路32巷到仁愛路/高142)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.627094,
+    "lng": 120.362772,
+    "url": "https://cctv-ss05.thb.gov.tw/t25-2k+050?resolution=cif_352x288&#38;randhash=740.7311018192099",
+    "map": "https://www.google.com/maps?q=22.627094,120.362772"
+  },
+  {
+    "id": 1784831150136.292,
+    "name": "台27線-六龜區新發里和平路302支11號前(4K+300)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.997914,
+    "lng": 120.633418,
+    "url": "https://cctv-ss05.thb.gov.tw/t27-4k+300?resolution=cif_352x288&#38;randhash=206.99633138230178",
+    "map": "https://www.google.com/maps?q=22.997914,120.633418"
+  },
+  {
+    "id": 1784831150140.8438,
+    "name": "台27甲線-六龜區舊庄 旗六公路(5K+510)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.997914,
+    "lng": 120.633418,
+    "url": "https://cctv-ss05.thb.gov.tw/t27a-5k+510?resolution=cif_352x288&#38;randhash=54.5077122394213",
+    "map": "https://www.google.com/maps?q=22.997914,120.633418"
+  },
+  {
+    "id": 1784831150177.6812,
+    "name": "台28線-延平二路7-11上(31K+400)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.888491,
+    "lng": 120.48355,
+    "url": "https://cctv-ss05.thb.gov.tw/t28-31k+800?resolution=cif_352x288&#38;randhash=351.2608489156055",
+    "map": "https://www.google.com/maps?q=22.888491,120.48355"
+  },
+  {
+    "id": 1784831150181.5527,
+    "name": "台19甲(高9/高9到台 19甲/台 28)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.883703,
+    "lng": 120.327036,
+    "url": "https://cctv-ss05.thb.gov.tw/t28-8k+550?resolution=cif_352x288&#38;randhash=284.61272591294096",
+    "map": "https://www.google.com/maps?q=22.883703,120.327036"
+  },
+  {
+    "id": 1784831150184.5889,
+    "name": "台29線-甲仙區中園路200號(38K+200)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 23.085194,
+    "lng": 120.591515,
+    "url": "https://cctv-ss05.thb.gov.tw/t29-38k+200?resolution=cif_352x288&#38;randhash=438.59242733765313",
+    "map": "https://www.google.com/maps?q=23.085194,120.591515"
+  },
+  {
+    "id": 1784831150213.812,
+    "name": "台29線-台29線79K+950",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.693394,
+    "lng": 120.433095,
+    "url": "https://cctv-ss05.thb.gov.tw/t29-79k+950?resolution=cif_352x288&#38;randhash=811.3081124547795",
+    "map": "https://www.google.com/maps?q=22.693394,120.433095"
+  },
+  {
+    "id": 1784831150229.6963,
+    "name": "台29線-台29線85K+280",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.693394,
+    "lng": 120.433095,
+    "url": "https://cctv-ss05.thb.gov.tw/t29-85k+280?resolution=cif_352x288&#38;randhash=656.0624086772555",
+    "map": "https://www.google.com/maps?q=22.693394,120.433095"
+  },
+  {
+    "id": 1784831150232.7908,
+    "name": "台29線-台29線85K+850(85K+850)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.693394,
+    "lng": 120.433095,
+    "url": "https://cctv-ss05.thb.gov.tw/t29-85k+850?resolution=cif_352x288&#38;randhash=954.207365754539",
+    "map": "https://www.google.com/maps?q=22.693394,120.433095"
+  },
+  {
+    "id": 1784831150249.533,
+    "name": "台25線15K+700",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.5228395,
+    "lng": 120.3974902,
+    "url": "https://cctv-ss05.thb.gov.tw:443/T25-15K+700",
+    "map": "https://www.google.com/maps?q=22.5228395,120.3974902"
+  },
+  {
+    "id": 1784831150366.8484,
+    "name": "台26線42K+700",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 21.906997,
+    "lng": 120.849513,
+    "url": "https://cctv-ss05.thb.gov.tw:443/T26-42K+700",
+    "map": "https://www.google.com/maps?q=21.906997,120.849513"
+  },
+  {
+    "id": 1784831150370.2214,
+    "name": "台20線13K+580",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.039529,
+    "lng": 120.308365,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-13K+580",
+    "map": "https://www.google.com/maps?q=23.039529,120.308365"
+  },
+  {
+    "id": 1784831150373.6624,
+    "name": "台20線14K+450",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.039529,
+    "lng": 120.308365,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-14K+450",
+    "map": "https://www.google.com/maps?q=23.039529,120.308365"
+  },
+  {
+    "id": 1784831150376.2144,
+    "name": "台20線14K+980",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.039529,
+    "lng": 120.308365,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-14K+980",
+    "map": "https://www.google.com/maps?q=23.039529,120.308365"
+  },
+  {
+    "id": 1784831150378.3057,
+    "name": "台20線16K+910",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.039529,
+    "lng": 120.308365,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-16K+910",
+    "map": "https://www.google.com/maps?q=23.039529,120.308365"
+  },
+  {
+    "id": 1784831150380.386,
+    "name": "台20線17K+850",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.039529,
+    "lng": 120.308365,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-17K+850",
+    "map": "https://www.google.com/maps?q=23.039529,120.308365"
+  },
+  {
+    "id": 1784831150382.7478,
+    "name": "台20線18K+550",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.039529,
+    "lng": 120.308365,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-18K+550",
+    "map": "https://www.google.com/maps?q=23.039529,120.308365"
+  },
+  {
+    "id": 1784831150385.4915,
+    "name": "台20線20K+230",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.104395,
+    "lng": 120.351853,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-20K+230",
+    "map": "https://www.google.com/maps?q=23.104395,120.351853"
+  },
+  {
+    "id": 1784831150394.201,
+    "name": "台20線22K+500",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.057955,
+    "lng": 120.407309,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-22K+500",
+    "map": "https://www.google.com/maps?q=23.057955,120.407309"
+  },
+  {
+    "id": 1784831150396.2852,
+    "name": "台20線35K+610",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.122227,
+    "lng": 120.457435,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-35K+610",
+    "map": "https://www.google.com/maps?q=23.122227,120.457435"
+  },
+  {
+    "id": 1784831150399.007,
+    "name": "台20線36K+410",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.122227,
+    "lng": 120.457435,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-36K+410",
+    "map": "https://www.google.com/maps?q=23.122227,120.457435"
+  },
+  {
+    "id": 1784831150401.19,
+    "name": "台20線3K+530",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.026325,
+    "lng": 120.25703,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-3K+530",
+    "map": "https://www.google.com/maps?q=23.026325,120.25703"
+  },
+  {
+    "id": 1784831150406.2234,
+    "name": "台20線3K+980",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.026325,
+    "lng": 120.25703,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-3K+980",
+    "map": "https://www.google.com/maps?q=23.026325,120.25703"
+  },
+  {
+    "id": 1784831150412.3433,
+    "name": "台20線42K+904",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.068781,
+    "lng": 120.555505,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-42K+904",
+    "map": "https://www.google.com/maps?q=23.068781,120.555505"
+  },
+  {
+    "id": 1784831150436.6277,
+    "name": "台20線48K+550",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.068781,
+    "lng": 120.555505,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-48K+550",
+    "map": "https://www.google.com/maps?q=23.068781,120.555505"
+  },
+  {
+    "id": 1784831150439.527,
+    "name": "台20線51K+935",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.068781,
+    "lng": 120.555505,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-51K+935",
+    "map": "https://www.google.com/maps?q=23.068781,120.555505"
+  },
+  {
+    "id": 1784831150445.1794,
+    "name": "台20線52K+090",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.068781,
+    "lng": 120.555505,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-52K+090",
+    "map": "https://www.google.com/maps?q=23.068781,120.555505"
+  },
+  {
+    "id": 1784831150447.5894,
+    "name": "台20線6K+080(下地)",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.026325,
+    "lng": 120.25703,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-6K+080",
+    "map": "https://www.google.com/maps?q=23.026325,120.25703"
+  },
+  {
+    "id": 1784831150452.4807,
+    "name": "台20線-六龜區裕濃路91-2號前(72K+800)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.997914,
+    "lng": 120.633418,
+    "url": "https://cctv-ss06.thb.gov.tw/t20-72k+800?resolution=cif_352x288&#38;randhash=835.3461877409476",
+    "map": "https://www.google.com/maps?q=22.997914,120.633418"
+  },
+  {
+    "id": 1784831150455.3955,
+    "name": "台20線9K+600",
+    "region": "省道",
+    "city": "台南市",
+    "lat": 23.026325,
+    "lng": 120.25703,
+    "url": "https://cctv-ss06.thb.gov.tw/T20-9K+600",
+    "map": "https://www.google.com/maps?q=23.026325,120.25703"
+  },
+  {
+    "id": 1784831150461.6558,
+    "name": "台27線-六龜區中興村尾莊16之1號(11K+350)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.997914,
+    "lng": 120.633418,
+    "url": "https://cctv-ss06.thb.gov.tw/t27a-1k+300?resolution=cif_352x288&#38;randhash=329.49223703282416",
+    "map": "https://www.google.com/maps?q=22.997914,120.633418"
+  },
+  {
+    "id": 1784831150465.5537,
+    "name": "台29線-甲仙區小林村008鄰五里路56號旁(23K+900)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 23.085194,
+    "lng": 120.591515,
+    "url": "https://cctv-ss06.thb.gov.tw/t29-23k+900?resolution=cif_352x288&#38;randhash=578.3617433531256",
+    "map": "https://www.google.com/maps?q=23.085194,120.591515"
+  },
+  {
+    "id": 1784831150468.8137,
+    "name": "台29線-旗山區永和里旗甲路一段378號前(63K+450)",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.888491,
+    "lng": 120.48355,
+    "url": "https://cctv-ss06.thb.gov.tw/t29-63k+450?resolution=cif_352x288&#38;randhash=899.415926387036",
+    "map": "https://www.google.com/maps?q=22.888491,120.48355"
+  },
+  {
+    "id": 1784831150470.0586,
+    "name": "台9線435K+849",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.246119,
+    "lng": 120.817855,
+    "url": "https://cctv-ss07.thb.gov.tw:443/9-435+849",
+    "map": "https://www.google.com/maps?q=22.246119,120.817855"
+  },
+  {
+    "id": 1784831150472.499,
+    "name": "台9線436K+463",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.244362,
+    "lng": 120.812032,
+    "url": "https://cctv-ss07.thb.gov.tw:443/9-436+463",
+    "map": "https://www.google.com/maps?q=22.244362,120.812032"
+  },
+  {
+    "id": 1784831150477.1487,
+    "name": "台88線0K+900",
+    "region": "省道",
+    "city": "高雄市",
+    "lat": 22.59201,
+    "lng": 120.346754,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T88-0K+900",
+    "map": "https://www.google.com/maps?q=22.59201,120.346754"
+  },
+  {
+    "id": 1784831150544.7202,
+    "name": "台9線437K+236",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.241531,
+    "lng": 120.8055,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-347K+236",
+    "map": "https://www.google.com/maps?q=22.241531,120.8055"
+  },
+  {
+    "id": 1784831150549.2302,
+    "name": "台9線432K+918",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.264496,
+    "lng": 120.837449,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-432K+918",
+    "map": "https://www.google.com/maps?q=22.264496,120.837449"
+  },
+  {
+    "id": 1784831150552.4705,
+    "name": "台9線432K+945-1",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.264496,
+    "lng": 120.837449,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-432K+945-1",
+    "map": "https://www.google.com/maps?q=22.264496,120.837449"
+  },
+  {
+    "id": 1784831150555.4592,
+    "name": "台9線432K+945-2",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.264285,
+    "lng": 120.837697,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-432K+945-2",
+    "map": "https://www.google.com/maps?q=22.264285,120.837697"
+  },
+  {
+    "id": 1784831150560.2202,
+    "name": "台9線433K+375",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.261463,
+    "lng": 120.834381,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433+375",
+    "map": "https://www.google.com/maps?q=22.261463,120.834381"
+  },
+  {
+    "id": 1784831150564.848,
+    "name": "台9線434K+013",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.256435,
+    "lng": 120.831432,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+013",
+    "map": "https://www.google.com/maps?q=22.256435,120.831432"
+  },
+  {
+    "id": 1784831150567.2517,
+    "name": "台9線433K+017",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.263687,
+    "lng": 120.836995,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+017",
+    "map": "https://www.google.com/maps?q=22.263687,120.836995"
+  },
+  {
+    "id": 1784831150580.6943,
+    "name": "台9線433K+025",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.263903,
+    "lng": 120.836746,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+025",
+    "map": "https://www.google.com/maps?q=22.263903,120.836746"
+  },
+  {
+    "id": 1784831150601.9585,
+    "name": "台9線433K+057-2",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.263812,
+    "lng": 120.83701,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+057-2",
+    "map": "https://www.google.com/maps?q=22.263812,120.83701"
+  },
+  {
+    "id": 1784831150647.3765,
+    "name": "台9線434K+074",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.256107,
+    "lng": 120.830811,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+074",
+    "map": "https://www.google.com/maps?q=22.256107,120.830811"
+  },
+  {
+    "id": 1784831150649.1272,
+    "name": "台9線433K+089",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.263035,
+    "lng": 120.83631,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+089",
+    "map": "https://www.google.com/maps?q=22.263035,120.83631"
+  },
+  {
+    "id": 1784831150657.1875,
+    "name": "台9線433K+141",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.263142,
+    "lng": 120.835911,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+141",
+    "map": "https://www.google.com/maps?q=22.263142,120.835911"
+  },
+  {
+    "id": 1784831150660.7627,
+    "name": "台9線433K+205",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.262309,
+    "lng": 120.835556,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+205",
+    "map": "https://www.google.com/maps?q=22.262309,120.835556"
+  },
+  {
+    "id": 1784831150681.4233,
+    "name": "台9線433K+257",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.26238,
+    "lng": 120.835161,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+257",
+    "map": "https://www.google.com/maps?q=22.26238,120.835161"
+  },
+  {
+    "id": 1784831150685.4543,
+    "name": "台9線433K+321",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.261532,
+    "lng": 120.834827,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+321",
+    "map": "https://www.google.com/maps?q=22.261532,120.834827"
+  },
+  {
+    "id": 1784831150690.9128,
+    "name": "台9線433K+407-1",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.26126,
+    "lng": 120.834314,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+407-1",
+    "map": "https://www.google.com/maps?q=22.26126,120.834314"
+  },
+  {
+    "id": 1784831150726.1897,
+    "name": "台9線433K+407-2",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.261154,
+    "lng": 120.834455,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+407-2",
+    "map": "https://www.google.com/maps?q=22.261154,120.834455"
+  },
+  {
+    "id": 1784831150731.7866,
+    "name": "台9線433K+434",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.260485,
+    "lng": 120.834071,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+434",
+    "map": "https://www.google.com/maps?q=22.260485,120.834071"
+  },
+  {
+    "id": 1784831150733.5046,
+    "name": "台9線433K+491",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.260624,
+    "lng": 120.833724,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+491",
+    "map": "https://www.google.com/maps?q=22.260624,120.833724"
+  },
+  {
+    "id": 1784831150736.3003,
+    "name": "台9線433K+550",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.259691,
+    "lng": 120.833506,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+550",
+    "map": "https://www.google.com/maps?q=22.259691,120.833506"
+  },
+  {
+    "id": 1784831150738.1082,
+    "name": "台9線433K+666",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.259015,
+    "lng": 120.833046,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+666",
+    "map": "https://www.google.com/maps?q=22.259015,120.833046"
+  },
+  {
+    "id": 1784831150794.2756,
+    "name": "台9線433K+779",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.258421,
+    "lng": 120.832683,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+779",
+    "map": "https://www.google.com/maps?q=22.258421,120.832683"
+  },
+  {
+    "id": 1784831150797.2903,
+    "name": "台9線433K+841",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.257874,
+    "lng": 120.831946,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+841",
+    "map": "https://www.google.com/maps?q=22.257874,120.831946"
+  },
+  {
+    "id": 1784831150802.9795,
+    "name": "台9線433K+897",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.257507,
+    "lng": 120.832079,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+897",
+    "map": "https://www.google.com/maps?q=22.257507,120.832079"
+  },
+  {
+    "id": 1784831150811.468,
+    "name": "台9線433K+957",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.256975,
+    "lng": 120.83138,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-433K+957",
+    "map": "https://www.google.com/maps?q=22.256975,120.83138"
+  },
+  {
+    "id": 1784831150818.0823,
+    "name": "台9線434K+131",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.255616,
+    "lng": 120.830873,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434+131",
+    "map": "https://www.google.com/maps?q=22.255616,120.830873"
+  },
+  {
+    "id": 1784831150823.5317,
+    "name": "台9線434K+537",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.252697,
+    "lng": 120.828073,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434+537",
+    "map": "https://www.google.com/maps?q=22.252697,120.828073"
+  },
+  {
+    "id": 1784831150829.8386,
+    "name": "台9線434K+099",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.255771,
+    "lng": 120.830904,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+099",
+    "map": "https://www.google.com/maps?q=22.255771,120.830904"
+  },
+  {
+    "id": 1784831150833.9995,
+    "name": "台9線434K+106",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.255862,
+    "lng": 120.830735,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+106",
+    "map": "https://www.google.com/maps?q=22.255862,120.830735"
+  },
+  {
+    "id": 1784831150837.5645,
+    "name": "台9線434K+190",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.255183,
+    "lng": 120.830163,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+190",
+    "map": "https://www.google.com/maps?q=22.255183,120.830163"
+  },
+  {
+    "id": 1784831150840.172,
+    "name": "台9線434K+247",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.254781,
+    "lng": 120.830302,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+247",
+    "map": "https://www.google.com/maps?q=22.254781,120.830302"
+  },
+  {
+    "id": 1784831150847.4495,
+    "name": "台9線434K+306",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.25433,
+    "lng": 120.829519,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+306",
+    "map": "https://www.google.com/maps?q=22.25433,120.829519"
+  },
+  {
+    "id": 1784831150850.1372,
+    "name": "台9線434K+363",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.253928,
+    "lng": 120.829631,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+363",
+    "map": "https://www.google.com/maps?q=22.253928,120.829631"
+  },
+  {
+    "id": 1784831150875.0718,
+    "name": "台9線434K+597",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.252202,
+    "lng": 120.828053,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+597",
+    "map": "https://www.google.com/maps?q=22.252202,120.828053"
+  },
+  {
+    "id": 1784831150878.736,
+    "name": "台9線434K+653",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.251933,
+    "lng": 120.827311,
+    "url": "https://cctv-ss07.thb.gov.tw:443/t9-434k+653",
+    "map": "https://www.google.com/maps?q=22.251933,120.827311"
+  },
+  {
+    "id": 1784831150881.2222,
+    "name": "台9線434K+713",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.25145,
+    "lng": 120.827268,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+713",
+    "map": "https://www.google.com/maps?q=22.25145,120.827268"
+  },
+  {
+    "id": 1784831150884.1665,
+    "name": "台9線434K+767",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.251219,
+    "lng": 120.82652,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+767",
+    "map": "https://www.google.com/maps?q=22.251219,120.82652"
+  },
+  {
+    "id": 1784831150887.108,
+    "name": "台9線434K+799-1",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.251053,
+    "lng": 120.82644,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+799-1",
+    "map": "https://www.google.com/maps?q=22.251053,120.82644"
+  },
+  {
+    "id": 1784831150889.621,
+    "name": "台9線434K+799-2",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.250917,
+    "lng": 120.826572,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+799-2",
+    "map": "https://www.google.com/maps?q=22.250917,120.826572"
+  },
+  {
+    "id": 1784831150894.441,
+    "name": "台9線434K+831",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.250663,
+    "lng": 120.826386,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+831",
+    "map": "https://www.google.com/maps?q=22.250663,120.826386"
+  },
+  {
+    "id": 1784831150901.0347,
+    "name": "台9線434K+883",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.250525,
+    "lng": 120.825681,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+883",
+    "map": "https://www.google.com/maps?q=22.250525,120.825681"
+  },
+  {
+    "id": 1784831150904.4055,
+    "name": "台9線434K+947",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.250006,
+    "lng": 120.825531,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+947",
+    "map": "https://www.google.com/maps?q=22.250006,120.825531"
+  },
+  {
+    "id": 1784831150915.5066,
+    "name": "台9線434K+999",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.249862,
+    "lng": 120.824803,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-434K+999",
+    "map": "https://www.google.com/maps?q=22.249862,120.824803"
+  },
+  {
+    "id": 1784831150935.6638,
+    "name": "台9線435K+063",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.249696,
+    "lng": 120.825092,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+063",
+    "map": "https://www.google.com/maps?q=22.249696,120.825092"
+  },
+  {
+    "id": 1784831150938.1262,
+    "name": "台9線435K+115",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.249253,
+    "lng": 120.823903,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+115",
+    "map": "https://www.google.com/maps?q=22.249253,120.823903"
+  },
+  {
+    "id": 1784831150978.5095,
+    "name": "台9線435K+145",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.249126,
+    "lng": 120.823816,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+145",
+    "map": "https://www.google.com/maps?q=22.249126,120.823816"
+  },
+  {
+    "id": 1784831150980.2268,
+    "name": "台9線435K+149",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.248968,
+    "lng": 120.823908,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+149",
+    "map": "https://www.google.com/maps?q=22.248968,120.823908"
+  },
+  {
+    "id": 1784831150982.382,
+    "name": "台9線435K+179",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.248798,
+    "lng": 120.823769,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9435K+179",
+    "map": "https://www.google.com/maps?q=22.248798,120.823769"
+  },
+  {
+    "id": 1784831150985.8623,
+    "name": "台9線435K+229",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.248709,
+    "lng": 120.823038,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+229",
+    "map": "https://www.google.com/maps?q=22.248709,120.823038"
+  },
+  {
+    "id": 1784831150988.7852,
+    "name": "台9線435K+297",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.248072,
+    "lng": 120.822546,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9435K+297",
+    "map": "https://www.google.com/maps?q=22.248072,120.822546"
+  },
+  {
+    "id": 1784831150992.533,
+    "name": "台9線435K+345",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.248176,
+    "lng": 120.822067,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+345",
+    "map": "https://www.google.com/maps?q=22.248176,120.822067"
+  },
+  {
+    "id": 1784831150995.1895,
+    "name": "台9線435K+413",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.247589,
+    "lng": 120.821665,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+413",
+    "map": "https://www.google.com/maps?q=22.247589,120.821665"
+  },
+  {
+    "id": 1784831150997.4045,
+    "name": "台9線435K+459",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.247674,
+    "lng": 120.821103,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+459",
+    "map": "https://www.google.com/maps?q=22.247674,120.821103"
+  },
+  {
+    "id": 1784831151017.135,
+    "name": "台9線435K+491",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.247527,
+    "lng": 120.820953,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+491",
+    "map": "https://www.google.com/maps?q=22.247527,120.820953"
+  },
+  {
+    "id": 1784831151019.4768,
+    "name": "台9線435K+499",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.247358,
+    "lng": 120.821022,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+499",
+    "map": "https://www.google.com/maps?q=22.247358,120.821022"
+  },
+  {
+    "id": 1784831151021.5825,
+    "name": "台9線435K+531",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.247114,
+    "lng": 120.820592,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+531",
+    "map": "https://www.google.com/maps?q=22.247114,120.820592"
+  },
+  {
+    "id": 1784831151040.4438,
+    "name": "台9線435K+575",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.247149,
+    "lng": 120.819881,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+575",
+    "map": "https://www.google.com/maps?q=22.247149,120.819881"
+  },
+  {
+    "id": 1784831151043.6333,
+    "name": "台9線435K+647",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.246667,
+    "lng": 120.819511,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+647",
+    "map": "https://www.google.com/maps?q=22.246667,120.819511"
+  },
+  {
+    "id": 1784831151046.853,
+    "name": "台9線435K+691",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.246728,
+    "lng": 120.818859,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+691",
+    "map": "https://www.google.com/maps?q=22.246728,120.818859"
+  },
+  {
+    "id": 1784831151049.4219,
+    "name": "台9線435K+763",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.246242,
+    "lng": 120.818461,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+763",
+    "map": "https://www.google.com/maps?q=22.246242,120.818461"
+  },
+  {
+    "id": 1784831151052.753,
+    "name": "台9線435K+806",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.246373,
+    "lng": 120.817823,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+806",
+    "map": "https://www.google.com/maps?q=22.246373,120.817823"
+  },
+  {
+    "id": 1784831151057.2065,
+    "name": "台9線435K+838",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.246303,
+    "lng": 120.817797,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+838",
+    "map": "https://www.google.com/maps?q=22.246303,120.817797"
+  },
+  {
+    "id": 1784831151062.7756,
+    "name": "台9線435K+881",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245915,
+    "lng": 120.817434,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+881",
+    "map": "https://www.google.com/maps?q=22.245915,120.817434"
+  },
+  {
+    "id": 1784831151064.2751,
+    "name": "台9線435K+922",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.246081,
+    "lng": 120.816859,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+922",
+    "map": "https://www.google.com/maps?q=22.246081,120.816859"
+  },
+  {
+    "id": 1784831151066.6206,
+    "name": "台9線435K+997",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245596,
+    "lng": 120.8163,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-435K+997",
+    "map": "https://www.google.com/maps?q=22.245596,120.8163"
+  },
+  {
+    "id": 1784831151068.4353,
+    "name": "台9線436K+811",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.243156,
+    "lng": 120.808882,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436+811",
+    "map": "https://www.google.com/maps?q=22.243156,120.808882"
+  },
+  {
+    "id": 1784831151075.1978,
+    "name": "台9線436K+038",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245779,
+    "lng": 120.815794,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+038",
+    "map": "https://www.google.com/maps?q=22.245779,120.815794"
+  },
+  {
+    "id": 1784831151079.0842,
+    "name": "台9線436K+113",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245284,
+    "lng": 120.81522,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+113",
+    "map": "https://www.google.com/maps?q=22.245284,120.81522"
+  },
+  {
+    "id": 1784831151081.234,
+    "name": "台9線436K+154",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245488,
+    "lng": 120.814716,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+154",
+    "map": "https://www.google.com/maps?q=22.245488,120.814716"
+  },
+  {
+    "id": 1784831151084.6104,
+    "name": "台9線436K+186",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245384,
+    "lng": 120.814694,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+186",
+    "map": "https://www.google.com/maps?q=22.245384,120.814694"
+  },
+  {
+    "id": 1784831151099.0032,
+    "name": "台9線436K+199",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245231,
+    "lng": 120.814714,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+199",
+    "map": "https://www.google.com/maps?q=22.245231,120.814714"
+  },
+  {
+    "id": 1784831151102.4053,
+    "name": "台9線436K+231",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245,
+    "lng": 120.814109,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+231",
+    "map": "https://www.google.com/maps?q=22.245,120.814109"
+  },
+  {
+    "id": 1784831151104.358,
+    "name": "台9線436K+270",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.245229,
+    "lng": 120.813757,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+270",
+    "map": "https://www.google.com/maps?q=22.245229,120.813757"
+  },
+  {
+    "id": 1784831151107.2263,
+    "name": "台9線436K+347",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.244681,
+    "lng": 120.812967,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+347",
+    "map": "https://www.google.com/maps?q=22.244681,120.812967"
+  },
+  {
+    "id": 1784831151112.9978,
+    "name": "台9線436K+386",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.244924,
+    "lng": 120.81268,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+386",
+    "map": "https://www.google.com/maps?q=22.244924,120.81268"
+  },
+  {
+    "id": 1784831151128.5103,
+    "name": "台9線436K+506",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.244564,
+    "lng": 120.811616,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+506",
+    "map": "https://www.google.com/maps?q=22.244564,120.811616"
+  },
+  {
+    "id": 1784831151131.9775,
+    "name": "台9線436K+536",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.244408,
+    "lng": 120.811364,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+536",
+    "map": "https://www.google.com/maps?q=22.244408,120.811364"
+  },
+  {
+    "id": 1784831151136.4438,
+    "name": "台9線436K+547",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.24424,
+    "lng": 120.811432,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+547",
+    "map": "https://www.google.com/maps?q=22.24424,120.811432"
+  },
+  {
+    "id": 1784831151139.3364,
+    "name": "台9線436K+577",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.24405,
+    "lng": 120.811089,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+577",
+    "map": "https://www.google.com/maps?q=22.24405,120.811089"
+  },
+  {
+    "id": 1784831151143.676,
+    "name": "台9線436K+620",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.244247,
+    "lng": 120.810694,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+620",
+    "map": "https://www.google.com/maps?q=22.244247,120.810694"
+  },
+  {
+    "id": 1784831151145.0461,
+    "name": "台9線436K+695",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.24361,
+    "lng": 120.8099,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+695",
+    "map": "https://www.google.com/maps?q=22.24361,120.8099"
+  },
+  {
+    "id": 1784831151168.2031,
+    "name": "台9線436K+736",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.243844,
+    "lng": 120.809663,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+736",
+    "map": "https://www.google.com/maps?q=22.243844,120.809663"
+  },
+  {
+    "id": 1784831151174.1953,
+    "name": "台9線436K+854",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.243386,
+    "lng": 120.808627,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+854",
+    "map": "https://www.google.com/maps?q=22.243386,120.808627"
+  },
+  {
+    "id": 1784831151177.6995,
+    "name": "台9線436K+886",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.243106,
+    "lng": 120.808166,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+886",
+    "map": "https://www.google.com/maps?q=22.243106,120.808166"
+  },
+  {
+    "id": 1784831151206.2617,
+    "name": "台9線436K+894",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.242947,
+    "lng": 120.808239,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+894",
+    "map": "https://www.google.com/maps?q=22.242947,120.808239"
+  },
+  {
+    "id": 1784831151211.192,
+    "name": "台9線436K+926",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.242674,
+    "lng": 120.807786,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+926",
+    "map": "https://www.google.com/maps?q=22.242674,120.807786"
+  },
+  {
+    "id": 1784831151214.0962,
+    "name": "台9線436K+970",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.242972,
+    "lng": 120.807705,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-436K+970",
+    "map": "https://www.google.com/maps?q=22.242972,120.807705"
+  },
+  {
+    "id": 1784831151216.1677,
+    "name": "台9線437K+086",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.242454,
+    "lng": 120.806735,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437+086",
+    "map": "https://www.google.com/maps?q=22.242454,120.806735"
+  },
+  {
+    "id": 1784831151219.6763,
+    "name": "台9線437K+042",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.242321,
+    "lng": 120.807116,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437K+042",
+    "map": "https://www.google.com/maps?q=22.242321,120.807116"
+  },
+  {
+    "id": 1784831151222.5417,
+    "name": "台9線437K+159",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.241817,
+    "lng": 120.806243,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437K+159",
+    "map": "https://www.google.com/maps?q=22.241817,120.806243"
+  },
+  {
+    "id": 1784831151226.3289,
+    "name": "台9線437K+204",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.241843,
+    "lng": 120.805799,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437K+204",
+    "map": "https://www.google.com/maps?q=22.241843,120.805799"
+  },
+  {
+    "id": 1784831151229.7305,
+    "name": "台9線437K+237",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.241439,
+    "lng": 120.805596,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437K+237",
+    "map": "https://www.google.com/maps?q=22.241439,120.805596"
+  },
+  {
+    "id": 1784831151231.533,
+    "name": "台9線437K+269",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.241219,
+    "lng": 120.805473,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437K+269",
+    "map": "https://www.google.com/maps?q=22.241219,120.805473"
+  },
+  {
+    "id": 1784831151234.107,
+    "name": "台9線437K+372",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.240503,
+    "lng": 120.804492,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437K+372",
+    "map": "https://www.google.com/maps?q=22.240503,120.804492"
+  },
+  {
+    "id": 1784831151236.7131,
+    "name": "台9線437K+408",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.240155,
+    "lng": 120.804557,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437K+408",
+    "map": "https://www.google.com/maps?q=22.240155,120.804557"
+  },
+  {
+    "id": 1784831151243.1335,
+    "name": "台9線437K+515",
+    "region": "省道",
+    "city": "屏東縣",
+    "lat": 22.239329,
+    "lng": 120.804132,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-437K+515",
+    "map": "https://www.google.com/maps?q=22.239329,120.804132"
+  },
+  {
+    "id": 1784831151245.9778,
+    "name": "台9線433K+607",
+    "region": "省道",
+    "city": "台東縣",
+    "lat": 22.25975,
+    "lng": 120.833119,
+    "url": "https://cctv-ss07.thb.gov.tw:443/T9-443K+607",
+    "map": "https://www.google.com/maps?q=22.25975,120.833119"
+  },
+  {
+    "id": 1784831151247.358,
+    "name": "台61線淡江大橋0K+000(南下)淡水端上橋處",
+    "region": "省道",
+    "city": "新北市",
+    "lat": 25.1654,
+    "lng": 121.4118,
+    "url": "https://cctv-ss08.thb.gov.tw:443/T61-0K+000(S)",
+    "map": "https://www.google.com/maps?q=25.1654,121.4118"
+  },
+  {
+    "id": 1784831151274.6243,
+    "name": "台61線淡江大橋0K+600(北上)",
+    "region": "省道",
+    "city": "新北市",
+    "lat": 25.169,
+    "lng": 121.413,
+    "url": "https://cctv-ss08.thb.gov.tw:443/T61-0K+600(N)",
+    "map": "https://www.google.com/maps?q=25.169,121.413"
+  },
+  {
+    "id": 1784831151279.7397,
+    "name": "台61線淡江大橋0K+660(南下)",
+    "region": "省道",
+    "city": "新北市",
+    "lat": 25.17,
+    "lng": 121.4135,
+    "url": "https://cctv-ss08.thb.gov.tw:443/T61-0K+660(S)",
+    "map": "https://www.google.com/maps?q=25.17,121.4135"
+  },
+  {
+    "id": 1784831151282.389,
+    "name": "台61線淡江大橋0K+710(北上)",
+    "region": "省道",
+    "city": "新北市",
+    "lat": 25.1708,
+    "lng": 121.414,
+    "url": "https://cctv-ss08.thb.gov.tw:443/T61-0K+710(N)",
+    "map": "https://www.google.com/maps?q=25.1708,121.414"
+  },
+  {
+    "id": 1784831151285.8323,
+    "name": "台61線淡江大橋0K+730(南下)",
+    "region": "省道",
+    "city": "新北市",
+    "lat": 25.1712,
+    "lng": 121.4142,
+    "url": "https://cctv-ss08.thb.gov.tw:443/T61-0K+730(S)",
+    "map": "https://www.google.com/maps?q=25.1712,121.4142"
+  },
+  {
+    "id": 1784831151291.055,
+    "name": "中豐路-台66交流道路口",
+    "region": "市區道路",
+    "city": "桃園市",
+    "lat": 24.92792,
+    "lng": 121.21334,
+    "url": "https://cctvtraffic.tycg.gov.tw/camera013",
+    "map": "https://www.google.com/maps?q=24.92792,121.21334"
+  },
+  {
+    "id": 1784831151473.4084,
+    "name": "彰化市彰水、彰鹿路口",
+    "region": "市區道路",
+    "city": "彰化縣",
+    "lat": 24.0636,
+    "lng": 120.5201,
+    "url": "https://changhuatc.chtraffic.gov.tw/cctv/1/Interface/Cameras/GetJPEGStream?Camera=cctv26&#38;AuthUser=web",
+    "map": "https://www.google.com/maps?q=24.0636,120.5201"
+  },
+  {
+    "id": 1784831151499.9097,
+    "name": "梅山遊客中心 -玉山國家公園",
+    "region": "市區道路",
+    "city": "",
+    "lat": 23.5847,
+    "lng": 120.656,
+    "url": "https://meishan.ysnp.gov.tw/mjpg/video.mjpg",
+    "map": "https://www.google.com/maps?q=23.5847,120.656"
+  },
+  {
+    "id": 1784831151502.387,
+    "name": "南安遊客中心 -玉山國家公園",
+    "region": "市區道路",
+    "city": "",
+    "lat": 23.3027,
+    "lng": 121.2583,
+    "url": "https://nan-an.ysnp.gov.tw/mjpg/video.mjpg",
+    "map": "https://www.google.com/maps?q=23.3027,121.2583"
+  },
+  {
+    "id": 1784831151533.0857,
+    "name": "水里遊客中心 -玉山國家公園",
+    "region": "市區道路",
+    "city": "",
+    "lat": 23.822,
+    "lng": 120.8519,
+    "url": "https://shueili.ysnp.gov.tw/mjpg/video.mjpg",
+    "map": "https://www.google.com/maps?q=23.822,120.8519"
+  },
+  {
+    "id": 1784831151535.1008,
+    "name": "塔塔加遊客中心 -玉山國家公園",
+    "region": "市區道路",
+    "city": "",
+    "lat": 23.485,
+    "lng": 120.8901,
+    "url": "https://tataka.ysnp.gov.tw/mjpg/video.mjpg",
+    "map": "https://www.google.com/maps?q=23.485,120.8901"
+  },
+  {
+    "id": 1784831151545.2908,
+    "name": "環中路/崇德路(車流往中清路)",
+    "region": "市區道路",
+    "city": "台中市",
+    "lat": 24.2013124,
+    "lng": 120.6864002,
+    "url": "https://tcnvr3.taichung.gov.tw/a18756c2",
+    "map": "https://www.google.com/maps?q=24.2013124,120.6864002"
+  },
+  {
+    "id": 1784831151565.681,
+    "name": "裕農路與裕信路口西桿(向西)-廣角",
+    "region": "市區道路",
+    "city": "台南市",
+    "lat": 22.99007,
+    "lng": 120.24477,
+    "url": "https://trafficvideo5.tainan.gov.tw/964d998c",
+    "map": "https://www.google.com/maps?q=22.99007,120.24477"
+  },
+  {
+    "id": 1784831151583.306,
+    "name": "羅東夜市旁立體停車場(興東路)",
+    "region": "市區道路",
+    "city": "宜蘭縣",
+    "lat": 24.677033,
+    "lng": 121.766919,
+    "url": "https://travel.lotong.gov.tw/test.php?ip=4&#38;r=",
+    "map": "https://www.google.com/maps?q=24.677033,121.766919"
+  },
+  {
+    "id": 1784831151588.0742,
+    "name": "中山公園廣場",
+    "region": "市區道路",
+    "city": "宜蘭縣",
+    "lat": 24.677033,
+    "lng": 121.766919,
+    "url": "https://travel.lotong.gov.tw/test.php?ip=5&#38;r=",
+    "map": "https://www.google.com/maps?q=24.677033,121.766919"
+  },
+  {
+    "id": 1784831151590.5237,
+    "name": "羅東夜市旁立體停車場入口(中興路)",
+    "region": "市區道路",
+    "city": "宜蘭縣",
+    "lat": 24.677033,
+    "lng": 121.766919,
+    "url": "https://travel.lotong.gov.tw/test.php?ip=6&#38;r=",
+    "map": "https://www.google.com/maps?q=24.677033,121.766919"
+  },
+  {
+    "id": 1784831151594.096,
+    "name": "麥寮鄉聯一道路",
+    "region": "市區道路",
+    "city": "雲林縣",
+    "lat": 23.753841,
+    "lng": 120.252043,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=13",
+    "map": "https://www.google.com/maps?q=23.753841,120.252043"
+  },
+  {
+    "id": 1784831151597.9685,
+    "name": "麥寮鄉外東環路(1)",
+    "region": "市區道路",
+    "city": "雲林縣",
+    "lat": 23.753841,
+    "lng": 120.252043,
+    "url": "https://yltraffic.yunlin.gov.tw/Media/Streaming?type=jpeg&#38;deviceid=14",
+    "map": "https://www.google.com/maps?q=23.753841,120.252043"
+  },
+  {
+    "id": 1784831151603.7136,
+    "name": "排雲登山服務中心 -玉山國家公園",
+    "region": "市區道路",
+    "city": "",
+    "lat": 23.486,
+    "lng": 120.889,
+    "url": "https://ysp.ysnp.gov.tw/mjpg/video.mjpg",
+    "map": "https://www.google.com/maps?q=23.486,120.889"
+  },
+  {
+    "id": 1784831151614.3027,
+    "name": "曾文水庫即時影像",
+    "region": "水利署防災",
+    "city": "嘉義縣",
+    "lat": 23.276745,
+    "lng": 120.565183,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/8/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.276745,120.565183"
+  },
+  {
+    "id": 1784831151616.4585,
+    "name": "諦願寺即時影像",
+    "region": "水利署防災",
+    "city": "高雄市",
+    "lat": 23.010327,
+    "lng": 120.638049,
+    "url": "https://iapi.wra.gov.tw/v3/api/Image/468dcef8-34d4-48e1-94b3-7c36faf23eff",
+    "map": "https://www.google.com/maps?q=23.010327,120.638049"
+  },
+  {
+    "id": 1784831151618.4724,
+    "name": "六龜彩虹山大佛即時影像",
+    "region": "水利署防災",
+    "city": "高雄市",
+    "lat": 22.997914,
+    "lng": 120.633418,
+    "url": "https://iapi.wra.gov.tw/v3/api/Image/468dcef8-34d4-48e1-94b3-7c36faf23eff",
+    "map": "https://www.google.com/maps?q=22.997914,120.633418"
+  },
+  {
+    "id": 1784831151622.176,
+    "name": "石門水庫阿姆坪即時影像",
+    "region": "水利署防災",
+    "city": "桃園市",
+    "lat": 24.812,
+    "lng": 121.255,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/7/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.812,121.255"
+  },
+  {
+    "id": 1784831151629.2385,
+    "name": "八仙山森林遊樂區即時影像",
+    "region": "水利署防災",
+    "city": "台中市",
+    "lat": 24.216,
+    "lng": 121.01,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/108/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.216,121.01"
+  },
+  {
+    "id": 1784831151632.697,
+    "name": "高雄流行音樂中心即時影像",
+    "region": "水利署防災",
+    "city": "高雄市",
+    "lat": 22.615,
+    "lng": 120.285,
+    "url": "https://iapi.wra.gov.tw/v3/api/Image/b0a62430-fc0c-4ea9-a8f5-e4bf4fc30c8a",
+    "map": "https://www.google.com/maps?q=22.615,120.285"
+  },
+  {
+    "id": 1784831151638.2295,
+    "name": "快速公路74號",
+    "region": "國道",
+    "city": "台中市",
+    "lat": 24.200104,
+    "lng": 120.714916,
+    "url": "https://cctvc.freeway.gov.tw/abs2mjpg/bmjpg?camera=917",
+    "map": "https://www.google.com/maps?q=24.200104,120.714916"
+  },
+  {
+    "id": 1784831151641.0781,
+    "name": "快速公路74號",
+    "region": "國道",
+    "city": "台中市",
+    "lat": 24.197623,
+    "lng": 120.718402,
+    "url": "https://cctvc.freeway.gov.tw/abs2mjpg/bmjpg?camera=918",
+    "map": "https://www.google.com/maps?q=24.197623,120.718402"
+  },
+  {
+    "id": 1784831151651.4563,
+    "name": "翡翠水庫(旁收北市府)",
+    "region": "水利署防災",
+    "city": "新北市",
+    "lat": 24.908972401936982,
+    "lng": 121.57513991829398,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/5/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.908972401936982,121.57513991829398"
+  },
+  {
+    "id": 1784831151654.0813,
+    "name": "曾文水庫(旁收南水分署)",
+    "region": "水利署防災",
+    "city": "嘉義縣",
+    "lat": 23.250580568794046,
+    "lng": 120.53693605680827,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/8/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.250580568794046,120.53693605680827"
+  },
+  {
+    "id": 1784831151656.3074,
+    "name": "岡山阿公店橋",
+    "region": "水利署防災",
+    "city": "高雄市",
+    "lat": 22.78597389660762,
+    "lng": 120.30045008237725,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/26/newbig.jpg",
+    "map": "https://www.google.com/maps?q=22.78597389660762,120.30045008237725"
+  },
+  {
+    "id": 1784831151659.205,
+    "name": "南化水庫(旁收台水)",
+    "region": "水利署防災",
+    "city": "台南市",
+    "lat": 23.08652368430213,
+    "lng": 120.53687005597186,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/151/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.08652368430213,120.53687005597186"
+  },
+  {
+    "id": 1784831151662.1575,
+    "name": "阿公店水庫管理中心",
+    "region": "水利署防災",
+    "city": "高雄市",
+    "lat": 22.81088887891852,
+    "lng": 120.34407907738004,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/6353/newbig.jpg",
+    "map": "https://www.google.com/maps?q=22.81088887891852,120.34407907738004"
+  },
+  {
+    "id": 1784831151689.9553,
+    "name": "臺中大肚彰化和美跨河橋梁新建工程河川工地使用之和美端P19破堤處臨時河防建造物",
+    "region": "水利署防災",
+    "city": "彰化縣",
+    "lat": 24.08519,
+    "lng": 120.31112,
+    "url": "https://iapi.wra.gov.tw/v3/api/Image/71abd89b-852c-4183-8d3c-08df462676bd",
+    "map": "https://www.google.com/maps?q=24.08519,120.31112"
+  },
+  {
+    "id": 1784831151837.058,
+    "name": "革新橋",
+    "region": "水利署防災",
+    "city": "屏東縣",
+    "lat": 22,
+    "lng": 120,
+    "url": "https://iapi.wra.gov.tw/v3/api/Image/04e8d931-9e88-4b5f-a77d-89d77cf3eb2b",
+    "map": "https://www.google.com/maps?q=22,120"
+  },
+  {
+    "id": 1784831151913.7087,
+    "name": "明潭發電廠(旁收台電)",
+    "region": "水利署防災",
+    "city": "南投縣",
+    "lat": 23.836099156105035,
+    "lng": 120.86751901712734,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/23/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.836099156105035,120.86751901712734"
+  },
+  {
+    "id": 1784831151917.6448,
+    "name": "集集攔河堰(旁收中水分署)",
+    "region": "水利署防災",
+    "city": "南投縣",
+    "lat": 23.82102316681389,
+    "lng": 120.76515003032145,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/24/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.82102316681389,120.76515003032145"
+  },
+  {
+    "id": 1784831151921.109,
+    "name": "石岡壩(旁收中水分署)",
+    "region": "水利署防災",
+    "city": "台中市",
+    "lat": 24.280146643666654,
+    "lng": 120.76993003093534,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/103/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.280146643666654,120.76993003093534"
+  },
+  {
+    "id": 1784831151924.331,
+    "name": "馬鞍壩(旁收台電)",
+    "region": "水利署防災",
+    "city": "台中市",
+    "lat": 24.185112910429314,
+    "lng": 120.91346001153931,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/107/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.185112910429314,120.91346001153931"
+  },
+  {
+    "id": 1784831151927.0728,
+    "name": "天輪壩(旁收台電)",
+    "region": "水利署防災",
+    "city": "台中市",
+    "lat": 24.211075892138105,
+    "lng": 121.01564899790857,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/108/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.211075892138105,121.01564899790857"
+  },
+  {
+    "id": 1784831151930.9282,
+    "name": "谷關壩(旁收台電)",
+    "region": "水利署防災",
+    "city": "台中市",
+    "lat": 24.233992876024775,
+    "lng": 121.0776499896015,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/109/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.233992876024775,121.0776499896015"
+  },
+  {
+    "id": 1784831151945.4622,
+    "name": "阿玉壩(旁收台電)",
+    "region": "水利署防災",
+    "city": "新北市",
+    "lat": 24.849823443588043,
+    "lng": 121.58713291700852,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/116/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.849823443588043,121.58713291700852"
+  },
+  {
+    "id": 1784831151966.5952,
+    "name": "鏡面水庫(旁收台水)",
+    "region": "水利署防災",
+    "city": "台南市",
+    "lat": 23.058383704235144,
+    "lng": 120.48769006176761,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/152/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.058383704235144,120.48769006176761"
+  },
+  {
+    "id": 1784831151969.7578,
+    "name": "石門水庫(介接北水分署)",
+    "region": "水利署防災",
+    "city": "桃園市",
+    "lat": 24.813052468688255,
+    "lng": 121.23988996621534,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/7/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.813052468688255,121.23988996621534"
+  },
+  {
+    "id": 1784831151976.172,
+    "name": "廣興(介接十河分署)",
+    "region": "水利署防災",
+    "city": "新北市",
+    "lat": 24.912633399242736,
+    "lng": 121.53543092392006,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/121/newbig.jpg",
+    "map": "https://www.google.com/maps?q=24.912633399242736,121.53543092392006"
+  },
+  {
+    "id": 1784831151981.9883,
+    "name": "北勢洲(介接六河分署)",
+    "region": "水利署防災",
+    "city": "台南市",
+    "lat": 23.124599658072036,
+    "lng": 120.33181008113573,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/143/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.124599658072036,120.33181008113573"
+  },
+  {
+    "id": 1784831152001.7146,
+    "name": "觀月橋(介接六河分署)",
+    "region": "水利署防災",
+    "city": "台南市",
+    "lat": 23.170693625638595,
+    "lng": 120.32608008217987,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/149/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.170693625638595,120.32608008217987"
+  },
+  {
+    "id": 1784831152005.0237,
+    "name": "前州橋警報水位站(介接南水分署)",
+    "region": "水利署防災",
+    "city": "高雄市",
+    "lat": 22.802567218329894,
+    "lng": 120.27938897389873,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/162/newbig.jpg",
+    "map": "https://www.google.com/maps?q=22.802567218329894,120.27938897389873"
+  },
+  {
+    "id": 1784831152007.3054,
+    "name": "壽峰橋警報水位站(介接南水分署)",
+    "region": "水利署防災",
+    "city": "高雄市",
+    "lat": 22.798483887843314,
+    "lng": 120.28752786178715,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/163/newbig.jpg",
+    "map": "https://www.google.com/maps?q=22.798483887843314,120.28752786178715"
+  },
+  {
+    "id": 1784831152012.2205,
+    "name": "馬太鞍溪左岸",
+    "region": "水利署防災",
+    "city": "花蓮縣",
+    "lat": 23.690656,
+    "lng": 121.40913,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/4001/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.690656,121.40913"
+  },
+  {
+    "id": 1784831152040.6946,
+    "name": "馬太鞍溪左岸水尺2",
+    "region": "水利署防災",
+    "city": "花蓮縣",
+    "lat": 23.690744,
+    "lng": 121.409128,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/4002/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.690744,121.409128"
+  },
+  {
+    "id": 1784831152045.793,
+    "name": "馬太鞍溪鋼便橋下游段",
+    "region": "水利署防災",
+    "city": "花蓮縣",
+    "lat": 23.690656,
+    "lng": 121.40913,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/4001/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.690656,121.40913"
+  },
+  {
+    "id": 1784831152050.9817,
+    "name": "馬太鞍溪橋左岸1",
+    "region": "水利署防災",
+    "city": "花蓮縣",
+    "lat": 23.690744,
+    "lng": 121.409128,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/4002/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.690744,121.409128"
+  },
+  {
+    "id": 1784831152057.7886,
+    "name": "馬太鞍溪橋左岸2",
+    "region": "水利署防災",
+    "city": "花蓮縣",
+    "lat": 23.690744,
+    "lng": 121.409128,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/4004/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.690744,121.409128"
+  },
+  {
+    "id": 1784831152092.259,
+    "name": "馬太鞍溪監測站",
+    "region": "水利署防災",
+    "city": "花蓮縣",
+    "lat": 23.689902,
+    "lng": 121.408603,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/4006/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.689902,121.408603"
+  },
+  {
+    "id": 1784831152107.2893,
+    "name": "馬太鞍溪鋼便橋",
+    "region": "水利署防災",
+    "city": "花蓮縣",
+    "lat": 23.689902,
+    "lng": 121.408603,
+    "url": "https://fmg.wra.gov.tw/singlefmg/new/4007/newbig.jpg",
+    "map": "https://www.google.com/maps?q=23.689902,121.408603"
+  },
+  {
+    "id": 1784831152111.81,
+    "name": "松藝路、迷宮花園北側出口 360度",
+    "region": "水利署防災",
+    "city": "高雄市",
+    "lat": 22.663676,
+    "lng": 120.341148,
+    "url": "https://iapi.wra.gov.tw/v3/api/Image/23369d62-148e-473f-8c23-ea9639c3771a",
+    "map": "https://www.google.com/maps?q=22.663676,120.341148"
   }
 ]
