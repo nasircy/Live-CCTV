@@ -98,15 +98,10 @@ const camCount = regionInfo.count;
         grid.innerHTML = cams.map(cam => {
           const mapUrl = `https://www.google.com/maps?q=${cam.lat},${cam.lng}`;
           const streamUrl = cam.url;
-          const isImage = /\.(jpe?g|png|gif|webp)(\?|$)/i.test(streamUrl);
-          const imgSrc = isImage ? streamUrl : null;
           return `
             <div class="cam-card">
               <div class="cam-preview">
-                ${imgSrc
-                  ? `<img src="${imgSrc}" alt="${cam.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'cam-placeholder\\'>無訊號</div>'">`
-                  : `<div class="cam-placeholder">即時串流</div>`
-                }
+                <img src="${streamUrl}" alt="${cam.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'cam-placeholder\\'>無訊號</div>'">
               </div>
               <div class="cam-body">
                 <div class="cam-name" title="${cam.name}">${cam.name}</div>
