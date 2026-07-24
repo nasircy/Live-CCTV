@@ -36,7 +36,7 @@ const regionCams = cameras.filter(c => c.region === regionName);
           <div class="cam-name" title={cam.name}>{cam.name}</div>
           <div class="cam-city">{cam.city}</div>
           <div class="cam-actions">
-            <a href={cam.url} target="_blank" rel="noopener" class="cam-link">映像を見る</a>
+            <a href={`${base}/camera/#${cam.id}`} class="cam-link">映像を見る</a>
           </div>
         </div>
       </div>

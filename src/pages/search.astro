@@ -161,7 +161,7 @@ const base = '/Live-CCTV';
             '<div class="cam-name" title="' + escHtml(c.name || '') + '">' + escHtml(c.name || '未命名') + '</div>' +
             '<div class="cam-city">' + escHtml(city) + '</div>' +
             '<div class="cam-actions">' +
-              '<a href="' + escHtml(c.url || '#') + '" target="_blank" rel="noopener" class="cam-link">映像を見る</a>' +
+              '<a href="/Live-CCTV/camera/#' + (c.id || '') + '" class="cam-link">映像を見る</a>' +
             '</div>' +
           '</div>' +
         '</div>';
