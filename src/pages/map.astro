@@ -95,9 +95,9 @@ const base = '/Live-CCTV';
       width: 100%; aspect-ratio: 16/9;
       background: #eae7e1; position: relative; overflow: hidden;
     }
-    .cam-preview img, .cam-preview video {
+    .cam-preview :global(img), .cam-preview :global(video) {
       width: 100%; height: 100%; object-fit: cover;
-      position: absolute; inset: 0;
+      position: absolute; inset: 0; display: block;
     }
     .cam-nosig {
       display: flex; align-items: center; justify-content: center;
@@ -208,10 +208,11 @@ const base = '/Live-CCTV';
           var distStr = cam.dist < 1000 ? Math.round(cam.dist) + 'm' : (cam.dist/1000).toFixed(1) + 'km';
           var isHls = cam.type === 'hls' || (cam.url && cam.url.indexOf('.m3u8') !== -1);
           var media;
+          var vidStyle = 'width:100%;height:100%;object-fit:cover;position:absolute;inset:0;display:block';
           if (isHls) {
-            media = '<video class="cam-video" data-src="' + cam.url + '" muted autoplay loop playsinline></video>';
+            media = '<video class="cam-video" data-src="' + cam.url + '" muted autoplay loop playsinline style="' + vidStyle + '"></video>';
           } else {
-            media = '<img class="cam-img" src="' + cam.url + '" alt="" loading="lazy" />';
+            media = '<img class="cam-img" src="' + cam.url + '" alt="" loading="lazy" style="' + vidStyle + '" />';
           }
           return '' +
             '<div class="cam-card">' +
