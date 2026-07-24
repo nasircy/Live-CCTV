@@ -33,7 +33,7 @@ const regionCams = cameras.filter(c => c.region === regionName);
           <div class="cam-media" data-url={cam.url} data-type={cam.type || 'img'} />
         </div>
         <div class="cam-info">
-          <div class="cam-name">{cam.name}</div>
+          <div class="cam-name" title={cam.name}>{cam.name}</div>
           <div class="cam-city">{cam.city}</div>
           <div class="cam-actions">
             <a href={cam.url} target="_blank" rel="noopener" class="cam-link">映像を見る</a>
@@ -50,20 +50,55 @@ const regionCams = cameras.filter(c => c.region === regionName);
     .page-label { font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 0.5rem; }
     h1 { font-size: 1.6rem; font-weight: 400; margin-bottom: 0.25rem; }
     .page-desc { color: var(--text-muted); font-size: 0.82rem; }
-    .cam-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
-    .cam-card { background: var(--surface); overflow: hidden; transition: background 0.2s; }
-    .cam-card:hover { background: #faf9f7; }
-    .cam-preview { width: 100%; aspect-ratio: 16/9; background: #eae7e1; position: relative; overflow: hidden; }
-    .cam-preview :global(.cam-media) { width: 100%; height: 100%; }
-    .cam-preview :global(img), .cam-preview :global(video) { width: 100%; height: 100%; object-fit: cover; display: block; position: absolute; inset: 0; }
-    .cam-nosig { display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-dim); font-size: 0.65rem; letter-spacing: 0.1em; font-family: var(--font-mono); flex-direction: column; gap: 0.4rem; }
+    .cam-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1px; background: var(--border); border: 1px solid var(--border);
+    }
+    .cam-card { background: var(--surface); overflow: hidden; }
+    .cam-preview {
+      width: 100%; aspect-ratio: 16/9;
+      background: #eae7e1; position: relative; overflow: hidden;
+    }
+    .cam-preview :global(.cam-media) {
+      width: 100%; height: 100%; background: #eae7e1;
+    }
+    .cam-preview :global(img),
+    .cam-preview :global(video) {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+      position: absolute; inset: 0;
+    }
+    .cam-nosig {
+      display: flex; align-items: center; justify-content: center;
+      height: 100%; color: var(--text-dim);
+      font-size: 0.65rem; letter-spacing: 0.1em;
+      font-family: var(--font-mono); flex-direction: column; gap: 0.4rem;
+      position: absolute; inset: 0;
+    }
     .cam-nosig svg { opacity: 0.4; }
-    .cam-live { position: absolute; top: 10px; left: 10px; z-index: 2; background: rgba(255,255,255,0.88); backdrop-filter: blur(4px); padding: 2px 8px; font-size: 0.58rem; letter-spacing: 0.15em; color: var(--red); font-family: var(--font-mono); font-weight: 500; }
-    .cam-info { padding: 1rem 1.25rem; }
-    .cam-name { font-size: 0.82rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 0.2rem; }
-    .cam-city { font-size: 0.7rem; color: var(--text-dim); margin-bottom: 0.75rem; }
+    .cam-live {
+      position: absolute; top: 10px; left: 10px; z-index: 2;
+      background: rgba(255,255,255,0.88); backdrop-filter: blur(4px);
+      padding: 2px 8px; font-size: 0.58rem; letter-spacing: 0.15em;
+      color: var(--red); font-family: var(--font-mono); font-weight: 500;
+    }
+    .cam-info { padding: 0.8rem 1rem; }
+    .cam-name {
+      font-size: 0.78rem; font-weight: 500;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      overflow: hidden; line-height: 1.4; margin-bottom: 0.15rem;
+    }
+    .cam-city {
+      font-size: 0.68rem; color: var(--text-dim);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      margin-bottom: 0.5rem;
+    }
     .cam-actions { display: flex; gap: 0.5rem; }
-    .cam-link { font-size: 0.7rem; color: var(--accent); letter-spacing: 0.05em; padding: 3px 0; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+    .cam-link {
+      font-size: 0.68rem; color: var(--accent);
+      letter-spacing: 0.05em; padding: 3px 0;
+      border-bottom: 1px solid transparent; transition: border-color 0.2s;
+    }
     .cam-link:hover { border-bottom-color: var(--accent); text-decoration: none; }
     @media (max-width: 640px) { .cam-grid { grid-template-columns: 1fr; } }
   </style>
@@ -73,73 +108,67 @@ const regionCams = cameras.filter(c => c.region === regionName);
     document.addEventListener('DOMContentLoaded', function() {
       var cctvSvg = '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>';
 
-      function showNoSignal(el) {
+      function showNoSignal(parent) {
         var d = document.createElement('div');
         d.className = 'cam-nosig';
         d.innerHTML = cctvSvg + '<span>NO SIGNAL</span>';
-        el.parentNode.replaceChild(d, el);
+        parent.appendChild(d);
       }
 
       var MAX_HLS = 6;
       var activeHls = 0;
+      var inited = new WeakSet();
 
-      var items = document.querySelectorAll('.cam-media[data-url]');
       var observer = new IntersectionObserver(function(entries) {
         entries.forEach(function(entry) {
+          if (!entry.isIntersecting) return;
           var el = entry.target;
-          if (entry.isIntersecting && el.dataset.url && !el.dataset.init) {
-            if (el.dataset.type === 'hls' && activeHls >= MAX_HLS) return;
-            el.dataset.init = '1';
-            var url = el.dataset.url;
-            var type = el.dataset.type;
+          if (inited.has(el)) return;
+          inited.add(el);
 
-            if (type === 'hls') {
-              var video = document.createElement('video');
-              video.muted = true;
-              video.autoplay = true;
-              video.loop = true;
-              video.playsInline = true;
-              video.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block';
-              el.parentNode.replaceChild(video, el);
-              activeHls++;
+          var url = el.dataset.url;
+          var type = el.dataset.type;
 
-              if (typeof Hls !== 'undefined' && Hls.isSupported()) {
-                var hls = new Hls({ enableWorker: true, lowLatencyMode: true, maxBufferLength: 3, startFragPrefetch: true, maxMaxBufferLength: 6 });
-                hls.loadSource(url);
-                hls.attachMedia(video);
-                hls.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(function(){}); });
-                hls.on(Hls.Events.ERROR, function(e, data) {
-                  if (data.fatal) { hls.destroy(); activeHls--; showNoSignal(video); }
-                });
-                video._hlsCleanup = function() { hls.destroy(); activeHls--; };
-              } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = url;
-                video.play().catch(function(){});
-              } else {
-                activeHls--;
-                showNoSignal(video);
-              }
+          if (type === 'hls') {
+            if (activeHls >= MAX_HLS) return;
+            activeHls++;
+            var video = document.createElement('video');
+            video.muted = true;
+            video.autoplay = true;
+            video.loop = true;
+            video.playsInline = true;
+            video.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0';
+            el.appendChild(video);
+
+            if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+              var hls = new Hls({ enableWorker: true, lowLatencyMode: false, maxBufferLength: 10, startFragPrefetch: true, maxMaxBufferLength: 20 });
+              hls.loadSource(url);
+              hls.attachMedia(video);
+              hls.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(function(){}); });
+              hls.on(Hls.Events.ERROR, function(e, data) {
+                if (data.fatal) { hls.destroy(); activeHls--; showNoSignal(el); video.remove(); }
+              });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+              video.src = url;
+              video.play().catch(function(){});
             } else {
-              var img = document.createElement('img');
-              img.alt = '';
-              img.loading = 'lazy';
-              img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block';
-              img.onerror = function() { showNoSignal(img); };
-              img.src = url;
-              el.parentNode.replaceChild(img, el);
-            }
-          } else if (!entry.isIntersecting && el.dataset.init) {
-            var vid = el.tagName === 'VIDEO' ? el : el.querySelector('video');
-            if (vid && vid._hlsCleanup) {
-              vid._hlsCleanup();
-              vid._hlsCleanup = null;
               activeHls--;
+              video.remove();
+              showNoSignal(el);
             }
+          } else {
+            var img = document.createElement('img');
+            img.alt = '';
+            img.loading = 'lazy';
+            img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0';
+            img.onerror = function() { img.remove(); showNoSignal(el); };
+            img.src = url;
+            el.appendChild(img);
           }
         });
-      }, { rootMargin: '100px' });
+      }, { rootMargin: '150px' });
 
-      items.forEach(function(v) { observer.observe(v); });
+      document.querySelectorAll('.cam-media[data-url]').forEach(function(v) { observer.observe(v); });
     });
   </script>
 </BaseLayout>

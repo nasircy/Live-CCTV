@@ -215,58 +215,40 @@ const base = '/Live-CCTV';
       loadCameras();
       input.focus();
 
-      var origRender = renderCam;
-      renderCam = function(c) {
-        var html = origRender(c);
-        return html;
-      };
+      var searchHlsInited = new WeakSet();
+      var searchActiveHls = 0;
+      var SEARCH_MAX_HLS = 6;
 
       function initSearchMedia() {
         document.querySelectorAll('#searchResults .cam-img').forEach(function(img) {
-          if (img.dataset.bound) return;
-          img.dataset.bound = '1';
-          img.onerror = function() { showNoSignal(img); };
+          if (searchHlsInited.has(img)) return;
+          searchHlsInited.add(img);
+          img.onerror = function() { img.remove(); showNoSignal(img.parentNode); };
         });
 
-        var videos = document.querySelectorAll('#searchResults .cam-video[data-src]');
-        if (!videos.length || typeof Hls === 'undefined') return;
+        document.querySelectorAll('#searchResults .cam-video[data-src]').forEach(function(video) {
+          if (searchHlsInited.has(video)) return;
+          if (searchActiveHls >= SEARCH_MAX_HLS) return;
+          searchHlsInited.add(video);
+          searchActiveHls++;
 
-        var MAX_HLS = 6;
-        var activeHls = 0;
-
-        var observer = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            var video = entry.target;
-            if (entry.isIntersecting && video.dataset.src && !video.dataset.init) {
-              if (activeHls >= MAX_HLS) return;
-              video.dataset.init = '1';
-              activeHls++;
-              if (Hls.isSupported()) {
-                var hls = new Hls({ enableWorker: true, lowLatencyMode: true, maxBufferLength: 3, startFragPrefetch: true, maxMaxBufferLength: 6 });
-                hls.loadSource(video.dataset.src);
-                hls.attachMedia(video);
-                hls.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(function(){}); });
-                hls.on(Hls.Events.ERROR, function(e, data) {
-                  if (data.fatal) { hls.destroy(); activeHls--; showNoSignal(video); }
-                });
-                video._hlsCleanup = function() { hls.destroy(); activeHls--; };
-              } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = video.dataset.src;
-                video.play().catch(function(){});
-              } else {
-                activeHls--;
-                showNoSignal(video);
-              }
-            } else if (!entry.isIntersecting && video.dataset.init && video._hlsCleanup) {
-              video._hlsCleanup();
-              video._hlsCleanup = null;
-              video.dataset.init = '';
-              video.src = '';
-            }
-          });
-        }, { rootMargin: '100px' });
-
-        videos.forEach(function(v) { observer.observe(v); });
+          if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+            var hls = new Hls({ enableWorker: true, lowLatencyMode: false, maxBufferLength: 10, startFragPrefetch: true, maxMaxBufferLength: 20 });
+            hls.loadSource(video.dataset.src);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(function(){}); });
+            hls.on(Hls.Events.ERROR, function(e, data) {
+              if (data.fatal) { hls.destroy(); searchActiveHls--; video.remove(); showNoSignal(video.parentNode); }
+            });
+          } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = video.dataset.src;
+            video.play().catch(function(){});
+          } else {
+            searchActiveHls--;
+            video.remove();
+            showNoSignal(video.parentNode);
+          }
+        });
       }
     });
   </script>
