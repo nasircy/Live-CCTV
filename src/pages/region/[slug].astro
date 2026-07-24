@@ -1,8 +1,7 @@
 ---
-import fs from 'node:fs';
-import path from 'node:path';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import regions from '../../data/regions.json';
+import cameras from '../../data/cameras_thumb.json';
 const base = '/Live-CCTV';
 
 export function getStaticPaths() {
@@ -14,22 +13,20 @@ export function getStaticPaths() {
 }
 
 const { regionName, regionInfo } = Astro.props;
-const dataFile = regionInfo.file;
 const camCount = regionInfo.count;
-const dataDir = path.join(process.cwd(), 'src', 'data');
-const cameras = JSON.parse(fs.readFileSync(path.join(dataDir, dataFile), 'utf-8'));
+const regionCams = cameras.filter(c => c.region === regionName);
 ---
 
 <BaseLayout title={regionName}>
   <section class="page-header">
-            <a href={`${base}/regions`} class="back">&larr; 戻る</a>
+    <a href={`${base}/regions`} class="back">&larr; 戻る</a>
     <p class="page-label">CAMERA</p>
     <h1>{regionName}</h1>
     <p class="page-desc">{camCount.toLocaleString()} 台のカメラ</p>
   </section>
 
   <div class="cam-grid">
-    {cameras.map(cam => (
+    {regionCams.map(cam => (
       <div class="cam-card">
         <div class="cam-preview">
           <span class="cam-live">LIVE</span>
