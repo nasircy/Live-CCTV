@@ -95,8 +95,9 @@ const base = '/Live-CCTV';
       width: 100%; aspect-ratio: 16/9;
       background: #eae7e1; position: relative; overflow: hidden;
     }
-    .cam-preview img {
+    .cam-preview img, .cam-preview video {
       width: 100%; height: 100%; object-fit: cover;
+      position: absolute; inset: 0;
     }
     .cam-nosig {
       display: flex; align-items: center; justify-content: center;
