@@ -30,16 +30,11 @@ const regionCams = cameras.filter(c => c.region === regionName);
       <div class="cam-card">
         <div class="cam-preview">
           <span class="cam-live">LIVE</span>
-          <img
-            src={cam.url}
-            alt={cam.name}
-            loading="lazy"
-            onerror="this.outerHTML='<div class=&apos;cam-nosig&apos;>NO SIGNAL</div>'"
-          />
+          <div class="cam-media" data-url={cam.url} data-type={cam.type || 'img'} />
         </div>
         <div class="cam-info">
-          <div class="cam-name" title={cam.name}>{cam.name}</div>
-          <div class="cam-city">{cam.city || ''}</div>
+          <div class="cam-name">{cam.name}</div>
+          <div class="cam-city">{cam.city}</div>
           <div class="cam-actions">
             <a href={cam.url} target="_blank" rel="noopener" class="cam-link">映像を見る</a>
           </div>
@@ -50,63 +45,85 @@ const regionCams = cameras.filter(c => c.region === regionName);
 
   <style>
     .page-header { margin-bottom: 2.5rem; }
-    .back {
-      font-size: 0.72rem; color: var(--text-dim); display: inline-block;
-      margin-bottom: 1rem; letter-spacing: 0.05em;
-    }
+    .back { font-size: 0.72rem; color: var(--text-dim); display: inline-block; margin-bottom: 1rem; letter-spacing: 0.05em; }
     .back:hover { color: var(--accent); }
-    .page-label {
-      font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
-      color: var(--text-dim); margin-bottom: 0.5rem;
-    }
+    .page-label { font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 0.5rem; }
     h1 { font-size: 1.6rem; font-weight: 400; margin-bottom: 0.25rem; }
     .page-desc { color: var(--text-muted); font-size: 0.82rem; }
-
     .cam-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
-
-    .cam-card {
-      background: var(--surface); overflow: hidden;
-      transition: background 0.2s;
-    }
+    .cam-card { background: var(--surface); overflow: hidden; transition: background 0.2s; }
     .cam-card:hover { background: #faf9f7; }
-    .cam-preview {
-      width: 100%; aspect-ratio: 16/9;
-      background: #eae7e1; position: relative; overflow: hidden;
-    }
-    .cam-preview img {
-      width: 100%; height: 100%; object-fit: cover;
-    }
-    .cam-nosig {
-      display: flex; align-items: center; justify-content: center;
-      height: 100%; color: var(--text-dim); font-size: 0.7rem;
-      letter-spacing: 0.15em; font-family: var(--font-mono);
-    }
-    .cam-live {
-      position: absolute; top: 10px; left: 10px; z-index: 2;
-      background: rgba(255,255,255,0.88); backdrop-filter: blur(4px);
-      padding: 2px 8px; font-size: 0.58rem; letter-spacing: 0.15em;
-      color: var(--red); font-family: var(--font-mono); font-weight: 500;
-    }
+    .cam-preview { width: 100%; aspect-ratio: 16/9; background: #eae7e1; position: relative; overflow: hidden; }
+    .cam-preview :global(img), .cam-preview :global(video) { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .cam-nosig { display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-dim); font-size: 0.65rem; letter-spacing: 0.1em; font-family: var(--font-mono); flex-direction: column; gap: 0.4rem; }
+    .cam-nosig svg { opacity: 0.4; }
+    .cam-live { position: absolute; top: 10px; left: 10px; z-index: 2; background: rgba(255,255,255,0.88); backdrop-filter: blur(4px); padding: 2px 8px; font-size: 0.58rem; letter-spacing: 0.15em; color: var(--red); font-family: var(--font-mono); font-weight: 500; }
     .cam-info { padding: 1rem 1.25rem; }
-    .cam-name {
-      font-size: 0.82rem; font-weight: 500;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-      margin-bottom: 0.2rem;
-    }
-    .cam-city {
-      font-size: 0.7rem; color: var(--text-dim);
-      margin-bottom: 0.75rem;
-    }
+    .cam-name { font-size: 0.82rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 0.2rem; }
+    .cam-city { font-size: 0.7rem; color: var(--text-dim); margin-bottom: 0.75rem; }
     .cam-actions { display: flex; gap: 0.5rem; }
-    .cam-link {
-      font-size: 0.7rem; color: var(--accent);
-      letter-spacing: 0.05em; padding: 3px 0;
-      border-bottom: 1px solid transparent; transition: border-color 0.2s;
-    }
+    .cam-link { font-size: 0.7rem; color: var(--accent); letter-spacing: 0.05em; padding: 3px 0; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
     .cam-link:hover { border-bottom-color: var(--accent); text-decoration: none; }
-
-    @media (max-width: 640px) {
-      .cam-grid { grid-template-columns: 1fr; }
-    }
+    @media (max-width: 640px) { .cam-grid { grid-template-columns: 1fr; } }
   </style>
+
+  <script is:inline src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function() {
+      var cctvSvg = '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>';
+
+      function showNoSignal(el) {
+        var d = document.createElement('div');
+        d.className = 'cam-nosig';
+        d.innerHTML = cctvSvg + '<span>NO SIGNAL</span>';
+        el.parentNode.replaceChild(d, el);
+      }
+
+      var items = document.querySelectorAll('.cam-media[data-url]');
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          var el = entry.target;
+          if (!entry.isIntersecting || el.dataset.init) return;
+          el.dataset.init = '1';
+          var url = el.dataset.url;
+          var type = el.dataset.type;
+
+          if (type === 'hls') {
+            var video = document.createElement('video');
+            video.muted = true;
+            video.autoplay = true;
+            video.loop = true;
+            video.playsInline = true;
+            video.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block';
+            el.parentNode.replaceChild(video, el);
+
+            if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+              var hls = new Hls({ enableWorker: true, lowLatencyMode: true, maxBufferLength: 5, startFragPrefetch: true });
+              hls.loadSource(url);
+              hls.attachMedia(video);
+              hls.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(function(){}); });
+              hls.on(Hls.Events.ERROR, function(e, data) {
+                if (data.fatal) { hls.destroy(); showNoSignal(video); }
+              });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+              video.src = url;
+              video.play().catch(function(){});
+            } else {
+              showNoSignal(video);
+            }
+          } else {
+            var img = document.createElement('img');
+            img.alt = '';
+            img.loading = 'lazy';
+            img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block';
+            img.onerror = function() { showNoSignal(img); };
+            img.src = url;
+            el.parentNode.replaceChild(img, el);
+          }
+        });
+      }, { rootMargin: '200px' });
+
+      items.forEach(function(v) { observer.observe(v); });
+    });
+  </script>
 </BaseLayout>

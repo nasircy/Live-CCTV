@@ -113679,7 +113679,8 @@
     "city": "板橋區",
     "lat": 25.022613,
     "lng": 121.467942,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000002"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000002/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000003",
@@ -113688,7 +113689,8 @@
     "city": "板橋區",
     "lat": 25.018879,
     "lng": 121.470993,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000003"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000003/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000004",
@@ -113697,7 +113699,8 @@
     "city": "三重區",
     "lat": 25.072586,
     "lng": 121.494106,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000004"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000004/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000005",
@@ -113706,7 +113709,8 @@
     "city": "三重區",
     "lat": 25.063614,
     "lng": 121.506065,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000005"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000005/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000006",
@@ -113715,7 +113719,8 @@
     "city": "三重區",
     "lat": 25.054365,
     "lng": 121.496268,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000006"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000006/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000007",
@@ -113724,7 +113729,8 @@
     "city": "三重區",
     "lat": 25.047974,
     "lng": 121.494003,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000007"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000007/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000008",
@@ -113733,7 +113739,8 @@
     "city": "淡水區",
     "lat": 25.132069,
     "lng": 121.458524,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000008"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000008/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000011",
@@ -113742,7 +113749,8 @@
     "city": "土城區",
     "lat": 24.96524,
     "lng": 121.432984,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000011"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000011/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000012",
@@ -113751,7 +113759,8 @@
     "city": "板橋區",
     "lat": 25.013277,
     "lng": 121.468657,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000012"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000012/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000013",
@@ -113760,7 +113769,8 @@
     "city": "板橋區",
     "lat": 25.017215,
     "lng": 121.469114,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000013"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000013/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000014",
@@ -113769,7 +113779,8 @@
     "city": "板橋區",
     "lat": 25.013888,
     "lng": 121.464632,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000014"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000014/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000016",
@@ -113778,7 +113789,8 @@
     "city": "三峽區",
     "lat": 24.931392,
     "lng": 121.376299,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000016"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000016/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000017",
@@ -113787,7 +113799,8 @@
     "city": "鶯歌區",
     "lat": 24.945787,
     "lng": 121.352725,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000017"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000017/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000018",
@@ -113796,7 +113809,8 @@
     "city": "三峽區",
     "lat": 24.938579,
     "lng": 121.361428,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000018"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000018/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000019",
@@ -113805,7 +113819,8 @@
     "city": "板橋區",
     "lat": 25.032998,
     "lng": 121.46296,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000019"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000019/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000020",
@@ -113814,7 +113829,8 @@
     "city": "板橋區",
     "lat": 25.015711,
     "lng": 121.473477,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000020"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000020/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000021",
@@ -113823,7 +113839,8 @@
     "city": "板橋區",
     "lat": 25.011917,
     "lng": 121.477188,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000021"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000021/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000022",
@@ -113832,7 +113849,8 @@
     "city": "板橋區",
     "lat": 25.018772,
     "lng": 121.479246,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000022"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000022/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000023",
@@ -113841,7 +113859,8 @@
     "city": "板橋區",
     "lat": 25.03059,
     "lng": 121.456104,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000023"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000023/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000024",
@@ -113850,7 +113869,8 @@
     "city": "板橋區",
     "lat": 24.993511,
     "lng": 121.450033,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000024"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000024/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000025",
@@ -113859,7 +113879,8 @@
     "city": "板橋區",
     "lat": 25.01202,
     "lng": 121.466005,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000025"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000025/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000026",
@@ -113868,7 +113889,8 @@
     "city": "三重區",
     "lat": 25.056459,
     "lng": 121.486658,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000026"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000026/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000027",
@@ -113877,7 +113899,8 @@
     "city": "新莊區",
     "lat": 25.039081,
     "lng": 121.460526,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000027"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000027/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000028",
@@ -113886,7 +113909,8 @@
     "city": "中和區",
     "lat": 24.994198,
     "lng": 121.490362,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000028"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000028/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000029",
@@ -113895,7 +113919,8 @@
     "city": "中和區",
     "lat": 25.005103,
     "lng": 121.484056,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000029"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000029/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000030",
@@ -113904,7 +113929,8 @@
     "city": "中和區",
     "lat": 24.996335,
     "lng": 121.485109,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000030"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000030/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000031",
@@ -113913,7 +113939,8 @@
     "city": "中和區",
     "lat": 25.007818,
     "lng": 121.495411,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000031"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000031/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000032",
@@ -113922,7 +113949,8 @@
     "city": "林口區",
     "lat": 25.065982,
     "lng": 121.368497,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000032"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000032/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000033",
@@ -113931,7 +113959,8 @@
     "city": "新店區",
     "lat": 24.978978,
     "lng": 121.551606,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000033"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000033/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000034",
@@ -113940,7 +113969,8 @@
     "city": "板橋區",
     "lat": 25.023203,
     "lng": 121.468443,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000034"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000034/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000036",
@@ -113949,7 +113979,8 @@
     "city": "三重區",
     "lat": 24.961448,
     "lng": 121.537139,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000036"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000036/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000037",
@@ -113958,7 +113989,8 @@
     "city": "板橋區",
     "lat": 25.02255,
     "lng": 121.486167,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000037"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000037/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000038",
@@ -113967,7 +113999,8 @@
     "city": "八里區",
     "lat": 25.143997,
     "lng": 121.397676,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000038"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000038/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000039",
@@ -113976,7 +114009,8 @@
     "city": "板橋區",
     "lat": 25.01983,
     "lng": 121.470233,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000039"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000039/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000040",
@@ -113985,7 +114019,8 @@
     "city": "中和區",
     "lat": 24.996033,
     "lng": 121.485117,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000040"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000040/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000041",
@@ -113994,7 +114029,8 @@
     "city": "新店區",
     "lat": 24.979429,
     "lng": 121.516745,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000041"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000041/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000042",
@@ -114003,7 +114039,8 @@
     "city": "新店區",
     "lat": 24.991722,
     "lng": 121.533292,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000042"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000042/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000043",
@@ -114012,7 +114049,8 @@
     "city": "新店區",
     "lat": 24.961962,
     "lng": 121.539064,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000043"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000043/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000044",
@@ -114021,7 +114059,8 @@
     "city": "新店區",
     "lat": 24.982946,
     "lng": 121.541251,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000044"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000044/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000045",
@@ -114030,7 +114069,8 @@
     "city": "新店區",
     "lat": 24.967879,
     "lng": 121.541563,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000045"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000045/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000046",
@@ -114039,7 +114079,8 @@
     "city": "汐止區",
     "lat": 25.054932,
     "lng": 121.621554,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000046"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000046/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000047",
@@ -114048,7 +114089,8 @@
     "city": "汐止區",
     "lat": 25.054949,
     "lng": 121.63084,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000047"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000047/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000048",
@@ -114057,7 +114099,8 @@
     "city": "汐止區",
     "lat": 25.056958,
     "lng": 121.63328,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000048"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000048/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000049",
@@ -114066,7 +114109,8 @@
     "city": "汐止區",
     "lat": 25.055824,
     "lng": 121.637046,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000049"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000049/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000050",
@@ -114075,7 +114119,8 @@
     "city": "汐止區",
     "lat": 25.060418,
     "lng": 121.645384,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000050"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000050/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000051",
@@ -114084,7 +114129,8 @@
     "city": "汐止區",
     "lat": 25.066811,
     "lng": 121.656112,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000051"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000051/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000052",
@@ -114093,7 +114139,8 @@
     "city": "板橋區",
     "lat": 25.029787,
     "lng": 121.472173,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000052"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000052/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000053",
@@ -114102,7 +114149,8 @@
     "city": "板橋區",
     "lat": 25.016232,
     "lng": 121.463035,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000053"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000053/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000054",
@@ -114111,7 +114159,8 @@
     "city": "板橋區",
     "lat": 25.020297,
     "lng": 121.469901,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000054"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000054/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000056",
@@ -114120,7 +114169,8 @@
     "city": "永和區",
     "lat": 25.010331,
     "lng": 121.514534,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000056"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000056/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000057",
@@ -114129,7 +114179,8 @@
     "city": "永和區",
     "lat": 25.007383,
     "lng": 121.516898,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000057"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000057/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000058",
@@ -114138,7 +114189,8 @@
     "city": "永和區",
     "lat": 25.004174,
     "lng": 121.517175,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000058"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000058/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000060",
@@ -114147,7 +114199,8 @@
     "city": "中和區",
     "lat": 24.993552,
     "lng": 121.498281,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000060"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000060/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000061",
@@ -114156,7 +114209,8 @@
     "city": "中和區",
     "lat": 24.986458,
     "lng": 121.507914,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000061"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000061/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000064",
@@ -114165,7 +114219,8 @@
     "city": "中和區",
     "lat": 24.993498,
     "lng": 121.500091,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000064"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000064/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000066",
@@ -114174,7 +114229,8 @@
     "city": "三重區",
     "lat": 25.061019,
     "lng": 121.493268,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000066"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000066/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000067",
@@ -114183,7 +114239,8 @@
     "city": "三重區",
     "lat": 25.063927,
     "lng": 121.502551,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000067"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000067/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000068",
@@ -114192,7 +114249,8 @@
     "city": "三重區",
     "lat": 25.068649,
     "lng": 121.490559,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000068"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000068/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000069",
@@ -114201,7 +114259,8 @@
     "city": "三重區",
     "lat": 25.055812,
     "lng": 121.493383,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000069"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000069/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000070",
@@ -114210,7 +114269,8 @@
     "city": "三重區",
     "lat": 25.061335,
     "lng": 121.486762,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000070"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000070/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000071",
@@ -114219,7 +114279,8 @@
     "city": "蘆洲區",
     "lat": 25.076387,
     "lng": 121.468363,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000071"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000071/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000072",
@@ -114228,7 +114289,8 @@
     "city": "蘆洲區",
     "lat": 25.080682,
     "lng": 121.479692,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000072"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000072/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000073",
@@ -114237,7 +114299,8 @@
     "city": "蘆洲區",
     "lat": 25.081683,
     "lng": 121.476088,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000073"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000073/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000074",
@@ -114246,7 +114309,8 @@
     "city": "三重區",
     "lat": 25.07439,
     "lng": 121.502877,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000074"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000074/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000075",
@@ -114255,7 +114319,8 @@
     "city": "三重區",
     "lat": 25.047172,
     "lng": 121.484424,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000075"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000075/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000076",
@@ -114264,7 +114329,8 @@
     "city": "板橋區",
     "lat": 25.039789,
     "lng": 121.480651,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000076"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000076/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000077",
@@ -114273,7 +114339,8 @@
     "city": "八里區",
     "lat": 25.1540246,
     "lng": 121.3972477,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000077"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000077/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000079",
@@ -114282,7 +114349,8 @@
     "city": "三重區",
     "lat": 25.051622,
     "lng": 121.493425,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000079"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000079/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000080",
@@ -114291,7 +114359,8 @@
     "city": "三重區",
     "lat": 25.047848,
     "lng": 121.488866,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000080"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000080/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000082",
@@ -114300,7 +114369,8 @@
     "city": "板橋區",
     "lat": 25.042254,
     "lng": 121.479864,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000082"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000082/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000083",
@@ -114309,7 +114379,8 @@
     "city": "板橋區",
     "lat": 25.025923,
     "lng": 121.48437,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000083"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000083/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000085",
@@ -114318,7 +114389,8 @@
     "city": "三重區",
     "lat": 25.054172,
     "lng": 121.496342,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000085"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000085/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000086",
@@ -114327,7 +114399,8 @@
     "city": "三重區",
     "lat": 25.04934,
     "lng": 121.490561,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000086"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000086/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000087",
@@ -114336,7 +114409,8 @@
     "city": "三重區",
     "lat": 25.061525,
     "lng": 121.503199,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000087"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000087/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000088",
@@ -114345,7 +114419,8 @@
     "city": "板橋區",
     "lat": 25.036612,
     "lng": 121.481323,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000088"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000088/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000089",
@@ -114354,7 +114429,8 @@
     "city": "板橋區",
     "lat": 25.037238,
     "lng": 121.481516,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000089"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000089/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000091",
@@ -114363,7 +114439,8 @@
     "city": "板橋區",
     "lat": 25.021004,
     "lng": 121.485829,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000091"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000091/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000092",
@@ -114372,7 +114449,8 @@
     "city": "八里區",
     "lat": 25.165047,
     "lng": 121.411235,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000092"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000092/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000094",
@@ -114381,7 +114459,8 @@
     "city": "三重區",
     "lat": 25.046998,
     "lng": 121.487052,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000094"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000094/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000095",
@@ -114390,7 +114469,8 @@
     "city": "三重區",
     "lat": 25.047555,
     "lng": 121.481489,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000095"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000095/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000096",
@@ -114399,7 +114479,8 @@
     "city": "三重區",
     "lat": 25.047175,
     "lng": 121.48297,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000096"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000096/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000097",
@@ -114408,7 +114489,8 @@
     "city": "三重區",
     "lat": 25.047137,
     "lng": 121.481805,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000097"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000097/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000098",
@@ -114417,7 +114499,8 @@
     "city": "三重區",
     "lat": 25.047302,
     "lng": 121.481805,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000098"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000098/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000099",
@@ -114426,7 +114509,8 @@
     "city": "土城區",
     "lat": 24.975419,
     "lng": 121.437099,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000099"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000099/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000100",
@@ -114435,7 +114519,8 @@
     "city": "板橋區",
     "lat": 25.000834,
     "lng": 121.452055,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000100"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000100/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000102",
@@ -114444,7 +114529,8 @@
     "city": "新莊區",
     "lat": 25.054348,
     "lng": 121.442327,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000102"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000102/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000103",
@@ -114453,7 +114539,8 @@
     "city": "新莊區",
     "lat": 25.046176,
     "lng": 121.442361,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000103"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000103/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000104",
@@ -114462,7 +114549,8 @@
     "city": "新莊區",
     "lat": 25.049141,
     "lng": 121.442311,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000104"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000104/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000105",
@@ -114471,7 +114559,8 @@
     "city": "新莊區",
     "lat": 25.034137,
     "lng": 121.441916,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000105"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000105/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000106",
@@ -114480,7 +114569,8 @@
     "city": "泰山區",
     "lat": 25.040164,
     "lng": 121.429527,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000106"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000106/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000107",
@@ -114489,7 +114579,8 @@
     "city": "泰山區",
     "lat": 25.052346,
     "lng": 121.438563,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000107"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000107/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000108",
@@ -114498,7 +114589,8 @@
     "city": "新莊區",
     "lat": 25.035346,
     "lng": 121.448911,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000108"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000108/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000109",
@@ -114507,7 +114599,8 @@
     "city": "新莊區",
     "lat": 25.054497,
     "lng": 121.451999,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000109"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000109/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000110",
@@ -114516,7 +114609,8 @@
     "city": "新莊區",
     "lat": 25.049178,
     "lng": 121.452562,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000110"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000110/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000111",
@@ -114525,7 +114619,8 @@
     "city": "三重區",
     "lat": 25.054302,
     "lng": 121.496627,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000111"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000111/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000112",
@@ -114534,7 +114629,8 @@
     "city": "新莊區",
     "lat": 25.060471,
     "lng": 121.459951,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000112"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000112/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000113",
@@ -114543,7 +114639,8 @@
     "city": "泰山區",
     "lat": 25.046975,
     "lng": 121.434763,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000113"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000113/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000114",
@@ -114552,7 +114649,8 @@
     "city": "泰山區",
     "lat": 25.06353,
     "lng": 121.439081,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000114"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000114/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000115",
@@ -114561,7 +114659,8 @@
     "city": "板橋區",
     "lat": 25.000875,
     "lng": 121.451682,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000115"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000115/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000116",
@@ -114570,7 +114669,8 @@
     "city": "板橋區",
     "lat": 25.003719,
     "lng": 121.452948,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000116"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000116/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000118",
@@ -114579,7 +114679,8 @@
     "city": "永和區",
     "lat": 25.013466,
     "lng": 121.505188,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000118"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000118/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000119",
@@ -114588,7 +114689,8 @@
     "city": "永和區",
     "lat": 25.013536,
     "lng": 121.505211,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000119"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000119/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000120",
@@ -114597,7 +114699,8 @@
     "city": "永和區",
     "lat": 25.017572,
     "lng": 121.511528,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000120"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000120/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000121",
@@ -114606,7 +114709,8 @@
     "city": "永和區",
     "lat": 25.018063,
     "lng": 121.51266,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000121"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000121/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000122",
@@ -114615,7 +114719,8 @@
     "city": "永和區",
     "lat": 25.017768,
     "lng": 121.516686,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000122"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000122/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000123",
@@ -114624,7 +114729,8 @@
     "city": "永和區",
     "lat": 25.014273,
     "lng": 121.521529,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000123"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000123/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000124",
@@ -114633,7 +114739,8 @@
     "city": "永和區",
     "lat": 25.010496,
     "lng": 121.524094,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000124"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000124/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000125",
@@ -114642,7 +114749,8 @@
     "city": "永和區",
     "lat": 25.010484,
     "lng": 121.524057,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000125"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000125/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000127",
@@ -114651,7 +114759,8 @@
     "city": "永和區",
     "lat": 25.000512,
     "lng": 121.529005,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000127"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000127/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000129",
@@ -114660,7 +114769,8 @@
     "city": "新店區",
     "lat": 24.97905,
     "lng": 121.5449,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000129"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000129/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000130",
@@ -114669,7 +114779,8 @@
     "city": "新店區",
     "lat": 24.97838,
     "lng": 121.5454,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000130"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000130/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000131",
@@ -114678,7 +114789,8 @@
     "city": "板橋區",
     "lat": 24.995423,
     "lng": 121.435241,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000131"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000131/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000132",
@@ -114687,7 +114799,8 @@
     "city": "板橋區",
     "lat": 25.01134,
     "lng": 121.478724,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000132"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000132/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000133",
@@ -114696,7 +114809,8 @@
     "city": "板橋區",
     "lat": 25.024018,
     "lng": 121.47838,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000133"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000133/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000135",
@@ -114705,7 +114819,8 @@
     "city": "永和區",
     "lat": 25.009123,
     "lng": 121.525265,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000135"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000135/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000136",
@@ -114714,7 +114829,8 @@
     "city": "永和區",
     "lat": 25.005973,
     "lng": 121.527282,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000136"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000136/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000137",
@@ -114723,7 +114839,8 @@
     "city": "永和區",
     "lat": 25.003406,
     "lng": 121.522819,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000137"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000137/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000138",
@@ -114732,7 +114849,8 @@
     "city": "永和區",
     "lat": 25.007801,
     "lng": 121.520781,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000138"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000138/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000139",
@@ -114741,7 +114859,8 @@
     "city": "中和區",
     "lat": 24.990142,
     "lng": 121.527196,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000139"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000139/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000140",
@@ -114750,7 +114869,8 @@
     "city": "中和區",
     "lat": 25.006517,
     "lng": 121.472415,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000140"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000140/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000141",
@@ -114759,7 +114879,8 @@
     "city": "中和區",
     "lat": 25.002647,
     "lng": 121.499516,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000141"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000141/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000142",
@@ -114768,7 +114889,8 @@
     "city": "中和區",
     "lat": 24.999614,
     "lng": 121.508142,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000142"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000142/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000143",
@@ -114777,7 +114899,8 @@
     "city": "中和區",
     "lat": 25.004806,
     "lng": 121.48795,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000143"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000143/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000144",
@@ -114786,7 +114909,8 @@
     "city": "中和區",
     "lat": 24.994304,
     "lng": 121.490525,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000144"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000144/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000145",
@@ -114795,7 +114919,8 @@
     "city": "土城區",
     "lat": 24.966393,
     "lng": 121.432718,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000145"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000145/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000146",
@@ -114804,7 +114929,8 @@
     "city": "土城區",
     "lat": 24.968513,
     "lng": 121.438126,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000146"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000146/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000147",
@@ -114813,7 +114939,8 @@
     "city": "新店區",
     "lat": 24.988022,
     "lng": 121.533741,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000147"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000147/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000148",
@@ -114822,7 +114949,8 @@
     "city": "新店區",
     "lat": 24.986748,
     "lng": 121.542015,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000148"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000148/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000149",
@@ -114831,7 +114959,8 @@
     "city": "新店區",
     "lat": 24.971859,
     "lng": 121.54739,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000149"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000149/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000150",
@@ -114840,7 +114969,8 @@
     "city": "新店區",
     "lat": 24.973512,
     "lng": 121.542982,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000150"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000150/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000151",
@@ -114849,7 +114979,8 @@
     "city": "新店區",
     "lat": 24.972287,
     "lng": 121.529106,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000151"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000151/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000152",
@@ -114858,7 +114989,8 @@
     "city": "新店區",
     "lat": 24.97786,
     "lng": 121.523636,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000152"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000152/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000153",
@@ -114867,7 +114999,8 @@
     "city": "新店區",
     "lat": 24.961082,
     "lng": 121.530599,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000153"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000153/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000154",
@@ -114876,7 +115009,8 @@
     "city": "新店區",
     "lat": 24.952046,
     "lng": 121.54754,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000154"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000154/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000155",
@@ -114885,7 +115019,8 @@
     "city": "新店區",
     "lat": 24.984706,
     "lng": 121.540942,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000155"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000155/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000156",
@@ -114894,7 +115029,8 @@
     "city": "新店區",
     "lat": 24.964078,
     "lng": 121.516918,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000156"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000156/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000157",
@@ -114903,7 +115039,8 @@
     "city": "深坑區",
     "lat": 25.002122,
     "lng": 121.599961,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000157"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000157/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000158",
@@ -114912,7 +115049,8 @@
     "city": "石碇區",
     "lat": 25.008549,
     "lng": 121.646921,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000158"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000158/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000159",
@@ -114921,7 +115059,8 @@
     "city": "八里區",
     "lat": 25.121949,
     "lng": 121.455461,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000159"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000159/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000160",
@@ -114930,7 +115069,8 @@
     "city": "淡水區",
     "lat": 25.140341,
     "lng": 121.459629,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000160"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000160/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000161",
@@ -114939,7 +115079,8 @@
     "city": "新莊區",
     "lat": 25.027653,
     "lng": 121.412183,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000161"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000161/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000162",
@@ -114948,7 +115089,8 @@
     "city": "新莊區",
     "lat": 25.023279,
     "lng": 121.414093,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000162"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000162/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000163",
@@ -114957,7 +115099,8 @@
     "city": "新莊區",
     "lat": 25.057553,
     "lng": 121.443104,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000163"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000163/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000164",
@@ -114966,7 +115109,8 @@
     "city": "三重區",
     "lat": 25.0828,
     "lng": 121.496117,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000164"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000164/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000165",
@@ -114975,7 +115119,8 @@
     "city": "三重區",
     "lat": 25.062276,
     "lng": 121.497908,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000165"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000165/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000166",
@@ -114984,7 +115129,8 @@
     "city": "三重區",
     "lat": 25.089165,
     "lng": 121.491407,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000166"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000166/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000167",
@@ -114993,7 +115139,8 @@
     "city": "蘆洲區",
     "lat": 25.095966,
     "lng": 121.459274,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000167"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000167/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000168",
@@ -115002,7 +115149,8 @@
     "city": "五股區",
     "lat": 25.082179,
     "lng": 121.44037,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000168"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000168/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000169",
@@ -115011,7 +115159,8 @@
     "city": "林口區",
     "lat": 25.066047,
     "lng": 121.355428,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000169"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000169/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000170",
@@ -115020,7 +115169,8 @@
     "city": "三峽區",
     "lat": 24.939876,
     "lng": 121.357758,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000170"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000170/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000171",
@@ -115029,7 +115179,8 @@
     "city": "汐止區",
     "lat": 25.063695,
     "lng": 121.656929,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000171"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000171/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000172",
@@ -115038,7 +115189,8 @@
     "city": "淡水區",
     "lat": 25.124679,
     "lng": 121.463057,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000172"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000172/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000174",
@@ -115047,7 +115199,8 @@
     "city": "淡水區",
     "lat": 25.1648,
     "lng": 121.450498,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000174"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000174/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000175",
@@ -115056,7 +115209,8 @@
     "city": "淡水區",
     "lat": 25.157947,
     "lng": 121.457974,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000175"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000175/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000176",
@@ -115065,7 +115219,8 @@
     "city": "淡水區",
     "lat": 25.169121,
     "lng": 121.444565,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000176"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000176/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000178",
@@ -115074,7 +115229,8 @@
     "city": "淡水區",
     "lat": 25.172931,
     "lng": 121.438821,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000178"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000178/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000179",
@@ -115083,7 +115239,8 @@
     "city": "淡水區",
     "lat": 25.197602,
     "lng": 121.446215,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000179"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000179/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000184",
@@ -115092,7 +115249,8 @@
     "city": "林口區",
     "lat": 25.06906,
     "lng": 121.365747,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000184"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000184/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000185",
@@ -115101,7 +115259,8 @@
     "city": "林口區",
     "lat": 25.069989,
     "lng": 121.362308,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000185"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000185/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000186",
@@ -115110,7 +115269,8 @@
     "city": "三峽區",
     "lat": 24.940456,
     "lng": 121.356657,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000186"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000186/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000187",
@@ -115119,7 +115279,8 @@
     "city": "三峽區",
     "lat": 24.938951,
     "lng": 121.368245,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000187"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000187/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000188",
@@ -115128,7 +115289,8 @@
     "city": "土城區",
     "lat": 24.975245,
     "lng": 121.438694,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000188"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000188/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000189",
@@ -115137,7 +115299,8 @@
     "city": "汐止區",
     "lat": 25.067086,
     "lng": 121.656913,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000189"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000189/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000192",
@@ -115146,7 +115309,8 @@
     "city": "八里區",
     "lat": 25.150365,
     "lng": 121.392728,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000192"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000192/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000193",
@@ -115155,7 +115319,8 @@
     "city": "八里區",
     "lat": 25.144049,
     "lng": 121.397604,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000193"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000193/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000194",
@@ -115164,7 +115329,8 @@
     "city": "三重區",
     "lat": 25.058405,
     "lng": 121.489306,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000194"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000194/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000195",
@@ -115173,7 +115339,8 @@
     "city": "新莊區",
     "lat": 25.061214,
     "lng": 121.464651,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000195"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000195/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000196",
@@ -115182,7 +115349,8 @@
     "city": "新莊區",
     "lat": 25.059476,
     "lng": 121.446693,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000196"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000196/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000197",
@@ -115191,7 +115359,8 @@
     "city": "五股區",
     "lat": 25.10378,
     "lng": 121.452856,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000197"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000197/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000199",
@@ -115200,7 +115369,8 @@
     "city": "五股區",
     "lat": 25.065548,
     "lng": 121.438031,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000199"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000199/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000200",
@@ -115209,7 +115379,8 @@
     "city": "三重區",
     "lat": 25.061489,
     "lng": 121.479614,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000200"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000200/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000201",
@@ -115218,7 +115389,8 @@
     "city": "三重區",
     "lat": 25.061864,
     "lng": 121.497028,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000201"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000201/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000202",
@@ -115227,7 +115399,8 @@
     "city": "三重區",
     "lat": 25.051648,
     "lng": 121.487342,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000202"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000202/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000203",
@@ -115236,7 +115409,8 @@
     "city": "三重區",
     "lat": 25.055126,
     "lng": 121.486273,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000203"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000203/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000204",
@@ -115245,7 +115419,8 @@
     "city": "坪林區",
     "lat": 24.93647,
     "lng": 121.712583,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000204"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000204/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000205",
@@ -115254,7 +115429,8 @@
     "city": "坪林區",
     "lat": 24.941763,
     "lng": 121.712555,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000205"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000205/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000206",
@@ -115263,7 +115439,8 @@
     "city": "板橋區",
     "lat": 25.037936,
     "lng": 121.477986,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000206"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000206/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000207",
@@ -115272,7 +115449,8 @@
     "city": "新莊區",
     "lat": 25.039883,
     "lng": 121.460015,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000207"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000207/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000208",
@@ -115281,7 +115459,8 @@
     "city": "板橋區",
     "lat": 25.006919,
     "lng": 121.457919,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000208"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000208/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000209",
@@ -115290,7 +115469,8 @@
     "city": "板橋區",
     "lat": 25.008394,
     "lng": 121.460276,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000209"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000209/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000210",
@@ -115299,7 +115479,8 @@
     "city": "板橋區",
     "lat": 25.003997,
     "lng": 121.45487,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000210"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000210/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000211",
@@ -115308,7 +115489,8 @@
     "city": "泰山區",
     "lat": 25.063715,
     "lng": 121.439304,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000211"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000211/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000212",
@@ -115317,7 +115499,8 @@
     "city": "泰山區",
     "lat": 25.059432,
     "lng": 121.441485,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000212"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000212/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000213",
@@ -115326,7 +115509,8 @@
     "city": "三芝區",
     "lat": 25.25976,
     "lng": 121.49806,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000213"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000213/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000214",
@@ -115335,7 +115519,8 @@
     "city": "三芝區",
     "lat": 25.28247,
     "lng": 121.51989,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000214"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000214/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000215",
@@ -115344,7 +115529,8 @@
     "city": "板橋區",
     "lat": 25.02717,
     "lng": 121.46552,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000215"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000215/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000216",
@@ -115353,7 +115539,8 @@
     "city": "三峽區",
     "lat": 24.93502,
     "lng": 121.39022,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000216"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000216/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000217",
@@ -115362,7 +115549,8 @@
     "city": "樹林區",
     "lat": 24.98075,
     "lng": 121.41047,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000217"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000217/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000218",
@@ -115371,7 +115559,8 @@
     "city": "樹林區",
     "lat": 24.96197,
     "lng": 121.40599,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000218"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000218/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000219",
@@ -115380,7 +115569,8 @@
     "city": "樹林區",
     "lat": 24.96929,
     "lng": 121.40465,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000219"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000219/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000220",
@@ -115389,7 +115579,8 @@
     "city": "樹林區",
     "lat": 24.95127,
     "lng": 121.38692,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000220"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000220/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000221",
@@ -115398,7 +115589,8 @@
     "city": "鶯歌區",
     "lat": 24.95065,
     "lng": 121.35232,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000221"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000221/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000222",
@@ -115407,7 +115599,8 @@
     "city": "鶯歌區",
     "lat": 24.95819,
     "lng": 121.34027,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000222"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000222/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000223",
@@ -115416,7 +115609,8 @@
     "city": "新店區",
     "lat": 24.98679,
     "lng": 121.54078,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000223"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000223/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000224",
@@ -115425,7 +115619,8 @@
     "city": "鶯歌區",
     "lat": 24.96756,
     "lng": 121.33083,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000224"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000224/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000226",
@@ -115434,7 +115629,8 @@
     "city": "瑞芳區",
     "lat": 25.12097,
     "lng": 121.82209,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000226"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000226/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000227",
@@ -115443,7 +115639,8 @@
     "city": "瑞芳區",
     "lat": 25.12263,
     "lng": 121.81948,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000227"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000227/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000228",
@@ -115452,7 +115649,8 @@
     "city": "瑞芳區",
     "lat": 25.12248,
     "lng": 121.86383,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000228"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000228/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000230",
@@ -115461,7 +115659,8 @@
     "city": "瑞芳區",
     "lat": 25.10745,
     "lng": 121.80933,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000230"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000230/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000231",
@@ -115470,7 +115669,8 @@
     "city": "瑞芳區",
     "lat": 25.11002,
     "lng": 121.79647,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000231"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000231/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000232",
@@ -115479,7 +115679,8 @@
     "city": "瑞芳區",
     "lat": 25.10995,
     "lng": 121.84514,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000232"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000232/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000233",
@@ -115488,7 +115689,8 @@
     "city": "瑞芳區",
     "lat": 25.1096,
     "lng": 121.84285,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000233"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000233/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000234",
@@ -115497,7 +115699,8 @@
     "city": "樹林區",
     "lat": 24.952058,
     "lng": 121.387454,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000234"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000234/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000235",
@@ -115506,7 +115709,8 @@
     "city": "貢寮區",
     "lat": 25.019,
     "lng": 121.93325,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000235"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000235/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000236",
@@ -115515,7 +115719,8 @@
     "city": "金山區",
     "lat": 25.2174,
     "lng": 121.64168,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000236"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000236/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000237",
@@ -115524,7 +115729,8 @@
     "city": "金山區",
     "lat": 25.22131,
     "lng": 121.63183,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000237"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000237/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000238",
@@ -115533,7 +115739,8 @@
     "city": "鶯歌區",
     "lat": 24.968084,
     "lng": 121.330467,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000238"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000238/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000239",
@@ -115542,7 +115749,8 @@
     "city": "萬里區",
     "lat": 25.18229,
     "lng": 121.68828,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000239"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000239/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000240",
@@ -115551,7 +115759,8 @@
     "city": "萬里區",
     "lat": 25.20137,
     "lng": 121.67429,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000240"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000240/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000241",
@@ -115560,7 +115769,8 @@
     "city": "萬里區",
     "lat": 25.1756,
     "lng": 121.6877,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000241"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000241/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000242",
@@ -115569,7 +115779,8 @@
     "city": "萬里區",
     "lat": 25.18758,
     "lng": 121.68323,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000242"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000242/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000243",
@@ -115578,7 +115789,8 @@
     "city": "汐止區",
     "lat": 25.05645,
     "lng": 121.64019,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000243"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000243/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000244",
@@ -115587,7 +115799,8 @@
     "city": "汐止區",
     "lat": 25.0625,
     "lng": 121.6367,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000244"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000244/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000246",
@@ -115596,7 +115809,8 @@
     "city": "新店區",
     "lat": 24.96133,
     "lng": 121.53715,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000246"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000246/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000247",
@@ -115605,7 +115819,8 @@
     "city": "中和區",
     "lat": 24.990329,
     "lng": 121.525775,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000247"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000247/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000248",
@@ -115614,7 +115829,8 @@
     "city": "五股區",
     "lat": 25.10215,
     "lng": 121.45381,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000248"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000248/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000249",
@@ -115623,7 +115839,8 @@
     "city": "三重區",
     "lat": 25.08453,
     "lng": 121.49922,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000249"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000249/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000250",
@@ -115632,7 +115849,8 @@
     "city": "蘆洲區",
     "lat": 25.08147,
     "lng": 121.45507,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000250"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000250/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000251",
@@ -115641,7 +115859,8 @@
     "city": "板橋區",
     "lat": 24.98072,
     "lng": 121.42884,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000251"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000251/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000252",
@@ -115650,7 +115869,8 @@
     "city": "八里區",
     "lat": 25.12433,
     "lng": 121.45507,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000252"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000252/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000253",
@@ -115659,7 +115879,8 @@
     "city": "新莊區",
     "lat": 25.03244,
     "lng": 121.43363,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000253"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000253/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000254",
@@ -115668,7 +115889,8 @@
     "city": "板橋區",
     "lat": 25.03585,
     "lng": 121.48147,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000254"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000254/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000255",
@@ -115677,7 +115899,8 @@
     "city": "新莊區",
     "lat": 25.0018,
     "lng": 121.43551,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000255"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000255/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000256",
@@ -115686,7 +115909,8 @@
     "city": "三重區",
     "lat": 25.06148,
     "lng": 121.48676,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000256"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000256/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000257",
@@ -115695,7 +115919,8 @@
     "city": "三重區",
     "lat": 25.04956,
     "lng": 121.47969,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000257"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000257/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000258",
@@ -115704,7 +115929,8 @@
     "city": "泰山區",
     "lat": 25.06487,
     "lng": 121.42005,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000258"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000258/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000259",
@@ -115713,7 +115939,8 @@
     "city": "新莊區",
     "lat": 25.027186,
     "lng": 121.434934,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000259"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000259/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000261",
@@ -115722,7 +115949,8 @@
     "city": "五股區",
     "lat": 25.074076,
     "lng": 121.437103,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000261"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000261/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000262",
@@ -115731,7 +115959,8 @@
     "city": "五股區",
     "lat": 25.078554,
     "lng": 121.438498,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000262"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000262/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000263",
@@ -115740,7 +115969,8 @@
     "city": "林口區",
     "lat": 25.07448,
     "lng": 121.37757,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000263"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000263/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000264",
@@ -115749,7 +115979,8 @@
     "city": "林口區",
     "lat": 25.06961,
     "lng": 121.3712,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000264"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000264/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000265",
@@ -115758,7 +115989,8 @@
     "city": "林口區",
     "lat": 25.076588,
     "lng": 121.35703,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000265"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000265/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000266",
@@ -115767,7 +115999,8 @@
     "city": "林口區",
     "lat": 25.0656,
     "lng": 121.36122,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000266"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000266/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000267",
@@ -115776,7 +116009,8 @@
     "city": "林口區",
     "lat": 25.07816,
     "lng": 121.3967,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000267"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000267/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000268",
@@ -115785,7 +116019,8 @@
     "city": "三重區",
     "lat": 25.06205,
     "lng": 121.47215,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000268"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000268/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000269",
@@ -115794,7 +116029,8 @@
     "city": "五股區",
     "lat": 25.10692,
     "lng": 121.45342,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000269"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000269/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000270",
@@ -115803,7 +116039,8 @@
     "city": "中和區",
     "lat": 25.00609,
     "lng": 121.49335,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000270"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000270/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000271",
@@ -115812,7 +116049,8 @@
     "city": "蘆洲區",
     "lat": 25.081527,
     "lng": 121.457389,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000271"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000271/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000272",
@@ -115821,7 +116059,8 @@
     "city": "新店區",
     "lat": 24.976025,
     "lng": 121.547006,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000272"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000272/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000273",
@@ -115830,7 +116069,8 @@
     "city": "樹林區",
     "lat": 24.949691,
     "lng": 121.376164,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000273"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000273/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000274",
@@ -115839,7 +116079,8 @@
     "city": "樹林區",
     "lat": 24.95231,
     "lng": 121.37462,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000274"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000274/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000275",
@@ -115848,7 +116089,8 @@
     "city": "汐止區",
     "lat": 25.05958,
     "lng": 121.63914,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000275"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000275/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000276",
@@ -115857,7 +116099,8 @@
     "city": "汐止區",
     "lat": 25.0601,
     "lng": 121.64027,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000276"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000276/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000277",
@@ -115866,7 +116109,8 @@
     "city": "汐止區",
     "lat": 25.06104,
     "lng": 121.64235,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000277"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000277/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000278",
@@ -115875,7 +116119,8 @@
     "city": "汐止區",
     "lat": 25.06397,
     "lng": 121.65162,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000278"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000278/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000279",
@@ -115884,7 +116129,8 @@
     "city": "汐止區",
     "lat": 25.06934,
     "lng": 121.66225,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000279"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000279/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000280",
@@ -115893,7 +116139,8 @@
     "city": "汐止區",
     "lat": 25.07322,
     "lng": 121.66526,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000280"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000280/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000281",
@@ -115902,7 +116149,8 @@
     "city": "汐止區",
     "lat": 25.07547,
     "lng": 121.6738,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000281"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000281/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000282",
@@ -115911,7 +116159,8 @@
     "city": "汐止區",
     "lat": 25.07117,
     "lng": 121.68059,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000282"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000282/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000283",
@@ -115920,7 +116169,8 @@
     "city": "汐止區",
     "lat": 25.07348,
     "lng": 121.68363,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000283"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000283/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000284",
@@ -115929,7 +116179,8 @@
     "city": "三重區",
     "lat": 25.08989,
     "lng": 121.49238,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000284"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000284/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000285",
@@ -115938,7 +116189,8 @@
     "city": "五股區",
     "lat": 25.09008,
     "lng": 121.44413,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000285"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000285/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000286",
@@ -115947,7 +116199,8 @@
     "city": "三峽區",
     "lat": 24.91004,
     "lng": 121.36592,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000286"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000286/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000287",
@@ -115956,7 +116209,8 @@
     "city": "三峽區",
     "lat": 24.91916,
     "lng": 121.366955,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000287"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000287/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000288",
@@ -115965,7 +116219,8 @@
     "city": "淡水區",
     "lat": 25.14762,
     "lng": 121.45961,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000288"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000288/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000289",
@@ -115974,7 +116229,8 @@
     "city": "三峽區",
     "lat": 24.93565,
     "lng": 121.36603,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000289"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000289/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000290",
@@ -115983,7 +116239,8 @@
     "city": "板橋區",
     "lat": 25.023895,
     "lng": 121.478566,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000290"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000290/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000291",
@@ -115992,7 +116249,8 @@
     "city": "板橋區",
     "lat": 25.00939,
     "lng": 121.463155,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000291"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000291/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000292",
@@ -116001,7 +116259,8 @@
     "city": "中和區",
     "lat": 25.005852,
     "lng": 121.475561,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000292"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000292/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000293",
@@ -116010,7 +116269,8 @@
     "city": "板橋區",
     "lat": 25.014526,
     "lng": 121.465559,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000293"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000293/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000294",
@@ -116019,7 +116279,8 @@
     "city": "板橋區",
     "lat": 25.016205,
     "lng": 121.467868,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000294"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000294/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000295",
@@ -116028,7 +116289,8 @@
     "city": "瑞芳區",
     "lat": 25.1108397118,
     "lng": 121.8293258751,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000295"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000295/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000296",
@@ -116037,7 +116299,8 @@
     "city": "淡水區",
     "lat": 25.151447,
     "lng": 121.45945,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000296"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000296/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000297",
@@ -116046,7 +116309,8 @@
     "city": "淡水區",
     "lat": 25.153368,
     "lng": 121.45937,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000297"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000297/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000298",
@@ -116055,7 +116319,8 @@
     "city": "淡水區",
     "lat": 25.159485,
     "lng": 121.454928,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000298"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000298/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000299",
@@ -116064,7 +116329,8 @@
     "city": "淡水區",
     "lat": 25.137734,
     "lng": 121.45989,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000299"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000299/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000300",
@@ -116073,7 +116339,8 @@
     "city": "新莊區",
     "lat": 25.03647,
     "lng": 121.453687,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000300"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000300/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000301",
@@ -116082,7 +116349,8 @@
     "city": "新莊區",
     "lat": 25.060581,
     "lng": 121.460023,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000301"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000301/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000302",
@@ -116091,7 +116359,8 @@
     "city": "樹林區",
     "lat": 24.987104,
     "lng": 121.423935,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000302"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000302/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000303",
@@ -116100,7 +116369,8 @@
     "city": "新莊區",
     "lat": 25.033448,
     "lng": 121.4411867,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000303"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000303/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000304",
@@ -116109,7 +116379,8 @@
     "city": "汐止區",
     "lat": 25.050443,
     "lng": 121.619583,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000304"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000304/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000310",
@@ -116118,7 +116389,8 @@
     "city": "樹林區",
     "lat": 25.018208,
     "lng": 121.408929,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000310"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000310/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000311",
@@ -116127,7 +116399,8 @@
     "city": "蘆洲區",
     "lat": 25.082544,
     "lng": 121.459685,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000311"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000311/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000312",
@@ -116136,7 +116409,8 @@
     "city": "淡水區",
     "lat": 25.175618,
     "lng": 121.428174,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000312"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000312/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000313",
@@ -116145,7 +116419,8 @@
     "city": "新店區",
     "lat": 24.957994,
     "lng": 121.504821,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000313"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000313/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000314",
@@ -116154,7 +116429,8 @@
     "city": "新店區",
     "lat": 24.957884,
     "lng": 121.515073,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000314"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000314/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000315",
@@ -116163,7 +116439,8 @@
     "city": "新店區",
     "lat": 24.954855,
     "lng": 121.509552,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000315"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000315/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000316",
@@ -116172,7 +116449,8 @@
     "city": "新店區",
     "lat": 24.954473,
     "lng": 121.504678,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000316"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000316/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000317",
@@ -116181,7 +116459,8 @@
     "city": "新店區",
     "lat": 24.954056,
     "lng": 121.494184,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000317"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000317/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000318",
@@ -116190,7 +116469,8 @@
     "city": "新店區",
     "lat": 24.952448,
     "lng": 121.495908,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000318"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000318/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000319",
@@ -116199,7 +116479,8 @@
     "city": "板橋區",
     "lat": 25.013156,
     "lng": 121.46194,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000319"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000319/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000320",
@@ -116208,7 +116489,8 @@
     "city": "板橋區",
     "lat": 24.993941,
     "lng": 121.446884,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000320"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000320/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000321",
@@ -116217,7 +116499,8 @@
     "city": "新店區",
     "lat": 24.963864,
     "lng": 121.51997,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000321"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000321/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000322",
@@ -116226,7 +116509,8 @@
     "city": "新店區",
     "lat": 24.951057,
     "lng": 121.494057,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000322"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000322/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000323",
@@ -116235,7 +116519,8 @@
     "city": "新店區",
     "lat": 24.959805,
     "lng": 121.504444,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000323"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000323/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000325",
@@ -116244,7 +116529,8 @@
     "city": "新店區",
     "lat": 24.963822,
     "lng": 121.511107,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000325"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000325/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000326",
@@ -116253,7 +116539,8 @@
     "city": "新店區",
     "lat": 24.977487,
     "lng": 121.51517,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000326"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000326/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000329",
@@ -116262,7 +116549,8 @@
     "city": "林口區",
     "lat": 25.065779,
     "lng": 121.364176,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000329"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000329/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000330",
@@ -116271,7 +116559,8 @@
     "city": "汐止區",
     "lat": 25.0549,
     "lng": 121.623926,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000330"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000330/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000339",
@@ -116280,7 +116569,8 @@
     "city": "林口區",
     "lat": 25.072735,
     "lng": 121.375523,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000339"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000339/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000347",
@@ -116289,7 +116579,8 @@
     "city": "林口區",
     "lat": 25.076291,
     "lng": 121.357505,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000347"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000347/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000375",
@@ -116298,7 +116589,8 @@
     "city": "板橋區",
     "lat": 25.017583,
     "lng": 121.464238,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000375"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000375/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000376",
@@ -116307,7 +116599,8 @@
     "city": "淡水區",
     "lat": 25.185719,
     "lng": 121.417681,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000376"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000376/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000377",
@@ -116316,7 +116609,8 @@
     "city": "淡水區",
     "lat": 25.183078,
     "lng": 121.419423,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000377"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000377/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000378",
@@ -116325,7 +116619,8 @@
     "city": "新莊區",
     "lat": 25.058881,
     "lng": 121.45016,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000378"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000378/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000379",
@@ -116334,7 +116629,8 @@
     "city": "泰山區",
     "lat": 25.059333,
     "lng": 121.446833,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000379"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000379/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000381",
@@ -116343,7 +116639,8 @@
     "city": "新莊區",
     "lat": 25.057907,
     "lng": 121.447568,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000381"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000381/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000382",
@@ -116352,7 +116649,8 @@
     "city": "新莊區",
     "lat": 25.060358,
     "lng": 121.451135,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000382"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000382/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000383",
@@ -116361,7 +116659,8 @@
     "city": "新莊區",
     "lat": 25.054389,
     "lng": 121.459743,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000383"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000383/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000384",
@@ -116370,7 +116669,8 @@
     "city": "鶯歌區",
     "lat": 25.035122,
     "lng": 121.468175,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000384"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000384/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000387",
@@ -116379,7 +116679,8 @@
     "city": "板橋區",
     "lat": 25.012661,
     "lng": 121.460039,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000387"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000387/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000388",
@@ -116388,7 +116689,8 @@
     "city": "板橋區",
     "lat": 25.011289,
     "lng": 121.461882,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000388"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000388/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000389",
@@ -116397,7 +116699,8 @@
     "city": "汐止區",
     "lat": 25.064267,
     "lng": 121.632848,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000389"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000389/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000390",
@@ -116406,7 +116709,8 @@
     "city": "汐止區",
     "lat": 25.06756,
     "lng": 121.617787,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000390"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000390/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000397",
@@ -116415,7 +116719,8 @@
     "city": "中和區",
     "lat": 24.991533,
     "lng": 121.511713,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000397"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000397/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000398",
@@ -116424,7 +116729,8 @@
     "city": "汐止區",
     "lat": 25.066973,
     "lng": 121.625034,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000398"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000398/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000399",
@@ -116433,7 +116739,8 @@
     "city": "汐止區",
     "lat": 25.066422,
     "lng": 121.619345,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000399"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000399/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000400",
@@ -116442,7 +116749,8 @@
     "city": "蘆洲區",
     "lat": 25.081513,
     "lng": 121.457411,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000400"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000400/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000401",
@@ -116451,7 +116759,8 @@
     "city": "淡水區",
     "lat": 25.186063,
     "lng": 121.42793,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000401"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000401/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000402",
@@ -116460,7 +116769,8 @@
     "city": "淡水區",
     "lat": 25.186174,
     "lng": 121.427812,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000402"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000402/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000404",
@@ -116469,7 +116779,8 @@
     "city": "新店區",
     "lat": 24.991833,
     "lng": 121.533243,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000404"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000404/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000405",
@@ -116478,7 +116789,8 @@
     "city": "汐止區",
     "lat": 25.057039,
     "lng": 121.633264,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000405"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000405/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000406",
@@ -116487,7 +116799,8 @@
     "city": "汐止區",
     "lat": 25.057148,
     "lng": 121.63351,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000406"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000406/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000407",
@@ -116496,7 +116809,8 @@
     "city": "汐止區",
     "lat": 25.056915,
     "lng": 121.634144,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000407"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000407/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000408",
@@ -116505,7 +116819,8 @@
     "city": "汐止交流道",
     "lat": 25.067204,
     "lng": 121.656902,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000408"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000408/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000409",
@@ -116514,7 +116829,8 @@
     "city": "林口交流道",
     "lat": 25.069664,
     "lng": 121.371153,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000409"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000409/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000410",
@@ -116523,7 +116839,8 @@
     "city": "五股交流道",
     "lat": 25.064483,
     "lng": 121.438819,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000410"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000410/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000411",
@@ -116532,7 +116849,8 @@
     "city": "三重交流道",
     "lat": 25.073217,
     "lng": 121.492728,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000411"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000411/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000412",
@@ -116541,7 +116859,8 @@
     "city": "三重交流道",
     "lat": 25.072618,
     "lng": 121.493967,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000412"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000412/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000413",
@@ -116550,7 +116869,8 @@
     "city": "中和交流道",
     "lat": 25.004889,
     "lng": 121.484323,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000413"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000413/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000414",
@@ -116559,7 +116879,8 @@
     "city": "中和交流道",
     "lat": 24.994714,
     "lng": 121.485475,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000414"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000414/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000415",
@@ -116568,7 +116889,8 @@
     "city": "土城交流道",
     "lat": 24.965359,
     "lng": 121.432497,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000415"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000415/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000416",
@@ -116577,7 +116899,8 @@
     "city": "淡水區",
     "lat": 25.1580529152,
     "lng": 121.4580106024,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000416"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000416/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000417",
@@ -116586,7 +116909,8 @@
     "city": "淡水區",
     "lat": 25.1581788705,
     "lng": 121.4579276465,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000417"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000417/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000418",
@@ -116595,7 +116919,8 @@
     "city": "淡水區",
     "lat": 25.157893,
     "lng": 121.458213,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000418"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000418/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000419",
@@ -116604,7 +116929,8 @@
     "city": "淡水區",
     "lat": 25.1560386463,
     "lng": 121.4593171045,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000419"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000419/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000420",
@@ -116613,7 +116939,8 @@
     "city": "淡水區",
     "lat": 25.1592219005,
     "lng": 121.4554813832,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000420"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000420/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000421",
@@ -116622,7 +116949,8 @@
     "city": "淡水區",
     "lat": 25.161135318,
     "lng": 121.4562694007,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000421"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000421/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000422",
@@ -116631,7 +116959,8 @@
     "city": "蘆洲區",
     "lat": 25.081561,
     "lng": 121.457427,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000422"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000422/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000423",
@@ -116640,7 +116969,8 @@
     "city": "蘆洲區",
     "lat": 25.081506,
     "lng": 121.457373,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000423"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000423/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000424",
@@ -116649,7 +116979,8 @@
     "city": "蘆洲區",
     "lat": 25.0815279,
     "lng": 121.457451,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000424"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000424/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000425",
@@ -116658,7 +116989,8 @@
     "city": "蘆洲區",
     "lat": 25.081506,
     "lng": 121.457373,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000425"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000425/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000426",
@@ -116667,7 +116999,8 @@
     "city": "蘆洲區",
     "lat": 25.0815279,
     "lng": 121.457451,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000426"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000426/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000427",
@@ -116676,7 +117009,8 @@
     "city": "淡水區",
     "lat": 25.180826,
     "lng": 121.453198,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000427"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000427/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000428",
@@ -116685,7 +117019,8 @@
     "city": "汐止區",
     "lat": 25.054904,
     "lng": 121.623411,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000428"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000428/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000429",
@@ -116694,7 +117029,8 @@
     "city": "中和區",
     "lat": 25.013809,
     "lng": 121.487408,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000429"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000429/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000430",
@@ -116703,7 +117039,8 @@
     "city": "中和區",
     "lat": 25.013819,
     "lng": 121.487571,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000430"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000430/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000431",
@@ -116712,7 +117049,8 @@
     "city": "中和區",
     "lat": 25.013768,
     "lng": 121.487392,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000431"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000431/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000432",
@@ -116721,7 +117059,8 @@
     "city": "中和區",
     "lat": 25.013814,
     "lng": 121.487547,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000432"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000432/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000437",
@@ -116730,7 +117069,8 @@
     "city": "中和區",
     "lat": 25.010781,
     "lng": 121.489033,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000437"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000437/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000440",
@@ -116739,7 +117079,8 @@
     "city": "中和區",
     "lat": 25.008302,
     "lng": 121.492179,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000440"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000440/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000441",
@@ -116748,7 +117089,8 @@
     "city": "中和區",
     "lat": 25.008171,
     "lng": 121.492101,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000441"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000441/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000442",
@@ -116757,7 +117099,8 @@
     "city": "中和區",
     "lat": 25.008199,
     "lng": 121.492082,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000442"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000442/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000443",
@@ -116766,7 +117109,8 @@
     "city": "中和區",
     "lat": 25.00783,
     "lng": 121.495568,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000443"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000443/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000444",
@@ -116775,7 +117119,8 @@
     "city": "中和區",
     "lat": 25.007637,
     "lng": 121.495534,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000444"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000444/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000445",
@@ -116784,7 +117129,8 @@
     "city": "中和區",
     "lat": 25.007627,
     "lng": 121.495191,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000445"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000445/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000446",
@@ -116793,7 +117139,8 @@
     "city": "中和區",
     "lat": 25.007684,
     "lng": 121.495151,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000446"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000446/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000447",
@@ -116802,7 +117149,8 @@
     "city": "中和區",
     "lat": 25.007807,
     "lng": 121.495209,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000447"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000447/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000452",
@@ -116811,7 +117159,8 @@
     "city": "中和區",
     "lat": 25.011569,
     "lng": 121.486886,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000452"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000452/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000453",
@@ -116820,7 +117169,8 @@
     "city": "中和區",
     "lat": 25.011552,
     "lng": 121.486944,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000453"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000453/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000454",
@@ -116829,7 +117179,8 @@
     "city": "中和區",
     "lat": 25.011514,
     "lng": 121.486925,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000454"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000454/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000455",
@@ -116838,7 +117189,8 @@
     "city": "中和區",
     "lat": 25.011516,
     "lng": 121.486886,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000455"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000455/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000456",
@@ -116847,7 +117199,8 @@
     "city": "中和區",
     "lat": 25.011742,
     "lng": 121.48492,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000456"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000456/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000457",
@@ -116856,7 +117209,8 @@
     "city": "中和區",
     "lat": 25.011709,
     "lng": 121.484945,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000457"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000457/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000458",
@@ -116865,7 +117219,8 @@
     "city": "中和區",
     "lat": 25.011657,
     "lng": 121.484851,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000458"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000458/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000459",
@@ -116874,7 +117229,8 @@
     "city": "中和區",
     "lat": 25.01168,
     "lng": 121.484819,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000459"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000459/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000460",
@@ -116883,7 +117239,8 @@
     "city": "中和區",
     "lat": 25.008236,
     "lng": 121.490419,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000460"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000460/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000461",
@@ -116892,7 +117249,8 @@
     "city": "中和區",
     "lat": 25.008091,
     "lng": 121.490582,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000461"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000461/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000462",
@@ -116901,7 +117259,8 @@
     "city": "中和區",
     "lat": 25.008067,
     "lng": 121.490545,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000462"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000462/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000463",
@@ -116910,7 +117269,8 @@
     "city": "中和區",
     "lat": 25.008203,
     "lng": 121.490322,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000463"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000463/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000464",
@@ -116919,7 +117279,8 @@
     "city": "新店區",
     "lat": 24.951978,
     "lng": 121.547628,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000464"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000464/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000465",
@@ -116928,7 +117289,8 @@
     "city": "新店區",
     "lat": 24.951978,
     "lng": 121.547628,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000465"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000465/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000466",
@@ -116937,7 +117299,8 @@
     "city": "新店區",
     "lat": 24.951884,
     "lng": 121.547422,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000466"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000466/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000467",
@@ -116946,7 +117309,8 @@
     "city": "新店區",
     "lat": 24.951474,
     "lng": 121.549331,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000467"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000467/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000468",
@@ -116955,7 +117319,8 @@
     "city": "新店區",
     "lat": 24.953093,
     "lng": 121.543858,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000468"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000468/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000469",
@@ -116964,7 +117329,8 @@
     "city": "新店區",
     "lat": 24.950004,
     "lng": 121.54624,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000469"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000469/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000470",
@@ -116973,7 +117339,8 @@
     "city": "中和區",
     "lat": 24.993472,
     "lng": 121.503464,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000470"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000470/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000471",
@@ -116982,7 +117349,8 @@
     "city": "中和區",
     "lat": 24.993124,
     "lng": 121.50899,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000471"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000471/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000472",
@@ -116991,7 +117359,8 @@
     "city": "中和區",
     "lat": 24.995112,
     "lng": 121.505346,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000472"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000472/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000473",
@@ -117000,7 +117369,8 @@
     "city": "中和區",
     "lat": 24.992136,
     "lng": 121.504603,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000473"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000473/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000474",
@@ -117009,7 +117379,8 @@
     "city": "中和區",
     "lat": 24.992457,
     "lng": 121.503955,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000474"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000474/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000475",
@@ -117018,7 +117389,8 @@
     "city": "中和區",
     "lat": 24.991745,
     "lng": 121.504582,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000475"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000475/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000476",
@@ -117027,7 +117399,8 @@
     "city": "中和區",
     "lat": 24.991116,
     "lng": 121.505206,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000476"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000476/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000477",
@@ -117036,7 +117409,8 @@
     "city": "中和區",
     "lat": 24.990275,
     "lng": 121.503741,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000477"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000477/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000478",
@@ -117045,7 +117419,8 @@
     "city": "中和區",
     "lat": 24.994594,
     "lng": 121.502381,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000478"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000478/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000479",
@@ -117054,7 +117429,8 @@
     "city": "中和區",
     "lat": 24.992672,
     "lng": 121.510517,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000479"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000479/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000480",
@@ -117063,7 +117439,8 @@
     "city": "中和區",
     "lat": 24.992498,
     "lng": 121.513978,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000480"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000480/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000481",
@@ -117072,7 +117449,8 @@
     "city": "中和區",
     "lat": 24.993362,
     "lng": 121.512008,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000481"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000481/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000482",
@@ -117081,7 +117459,8 @@
     "city": "中和區",
     "lat": 24.991364,
     "lng": 121.511743,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000482"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000482/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000483",
@@ -117090,7 +117469,8 @@
     "city": "中和區",
     "lat": 24.990173,
     "lng": 121.512353,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000483"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000483/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000484",
@@ -117099,7 +117479,8 @@
     "city": "中和區",
     "lat": 24.989948,
     "lng": 121.510548,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000484"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000484/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000485",
@@ -117108,7 +117489,8 @@
     "city": "中和區",
     "lat": 24.993951,
     "lng": 121.509045,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000485"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000485/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000486",
@@ -117117,7 +117499,8 @@
     "city": "新店區",
     "lat": 24.9796556,
     "lng": 121.5460574,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000486"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000486/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000487",
@@ -117126,7 +117509,8 @@
     "city": "新店區",
     "lat": 24.9770538,
     "lng": 121.5465797,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000487"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000487/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000488",
@@ -117135,7 +117519,8 @@
     "city": "汐止區",
     "lat": 25.075635,
     "lng": 121.643337,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000488"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000488/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000489",
@@ -117144,7 +117529,8 @@
     "city": "新莊區",
     "lat": 25.068603,
     "lng": 121.459921,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000489"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000489/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000490",
@@ -117153,7 +117539,8 @@
     "city": "新莊區",
     "lat": 25.038415,
     "lng": 121.441947,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000490"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000490/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000491",
@@ -117162,7 +117549,8 @@
     "city": "板橋區",
     "lat": 24.995169,
     "lng": 121.446179,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000491"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000491/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000492",
@@ -117171,7 +117559,8 @@
     "city": "板橋區",
     "lat": 25.006957,
     "lng": 121.470008,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000492"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000492/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000493",
@@ -117180,7 +117569,8 @@
     "city": "中和區",
     "lat": 25.006242,
     "lng": 121.473915,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000493"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000493/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000494",
@@ -117189,7 +117579,8 @@
     "city": "中和區",
     "lat": 25.006178,
     "lng": 121.47378,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000494"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000494/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000495",
@@ -117198,7 +117589,8 @@
     "city": "中和區",
     "lat": 25.006029,
     "lng": 121.479953,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000495"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000495/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000496",
@@ -117207,7 +117599,8 @@
     "city": "中和區",
     "lat": 25.005928,
     "lng": 121.479953,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000496"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000496/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000497",
@@ -117216,7 +117609,8 @@
     "city": "中和區",
     "lat": 25.004867,
     "lng": 121.487813,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000497"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000497/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000498",
@@ -117225,7 +117619,8 @@
     "city": "中和區",
     "lat": 25.003277,
     "lng": 121.490938,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000498"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000498/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000499",
@@ -117234,7 +117629,8 @@
     "city": "中和區",
     "lat": 25.00246,
     "lng": 121.496774,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000499"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000499/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000500",
@@ -117243,7 +117639,8 @@
     "city": "板橋區",
     "lat": 25.007896,
     "lng": 121.471797,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000500"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000500/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000501",
@@ -117252,7 +117649,8 @@
     "city": "板橋區",
     "lat": 25.00792,
     "lng": 121.471813,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000501"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000501/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000502",
@@ -117261,7 +117659,8 @@
     "city": "三重區",
     "lat": 25.061532,
     "lng": 121.472579,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000502"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000502/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000503",
@@ -117270,7 +117669,8 @@
     "city": "八里區",
     "lat": 25.108867,
     "lng": 121.430775,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000503"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000503/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000504",
@@ -117279,7 +117679,8 @@
     "city": "八里區",
     "lat": 25.15899,
     "lng": 121.429365,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000504"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000504/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000505",
@@ -117288,7 +117689,8 @@
     "city": "八里區",
     "lat": 25.158263,
     "lng": 121.434431,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000505"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000505/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000506",
@@ -117297,7 +117699,8 @@
     "city": "三重區",
     "lat": 25.046501,
     "lng": 121.472174,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000506"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000506/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000507",
@@ -117306,7 +117709,8 @@
     "city": "三重區",
     "lat": 25.061572,
     "lng": 121.483395,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000507"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000507/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000508",
@@ -117315,7 +117719,8 @@
     "city": "三重區",
     "lat": 25.088078,
     "lng": 121.493009,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000508"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000508/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000509",
@@ -117324,7 +117729,8 @@
     "city": "三重區",
     "lat": 25.055511,
     "lng": 121.482598,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000509"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000509/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000510",
@@ -117333,7 +117739,8 @@
     "city": "三重區",
     "lat": 25.075725,
     "lng": 121.488077,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000510"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000510/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000511",
@@ -117342,7 +117749,8 @@
     "city": "三峽區",
     "lat": 24.935774,
     "lng": 121.374549,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000511"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000511/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000512",
@@ -117351,7 +117759,8 @@
     "city": "三峽區",
     "lat": 24.93999,
     "lng": 121.377998,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000512"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000512/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000513",
@@ -117360,7 +117769,8 @@
     "city": "土城區",
     "lat": 24.965702,
     "lng": 121.434614,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000513"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000513/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000514",
@@ -117369,7 +117779,8 @@
     "city": "中和區",
     "lat": 24.993234,
     "lng": 121.478085,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000514"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000514/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000515",
@@ -117378,7 +117789,8 @@
     "city": "中和區",
     "lat": 25.000247,
     "lng": 121.492687,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000515"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000515/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000516",
@@ -117387,7 +117799,8 @@
     "city": "板橋區",
     "lat": 24.99509,
     "lng": 121.446156,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000516"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000516/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000517",
@@ -117396,7 +117809,8 @@
     "city": "板橋區",
     "lat": 24.994747,
     "lng": 121.442724,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000517"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000517/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000518",
@@ -117405,7 +117819,8 @@
     "city": "板橋區",
     "lat": 24.99437,
     "lng": 121.4464,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000518"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000518/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000519",
@@ -117414,7 +117829,8 @@
     "city": "板橋區",
     "lat": 25.03528,
     "lng": 121.477323,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000519"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000519/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000520",
@@ -117423,7 +117839,8 @@
     "city": "板橋區",
     "lat": 25.019012,
     "lng": 121.486424,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000520"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000520/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000521",
@@ -117432,7 +117849,8 @@
     "city": "板橋區",
     "lat": 24.984608,
     "lng": 121.425991,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000521"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000521/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000522",
@@ -117441,7 +117859,8 @@
     "city": "林口區",
     "lat": 25.0742526,
     "lng": 121.3619241,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000522"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000522/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000523",
@@ -117450,7 +117869,8 @@
     "city": "林口區",
     "lat": 25.0735671,
     "lng": 121.3669484,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000523"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000523/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000524",
@@ -117459,7 +117879,8 @@
     "city": "林口區",
     "lat": 25.0720865,
     "lng": 121.3687429,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000524"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000524/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000525",
@@ -117468,7 +117889,8 @@
     "city": "林口區",
     "lat": 25.0767124,
     "lng": 121.3743675,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000525"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000525/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000526",
@@ -117477,7 +117899,8 @@
     "city": "林口區",
     "lat": 25.11661871,
     "lng": 121.28572483,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000526"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000526/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000527",
@@ -117486,7 +117909,8 @@
     "city": "林口區",
     "lat": 25.080741,
     "lng": 121.383114858,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000527"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000527/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000528",
@@ -117495,7 +117919,8 @@
     "city": "貢寮區",
     "lat": 25.0167,
     "lng": 121.945,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000528"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000528/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000529",
@@ -117504,7 +117929,8 @@
     "city": "淡水區",
     "lat": 25.127427,
     "lng": 121.460505,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000529"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000529/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000530",
@@ -117513,7 +117939,8 @@
     "city": "淡水區",
     "lat": 25.175967,
     "lng": 121.456662,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000530"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000530/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000531",
@@ -117522,7 +117949,8 @@
     "city": "淡水區",
     "lat": 25.189041,
     "lng": 121.446914,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000531"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000531/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000532",
@@ -117531,7 +117959,8 @@
     "city": "淡水區",
     "lat": 25.183162,
     "lng": 121.448932,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000532"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000532/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000533",
@@ -117540,7 +117969,8 @@
     "city": "淡水區",
     "lat": 25.185209,
     "lng": 121.444234,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000533"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000533/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000534",
@@ -117549,7 +117979,8 @@
     "city": "新店區",
     "lat": 24.983809,
     "lng": 121.525547,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000534"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000534/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000535",
@@ -117558,7 +117989,8 @@
     "city": "新店區",
     "lat": 24.953365,
     "lng": 121.54053,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000535"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000535/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000536",
@@ -117567,7 +117999,8 @@
     "city": "新店區",
     "lat": 24.957778,
     "lng": 121.5382,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000536"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000536/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000537",
@@ -117576,7 +118009,8 @@
     "city": "新店區",
     "lat": 24.986935,
     "lng": 121.537446,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000537"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000537/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000538",
@@ -117585,7 +118019,8 @@
     "city": "新莊區",
     "lat": 25.041524,
     "lng": 121.464609,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000538"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000538/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000539",
@@ -117594,7 +118029,8 @@
     "city": "新莊區",
     "lat": 25.049481,
     "lng": 121.459909,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000539"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000539/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000540",
@@ -117603,7 +118039,8 @@
     "city": "新莊區",
     "lat": 25.040019,
     "lng": 121.452393,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000540"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000540/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000541",
@@ -117612,7 +118049,8 @@
     "city": "新莊區",
     "lat": 25.020781,
     "lng": 121.44037,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000541"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000541/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000542",
@@ -117621,7 +118059,8 @@
     "city": "新莊區",
     "lat": 25.018665,
     "lng": 121.439475,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000542"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000542/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000543",
@@ -117630,7 +118069,8 @@
     "city": "新莊區",
     "lat": 25.022601,
     "lng": 121.441323,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000543"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000543/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000544",
@@ -117639,7 +118079,8 @@
     "city": "新莊區",
     "lat": 25.022342,
     "lng": 121.434981,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000544"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000544/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000545",
@@ -117648,7 +118089,8 @@
     "city": "新莊區",
     "lat": 25.029321,
     "lng": 121.442486,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000545"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000545/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000546",
@@ -117657,7 +118099,8 @@
     "city": "新莊區",
     "lat": 25.028917,
     "lng": 121.442187,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000546"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000546/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000547",
@@ -117666,7 +118109,8 @@
     "city": "樹林區",
     "lat": 24.968536,
     "lng": 121.390993,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000547"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000547/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000548",
@@ -117675,7 +118119,8 @@
     "city": "樹林區",
     "lat": 24.995919,
     "lng": 121.432274,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000548"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000548/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000549",
@@ -117684,7 +118129,8 @@
     "city": "樹林區",
     "lat": 25.005539,
     "lng": 121.433154,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000549"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000549/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000550",
@@ -117693,7 +118139,8 @@
     "city": "樹林區",
     "lat": 24.991176,
     "lng": 121.424997,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000550"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000550/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000551",
@@ -117702,7 +118149,8 @@
     "city": "鶯歌區",
     "lat": 24.95251,
     "lng": 121.351397,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000551"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000551/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000552",
@@ -117711,7 +118159,8 @@
     "city": "鶯歌區",
     "lat": 24.957078,
     "lng": 121.353509,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000552"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000552/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000554",
@@ -117720,7 +118169,8 @@
     "city": "板橋區",
     "lat": 25.017176,
     "lng": 121.472124,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000554"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000554/live.m3u8",
+    "type": "hls"
   },
   {
     "id": "C000576",
@@ -117729,6 +118179,7 @@
     "city": "淡水區",
     "lat": 25.1806636,
     "lng": 121.4204337,
-    "url": "https://atis.ntpc.gov.tw/ATIS/ShowFrame4CCTV/C000576"
+    "url": "https://cctvatis6.ntpc.gov.tw/hls/C000576/live.m3u8",
+    "type": "hls"
   }
 ]
