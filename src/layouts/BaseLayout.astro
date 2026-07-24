@@ -144,9 +144,16 @@ const base = '/Live-CCTV';
         });
       }
 
+      var loader = document.getElementById('pageLoader');
+      if (!loader) return;
+
+      if (sessionStorage.getItem('livecctv_loaded')) {
+        loader.remove();
+        return;
+      }
+
       var bar = document.getElementById('loaderBar');
       var pct = document.getElementById('loaderPct');
-      var loader = document.getElementById('pageLoader');
       var progress = 0;
       var steps = [
         { target: 25, speed: 25 },
@@ -159,10 +166,9 @@ const base = '/Live-CCTV';
 
       function tick() {
         if (stepIdx >= steps.length) {
-          if (loader) {
-            setTimeout(function() { loader.classList.add('hide'); }, 200);
-            setTimeout(function() { loader.remove(); }, 1000);
-          }
+          sessionStorage.setItem('livecctv_loaded', '1');
+          setTimeout(function() { loader.classList.add('hide'); }, 200);
+          setTimeout(function() { loader.remove(); }, 1000);
           return;
         }
         var step = steps[stepIdx];
