@@ -151,6 +151,7 @@ const base = '/Live-CCTV';
     }
   </style>
 
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var gpsDot = document.getElementById('gpsDot');
@@ -188,6 +189,15 @@ const base = '/Live-CCTV';
         setTimeout(function() { if (toast.parentNode) toast.remove(); }, 8000);
       }
 
+      var cctvSvg = '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>';
+
+      function showNoSignal(el) {
+        var d = document.createElement('div');
+        d.className = 'cam-nosig';
+        d.innerHTML = cctvSvg + '<span>NO SIGNAL</span>';
+        el.replaceWith(d);
+      }
+
       function renderCards(nearby) {
         if (nearby.length === 0) {
           nearbyList.innerHTML = '<div class="empty-state">検出範囲内にカメラがありません</div>';
@@ -195,22 +205,55 @@ const base = '/Live-CCTV';
         }
         nearbyList.innerHTML = nearby.map(function(cam) {
           var distStr = cam.dist < 1000 ? Math.round(cam.dist) + 'm' : (cam.dist/1000).toFixed(1) + 'km';
+          var isHls = cam.type === 'hls' || (cam.url && cam.url.indexOf('.m3u8') !== -1);
+          var media;
+          if (isHls) {
+            media = '<video class="cam-video" data-src="' + cam.url + '" muted autoplay loop playsinline></video>';
+          } else {
+            media = '<img class="cam-img" src="' + cam.url + '" alt="" loading="lazy" />';
+          }
           return '' +
             '<div class="cam-card">' +
               '<div class="cam-preview">' +
                 '<span class="cam-live">LIVE</span>' +
                 '<span class="cam-dist">' + distStr + '</span>' +
-                '<img src="' + cam.url + '" alt="' + cam.name + '" loading="lazy" onerror="this.outerHTML=\'<div class=&apos;cam-nosig&apos;>NO SIGNAL</div>\'" />' +
+                media +
               '</div>' +
               '<div class="cam-info">' +
                 '<div class="cam-name">' + cam.name + '</div>' +
-                '<div class="cam-city">' + cam.city + '</div>' +
+                '<div class="cam-city">' + (cam.city || '') + '</div>' +
                 '<div class="cam-actions">' +
                   '<a href="' + cam.url + '" target="_blank" rel="noopener" class="cam-link">映像を見る</a>' +
                 '</div>' +
               '</div>' +
             '</div>';
         }).join('');
+
+        nearbyList.querySelectorAll('.cam-img').forEach(function(img) {
+          img.onerror = function() { showNoSignal(img); };
+        });
+
+        var videos = nearbyList.querySelectorAll('.cam-video[data-src]');
+        if (videos.length && typeof Hls !== 'undefined' && Hls.isSupported()) {
+          videos.forEach(function(video) {
+            var hls = new Hls({ enableWorker: true, lowLatencyMode: false, maxBufferLength: 10, startFragPrefetch: true });
+            hls.loadSource(video.dataset.src);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(function(){}); });
+            hls.on(Hls.Events.ERROR, function(e, data) {
+              if (data.fatal) { hls.destroy(); showNoSignal(video); }
+            });
+          });
+        } else if (videos.length) {
+          videos.forEach(function(video) {
+            if (video.canPlayType('application/vnd.apple.mpegurl')) {
+              video.src = video.dataset.src;
+              video.play().catch(function(){});
+            } else {
+              showNoSignal(video);
+            }
+          });
+        }
       }
 
       function updateNearby() {
@@ -245,7 +288,7 @@ const base = '/Live-CCTV';
 
       async function loadAllCameras() {
         try {
-          var resp = await fetch('/Live-CCTV/data/cameras_thumb.json');
+          var resp = await fetch('/Live-CCTV/cameras_thumb.json');
           allCameras = await resp.json();
           updateNearby();
         } catch (e) {
